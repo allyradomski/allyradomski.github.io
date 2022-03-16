@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, my name is Ally Radomski. I'm an artist from Nottingham, UK.
+Hi, my name is Ally Radomski (she/her). I'm an artist from Nottingham, UK.
 
 ### Follow me
 [Twitter @AllyRadomski](https://twitter.com/AllyRadomski)
@@ -14,3 +14,14 @@ Hi, my name is Ally Radomski. I'm an artist from Nottingham, UK.
 ### Contact me
 
 [allyradomski@protonmail.com](mailto:allyradomski@protonmail.com)
+
+----
+
+### Causes I care about
+
+[Stonewall](https://www.stonewall.org.uk)
+
+[Gendered Intelligence](https://genderedintelligence.co.uk/)
+
+<img src="{{ site.baseurl }}/images/pride.png" alt="pride" width="100vh" height="24px"/>
+<img src="{{ site.baseurl }}/images/trans.png" alt="pride" width="100vh" height="24px"/>
