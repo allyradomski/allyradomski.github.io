@@ -7,7 +7,7 @@ layout: default
     {% if post.categories contains "artwork" %}
       <article class="artwork">
 
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <b><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} - {{ post.date | date: "%B %e, %Y" }}</a></b>
 
         <div class="entry">
           {{ post.excerpt }}
