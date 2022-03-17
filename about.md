@@ -23,5 +23,5 @@ Hi, my name is Ally Radomski (she/her). I'm an artist from Nottingham, UK.
 
 [Gendered Intelligence](https://genderedintelligence.co.uk/)
 
-<img src="{{ site.baseurl }}/images/pride.png" alt="pride" width="100vh" height="24px"/>
-<img src="{{ site.baseurl }}/images/trans.png" alt="pride" width="100vh" height="24px"/>
+<img src="{{ site.baseurl }}/images/pride.png" alt="LGBTQ+ Pride Flag" width="100vh" height="24px"/>
+<img src="{{ site.baseurl }}/images/trans.png" alt="Transgender Pride Flag" width="100vh" height="24px"/>

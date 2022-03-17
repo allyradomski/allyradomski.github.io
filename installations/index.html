@@ -6,15 +6,13 @@ layout: default
   {% for post in site.posts %}
     {% if post.categories contains "installation" %}
       <article class="artwork">
-
-        <b><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} - {{ post.date | date: "%B %e, %Y" }}</a></b>
+        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
 
         <div class="entry">
           {{ post.excerpt }}
-          <img src="{{ site.baseurl }}/images/installations/{{ post.image }}" style="width: 100vw">
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"><img src="{{ site.baseurl }}/images/installations/{{ post.image }}" style="width: 100vw"></a>
         </div>
 
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       </article>
     {% endif %}
   {% endfor %}
