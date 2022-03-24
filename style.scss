@@ -19,9 +19,9 @@ html {
 }
 
 body {
-	background: #101010;
+	background: $white;
   font: 18px/1.4 $helvetica;
-  color: $white;
+  color: $black;
 }
 
 .container {
@@ -33,7 +33,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $white;
+  color: $black;
   font-weight: bold;
 
   line-height: 1.7;
@@ -62,7 +62,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $white;
+  color: $black;
 }
 
 p {
@@ -118,17 +118,17 @@ img {
 
 .date {
   font-style: italic;
-  color: $white;
+  color: $gray;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $white;
+  color: $gray;
+  background: $lightGray;
 }
 ::selection {
-  color: $black;
-  background: $white;
+  color: $gray;
+  background: $lightGray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -157,7 +157,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $white;
+  border-bottom: 1px solid $black;
 
   @include mobile {
     text-align: center;
@@ -193,7 +193,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $white;
+  color: $black;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -203,7 +203,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $white;
+  color: $black;
   font-size: 16px;
 
   @include mobile {
@@ -226,7 +226,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $white;
+    color: $black;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -244,7 +244,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $white;
+  border-bottom: 1px solid $black;
 }
 
 .posts > .post:last-child {
@@ -255,9 +255,9 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $white;
+    border-left: 2px solid $black;
     padding: 0.1em 1em;
-    color: $white;
+    color: $black;
     font-size: 22px;
     font-style: italic;
   }

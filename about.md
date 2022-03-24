@@ -6,6 +6,8 @@ permalink: /about/
 
 Hi, my name is Ally Radomski (she/her). I'm an artist from Nottingham, UK.
 
+<img src="{{ site.baseurl }}/images/selfie.png" alt="selfie" width="20%"/>
+
 ### Follow me
 
 [Instagram @ally_rad](https://www.instagram.com/ally_rad/)
@@ -14,7 +16,6 @@ Hi, my name is Ally Radomski (she/her). I'm an artist from Nottingham, UK.
 
 [allyradomski@protonmail.com](mailto:allyradomski@protonmail.com)
 
-----
 
 ### Causes I care about
 
@@ -22,5 +23,5 @@ Hi, my name is Ally Radomski (she/her). I'm an artist from Nottingham, UK.
 
 [Gendered Intelligence](https://genderedintelligence.co.uk/)
 
-<img src="{{ site.baseurl }}/images/pride.png" alt="LGBTQ+ Pride Flag" width="100vh" height="24px"/>
-<img src="{{ site.baseurl }}/images/trans.png" alt="Transgender Pride Flag" width="100vh" height="24px"/>
+<img src="{{ site.baseurl }}/images/pride.png" alt="LGBTQ+ Pride Flag" width="50vh" height="24px"/>
+<img src="{{ site.baseurl }}/images/trans.png" alt="Transgender Pride Flag" width="50vh" height="24px"/>
