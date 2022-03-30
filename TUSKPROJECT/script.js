@@ -39,6 +39,7 @@ let time;
 let kick;
 let decay;
 let decayCount = 12;
+let sub;
 
 function handleTime() {
   timeSinceStart = millis() - startTime;
@@ -64,7 +65,9 @@ function updateData() {
   // lon = locationArr[1];
 
   // API Urls
-  let ran = random(-1, 1);
+  let ran = 0;//random(-1, 1);
+  lat = random(54.880546, 55.075594);
+  lon = random(-1.747448, -1.421657);
   //weatherURL = "https://api.openweathermap.org/data/2.5/weather?lat=" + str(lat + ran) + "&lon=" + str(lon + ran) + "&appid=" + WEATHERID + "&units=metric";
   mapURL = "https://image.maps.ls.hereapi.com/mia/1.6/mapview?c=" + str(lat + ran) + "%2C" + str(lon + ran) + "&t=1&w=720&h=445&z=" + int(15) + "&apiKey=" + MAPID + "&nodot";
 
@@ -115,7 +118,12 @@ function setup() {
   	},
   	baseUrl: "sounds/"
   }).toDestination();
-
+  sub = new Tone.Sampler({
+    urls: {
+      A4: "sub.wav",
+    },
+    baseUrl: "sounds/"
+  }).toDestination();
 
   Tone.Transport.scheduleRepeat(time => {
     if (loopConnection == true) {
@@ -134,6 +142,7 @@ function draw() {
   effectShader.setUniform("u_time", u_time);
   effectShader.setUniform("u_resolution", [width, height]);
   effectShader.setUniform("u_add", random(1)); // Value to alter noise
+  effectShader.setUniform("u_mirror", u_time);
 
   errorShader.setUniform("u_time", u_time);
   errorShader.setUniform("u_resolution", [width, height]);
@@ -146,6 +155,7 @@ function draw() {
     if (connection == true) {
       loopConnection = true;
       decay.triggerAttackRelease(noise(timeSinceStart * 0.001) * 100 + 320, 12);
+      sub.triggerAttackRelease(noise(timeSinceStart * 0.001) * 100 + 320, 12);
 
       Tone.Transport.start();
 
@@ -172,7 +182,7 @@ function draw() {
   rect(0, 0, width, height);
 
   resetShader();
-  fill(100, 100);
+  fill(255);
 
   if (loopConnection == false || mapImage[0] === undefined) {
     text("no signal", width / 2, height / 2);
