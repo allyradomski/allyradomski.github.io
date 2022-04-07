@@ -1,0 +1,24 @@
+I";<p>Generative installation at Star and Shadow using map data.</p>
+
+<p>Shown at <a href="https://tuskmusic.org/event/tusk-mini/">TUSK Mini</a> at the <a href="https://www.starandshadow.org.uk/">Star And Shadow</a>
+<img src="/images/preview/tusk.jpg" alt="Installation Photo" /></p>
+
+<p>Shown are random places throughout Newcastle manipulated with code. The light and dark values of the map are used to create the rippling effect. The image gets increasingly more “noisy” towards the end of its iteration. The grating sounds are designed to match these visuals.</p>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/696950032?h=229f949b14&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+<p><strong>Screenshots of the artwork</strong></p>
+
+<p><img src="/images/installations/tusk_2.jpg" alt="Screenshot 1" />
+<img src="/images/installations/tusk_3.jpg" alt="Screenshot 2" />
+<img src="/images/installations/tusk_5.jpg" alt="Screenshot 3" />
+<img src="/images/installations/tusk_4.jpg" alt="Screenshot 4" /></p>
+
+<p><strong>Screen-recording of the artwork</strong> (Due to compression this is not what you would have seen)</p>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/696955567?h=5342403b0c&amp;title=0&amp;byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+<p>Created using p5js, Ableton Live, and using HERE Maps API.</p>
+:ET
