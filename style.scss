@@ -22,6 +22,7 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $black;
+  overflow: hidden;
 }
 
 .container {
@@ -282,6 +283,16 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+#background {
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+}
+
+canvas {
+  position: relative;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
