@@ -8,7 +8,7 @@ function setup() {
   let clientWidth = document.getElementById(id).clientWidth;
   var canvas = createCanvas(clientWidth, clientHeight);
   canvas.parent(id);
-  
+  frameRate(24);
   fill(200, 30);
   noStroke();
   
