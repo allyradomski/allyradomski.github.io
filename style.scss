@@ -290,6 +290,7 @@ footer {
   height: 100vh;
   background-color: transparent;
   position: fixed;
+  pointer-events: none;
 }
 
 canvas {
