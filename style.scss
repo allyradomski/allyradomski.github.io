@@ -289,10 +289,12 @@ footer {
   width: 100vw;
   height: 100vh;
   background-color: transparent;
+  position: fixed;
 }
 
 canvas {
   position: fixed;
+  pointer-events: none;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
