@@ -6,8 +6,6 @@ permalink: /about/
 
 Hi, my name is Ally Radomski (she/her). I'm an artist from Nottingham, UK. I am studying Interaction Design at The Glasgow School of Art, starting September.
 
-<img src="{{ site.baseurl }}/images/selfie.png" alt="selfie" width="20%"/>
-
 ### Follow me
 
 [Instagram @ally_rad](https://www.instagram.com/ally_rad)
