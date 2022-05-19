@@ -10,12 +10,17 @@ Hi, my name is Ally Radomski (she/her). I'm an artist from Nottingham, UK. I am 
 
 ### Follow me
 
-[Instagram @ally_rad](https://www.instagram.com/ally_rad/)
+[Instagram @ally_rad](https://www.instagram.com/ally_rad)
+
+[Twitter @ally_radomski](https://twitter.com/ally_radomski)
 
 ### Contact me
 
 [allyradomski@protonmail.com](mailto:allyradomski@protonmail.com)
 
+### Support me
+
+[fx(hash) - Tezos 🌍🌱💚](https://www.fxhash.xyz/u/Ally)
 
 ### Causes I care about
 
