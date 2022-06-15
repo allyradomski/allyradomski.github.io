@@ -253,6 +253,7 @@ nav {
 .posts {
   display: grid;
   max-width: 100%;
+  gap: 1rem;
 }
 
 .posts > .post {
