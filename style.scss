@@ -242,6 +242,19 @@ nav {
 // .main
 //
 
+@media (min-width: 600px) {
+  .posts { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .posts { grid-template-columns: repeat(3, 1fr); }
+}
+
+.posts {
+  display: grid;
+  max-width: 100%;
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $black;
