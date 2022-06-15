@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stacked Cardboard Sculpture
-image: Cardboard.png
+image: cardboard.png
 categories: artwork
 ---
 
