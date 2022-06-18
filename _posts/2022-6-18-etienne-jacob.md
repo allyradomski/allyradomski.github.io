@@ -9,7 +9,6 @@ categories: appreciation
 
 [Twitter](https://twitter.com/etiennejcb) - [Tumblr](https://necessary-disorder.tumblr.com) - [Instagram](https://www.instagram.com/etinjcb/)
 
--
 
 Discovered through [Karma Fields](https://www.karmafields.com/)'s [its_OK](https://www.youtube.com/watch?v=vzRHzbB2VbM)
 <div class="video-container">

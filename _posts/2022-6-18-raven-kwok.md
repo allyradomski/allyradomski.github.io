@@ -9,7 +9,6 @@ categories: appreciation
 
 [Twitter](https://twitter.com/ravenkwok) - [Vimeo](https://vimeo.com/ravenkwok) - [Tumblr](https://ravenkwok.tumblr.com/) - [Facebook](https://www.facebook.com/ravenkwok.art/) - [Flickr](https://www.flickr.com/photos/ravenkwok)
 
--
 
 Visuals for [Max Cooper](https://maxcooper.net/)'s Rule 110.
 
