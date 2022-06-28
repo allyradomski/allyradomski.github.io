@@ -6,7 +6,7 @@ layout: default
   {% for post in site.posts %}
     {% if post.categories contains "installation" %}
       <article class="artwork">
-        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="post-title">{{ post.title }}</a>
 
         <div class="entry">
           <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"><img src="{{ site.baseurl }}/images/installation/preview/{{ post.image }}" style="width: 100vw"></a>

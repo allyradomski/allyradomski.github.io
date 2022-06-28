@@ -8,7 +8,7 @@ layout: default
   {% for post in site.posts %}
     {% if post.categories contains "appreciation" %}
       <article class="artwork">
-        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="post-title">{{ post.title }}</a>
 
         <div class="entry">
           <!--{{ post.excerpt }}-->
