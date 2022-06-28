@@ -31,7 +31,7 @@
       <div class="container">
         <header class="masthead clearfix">
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <h1 class="site-name" onclick="wobbleme()">{{ site.name }}</h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
 
@@ -49,6 +49,43 @@
       {{ content }}
     </div>
 
+    <script>
+      // adapted from https://codepen.io/kaleidosium/pen/KKNEVdK
+      let wobble;
+      let wobcnt = 0;
+      let hovercnt = 0;
+      let gen = true;
+      let wobtxt;
+      function wobbleme(event) {
+        if (gen) {
+          gen = false;
+          wobble = event.target;
+          wobtxt = wobble.firstChild.nodeValue;
+
+          while (wobble.childNodes.length) { wobble.removeChild(wobble.childNodes[0]); }
+          for (i = 0; i < wobtxt.length; i++) {
+            wobli = document.createElement("span");
+            wobli.setAttribute("id", `wobb${i}`);
+            wobli.style.position = "relative";
+            wobli.appendChild(document.createTextNode(wobtxt.charAt(i)));
+            wobble.appendChild(wobli);
+          }
+          setInterval("wobbler()", 10);
+        }
+        hovercnt = 2;
+      }
+
+      function wobbler() {
+          for (let i = 0; i < wobtxt.length; i++) {
+              document.getElementById(`wobb${i}`).style.top = `${Math.round(5 * hovercnt * Math.sin((i / wobtxt.length + wobcnt*0.05) * 6.283 ))}px`;
+          }
+          hovercnt -= 0.01;
+          if (hovercnt < 0) {
+            hovercnt = 0;
+          }
+          wobcnt++;
+      }
+    </script>
     
     <!--<div class="wrapper-footer">
       <div class="container">
