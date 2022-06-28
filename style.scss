@@ -34,6 +34,8 @@ body {
 .post-title {
   font-family: $helveticaNeue;
 
+  color: $black;
+  
   line-height: 1.7;
   margin: 0.5rem 0 0;//1em 0 15px;
   padding: 0;
@@ -140,6 +142,12 @@ img {
 ::selection {
   color: $gray;
   background: $lightGray;
+}
+
+.entry {
+  border-width: 10px;
+  border-style: solid;
+  border-color: $white;
 }
 
 // Nicolas Gallagher's micro clearfix hack
