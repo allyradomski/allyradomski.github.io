@@ -1,26 +1,28 @@
 ---
 layout: page
-title: About
+title: about
 permalink: /about/
 ---
 
-Hi, my name is Ally Radomski (she/her). I'm an artist from Nottingham, UK. I am studying Interaction Design at The Glasgow School of Art, starting September.
+hi, my name is ally radomski (she/her)
 
-### Follow me
+i'm an artist from the UK studying interaction design at the Glasgow School of Art, starting september
 
-[Instagram @ally_rad](https://www.instagram.com/ally_rad)
+### follow me
 
-[Twitter @ally_radomski](https://twitter.com/ally_radomski)
+[instagram @ally_rad](https://www.instagram.com/ally_rad)
 
-### Contact me
+[twitter @ally_radomski](https://twitter.com/ally_radomski)
+
+### contact me
 
 [allyradomski@protonmail.com](mailto:allyradomski@protonmail.com)
 
-### Support me
+### support me
 
-[fx(hash) - Tezos 🌍🌱💚](https://www.fxhash.xyz/u/Ally)
+[fx(hash) - tezos 🌍🌱💚](https://www.fxhash.xyz/u/Ally)
 
-### Causes I care about
+### causes I care about
 
 [Stonewall](https://www.stonewall.org.uk)
 
