@@ -31,7 +31,7 @@
       <div class="container">
         <header class="masthead clearfix">
           <div class="site-info">
-            <h1 class="site-name" onclick="wobbleme()">{{ site.name }}</h1>
+            <h1 class="site-name" id="wobble" onclick="wobbleme()">{{ site.name }}</h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
 
@@ -56,10 +56,10 @@
       let hovercnt = 0;
       let gen = true;
       let wobtxt;
-      function wobbleme(event) {
+      function wobbleme() {
         if (gen) {
           gen = false;
-          wobble = event.target;
+          wobble = document.getElementById("wobble");
           wobtxt = wobble.firstChild.nodeValue;
 
           while (wobble.childNodes.length) { wobble.removeChild(wobble.childNodes[0]); }
