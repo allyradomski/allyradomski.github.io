@@ -2,9 +2,10 @@
 layout: default
 ---
 
-{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% assign artworkPosts = site.posts | where_exp:"post", "post.categories contains 'artwork'" %}
+{% assign postsByYear = artworkPosts | group_by_exp:"post", "post.date | date: '%Y'" %}
 
-<div class="posts"></div>
+<div class="posts">
   {% for year in postsByYear %}
     <p>{{ year.name }} ↴</p>
       <ul class="post-list">
