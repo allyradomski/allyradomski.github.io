@@ -2,18 +2,32 @@
 layout: default
 ---
 
-<div class="posts">
+{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+
+<div class="posts"></div>
+  {% for year in postsByYear %}
+    <h1>{{ year.name }}</h1>
+      <ul>
+        {% for post in year.items %}
+          {% if post.categories contains "artwork" %}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+  {% endfor %}
+</div>
+
+<!-- <div class="posts">
   {% for post in site.posts %}
     {% if post.categories contains "artwork" %}
       <article class="artwork">
         <a href="{{ site.baseurl }}{{ post.url }}" class="post-title">{{ post.title }} ↴</a>
 
         <div class="entry">
-          <!--{{ post.excerpt }}-->
           <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"><img src="{{ site.baseurl }}/images/artwork/preview/{{ post.image }}" style="width: 100vw"></a>
         </div>
 
       </article>
     {% endif %}
   {% endfor %}
-</div>
+</div> -->
