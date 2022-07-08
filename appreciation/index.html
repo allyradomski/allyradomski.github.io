@@ -5,17 +5,25 @@ layout: default
 <h1>appreciations ♡</h1>
 <p>works that have inspired me</p>
 <div class="posts">
-  {% for post in site.posts %}
+  <p>appreciations ↴</p>
+  <ul class="post-list">
+      {% for post in site.posts %}
+        {% if post.categories contains "appreciation" %}
+          <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+  </ul>
+  
+  <!-- {% for post in site.posts %}
     {% if post.categories contains "appreciation" %}
       <article class="artwork">
         <a href="{{ site.baseurl }}{{ post.url }}" class="post-title">{{ post.title }} ↴</a>
 
         <div class="entry">
-          <!--{{ post.excerpt }}-->
           <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"><img src="{{ site.baseurl }}/images/appreciation/preview/{{ post.image }}" style="width: 100vw"></a>
         </div>
 
       </article>
     {% endif %}
-  {% endfor %}
+  {% endfor %} -->
 </div>
