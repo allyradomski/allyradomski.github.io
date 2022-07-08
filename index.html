@@ -6,11 +6,11 @@ layout: default
 
 <div class="posts"></div>
   {% for year in postsByYear %}
-    <h1>{{ year.name }}</h1>
+    <p>{{ year.name }} ↴</p>
       <ul>
         {% for post in year.items %}
           {% if post.categories contains "artwork" %}
-            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            <li class="post-list"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
           {% endif %}
         {% endfor %}
       </ul>

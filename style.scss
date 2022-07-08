@@ -31,6 +31,19 @@ body {
   width: 100%;
 }
 
+.post-list {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+}
+
+.post-list li:before {
+	content: "✧";
+	position: absolute;
+	left: 0;
+}
+
 .post-title {
   font-family: $helveticaNeue;
 
