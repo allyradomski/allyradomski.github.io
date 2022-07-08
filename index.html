@@ -10,9 +10,7 @@ layout: default
     <p>{{ year.name }} ↴</p>
       <ul class="post-list">
         {% for post in year.items %}
-          {% if post.categories contains "artwork" %}
-            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-          {% endif %}
+          <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
   {% endfor %}

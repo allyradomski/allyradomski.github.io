@@ -2,7 +2,22 @@
 layout: default
 ---
 
+{% assign installationPosts = site.posts | where_exp:"post", "post.categories contains 'installation'" %}
+{% assign postsByYear = installationPosts | group_by_exp:"post", "post.date | date: '%Y'" %}
+
 <div class="posts">
+  {% for year in postsByYear %}
+    <p>{{ year.name }} ↴</p>
+      <ul class="post-list">
+        {% for post in year.items %}
+          <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+  {% endfor %}
+</div>
+
+
+<!-- <div class="posts">
   {% for post in site.posts %}
     {% if post.categories contains "installation" %}
       <article class="artwork">
@@ -15,4 +30,4 @@ layout: default
       </article>
     {% endif %}
   {% endfor %}
-</div>
+</div> -->
