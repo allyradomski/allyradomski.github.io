@@ -22,6 +22,8 @@ i'm an artist from the UK studying interaction design at the Glasgow School of A
 
 [fx(hash) - tezos 🌍🌱💚](https://www.fxhash.xyz/u/Ally)
 
+[objkt.com - tezos 🌿🌴💚](https://objkt.com/profile/tz1bJwj5KBMc3UFk3ijykA9c1sGDmw4FEy24/activity)
+
 ### causes I care about
 
 [Stonewall](https://www.stonewall.org.uk)
