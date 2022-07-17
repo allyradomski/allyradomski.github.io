@@ -137,6 +137,7 @@ img {
   //max-width: 100%;
   display: block;
   min-width: 0;
+  margin: 0px 5px;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -169,6 +170,7 @@ img {
 .hasImage {
 	display: flex;
 	width: 100%;
+  margin: 10px 0px;
 }
 
 // Nicolas Gallagher's micro clearfix hack
