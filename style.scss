@@ -163,6 +163,13 @@ img {
   border-color: $white;
 }
 
+// https://codepen.io/maxakohler/pen/zBEdrM
+.hasImage {
+	display: flex;
+	width: 100%;
+	margin-bottom: 3rem;
+}
+
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,

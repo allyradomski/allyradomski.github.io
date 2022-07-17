@@ -50,7 +50,11 @@
       {{ content }}
     </div>
 
+    <script src="{{ site.baseurl }}/jquery.js"></script>
     <script>
+      // https://codepen.io/maxakohler/pen/zBEdrM
+      $('p:has(img)').addClass('hasImage');
+
       // adapted from https://codepen.io/kaleidosium/pen/KKNEVdK
       let wobble;
       let wobcnt = 0;
