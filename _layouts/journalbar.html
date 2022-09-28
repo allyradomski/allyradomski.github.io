@@ -1,10 +1,36 @@
----
-layout: main
----
-
 <!DOCTYPE html>
 <html>
+  <head>
+    <!--<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>-->
+    <title>{{ site.name }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
+    <script language="javascript" type="text/javascript" src="https://unpkg.com/zooming@2.1.1/build/zooming.js"></script>
+    <!-- <script language="javascript" type="text/javascript" src="{{ site.baseurl }}/background.js"></script>-->
+    <script>
+      new Zooming().listen('img');
+    </script>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
   <body>
+    <div id="background"></div>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -25,5 +51,60 @@ layout: main
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
+
+    <script>
+      // https://codepen.io/maxakohler/pen/zBEdrM
+
+      // adapted from https://codepen.io/kaleidosium/pen/KKNEVdK
+      let wobble;
+      let wobcnt = 0;
+      let hovercnt = 0;
+      let gen = true;
+      let wobtxt;
+      function wobbleme() {
+        if (gen) {
+          gen = false;
+          wobble = document.getElementById("wobble");
+          wobtxt = wobble.firstChild.nodeValue;
+
+          while (wobble.childNodes.length) { wobble.removeChild(wobble.childNodes[0]); }
+          for (i = 0; i < wobtxt.length; i++) {
+            wobli = document.createElement("span");
+            wobli.setAttribute("id", `wobb${i}`);
+            wobli.style.position = "relative";
+            wobli.appendChild(document.createTextNode(wobtxt.charAt(i)));
+            wobble.appendChild(wobli);
+          }
+          setInterval("wobbler()", 10);
+        }
+        hovercnt = 2;
+      }
+
+      function wobbler() {
+          for (let i = 0; i < wobtxt.length; i++) {
+              document.getElementById(`wobb${i}`).style.top = `${Math.round(5 * hovercnt * Math.sin((i / wobtxt.length + wobcnt*0.05) * 6.283 ))}px`;
+          }
+          hovercnt -= 0.01;
+          if (hovercnt < 0) {
+            hovercnt = 0;
+          }
+          wobcnt++;
+      }
+    </script>
+    <script src="{{ site.baseurl }}/jquery.js"></script>
+    <script>
+      $('p:has(img)').addClass('hasImage');
+      $('img').addClass('img-zoomable');
+    </script>
+    
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          <p>.・。.・゜✭・.・✫・゜・。.</p>
+        </footer>
+      </div>
+    </div>
+    {% include analytics.html %}
   </body>
 </html>
