@@ -2,18 +2,15 @@
 layout: journalbar
 ---
 
-{% assign installationPosts = site.posts | where_exp:"post", "post.categories contains 'installation'" %}
+{% assign year1 = site.posts | where_exp:"post", "post.categories contains 'year1'" %}
 {% assign postsByYear = installationPosts | group_by_exp:"post", "post.date | date: '%Y'" %}
 
 <div class="posts">
-  {% for year in postsByYear %}
-    <p>{{ year.name }} ↴</p>
-      <ul class="post-list">
-        {% for post in year.items %}
-          <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
-  {% endfor %}
+  <ul class="post-list">
+    {% for post in year1.items %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 </div>
 
 
