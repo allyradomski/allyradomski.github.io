@@ -24,5 +24,12 @@ layout: default
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
+
+    <script src="{{ site.baseurl }}/jquery.js"></script>
+    <script>
+      $('p:has(img)').addClass('hasImage');
+      $('p:has(img)').addClass('img-zoomable');
+    </script>
+    
   </body>
 </html>
