@@ -1,7 +1,7 @@
 ---
 layout: journalpost
 title: Hello World
-categories: year1
+categories: year2
 ---
 
 Hello World!
