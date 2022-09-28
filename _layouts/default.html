@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
-
+    <script defer src="{{ site.name }}/mklb.js"></script>
     <!-- <script>
       document.addEventListener('DOMContentLoaded', function () {
         new Zooming({
@@ -99,9 +99,6 @@
     <script>
       $('p:has(img)').addClass('hasImage');
       $('img').addClass('mklbItem');
-      $(document).ready(function() {
-        $.getScript("{{ site.baseurl }}/mklb.js");
-      });
     </script>
     
 
