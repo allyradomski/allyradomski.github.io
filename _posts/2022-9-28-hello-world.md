@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: journalpost
 title: Hello World
 categories: year1
 ---
