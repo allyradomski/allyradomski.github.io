@@ -8,6 +8,42 @@ Hello World!
 
 Progress photos
 
+Libraries used:
+Ubilabs - k-d Tree JavaScript Library - [https://github.com/ubilabs/kd-tree-javascript](https://github.com/ubilabs/kd-tree-javascript)
+p5.js - [https://p5js.org](https://p5js.org)
+Font used: Matthew Welch - Secret Code - [https://www.dafont.com/secret-code.font](https://www.dafont.com/secret-code.font)
+
+- Location Data
+> Downloading Google Maps Location Data
+> Parsing JSON data
+> Filtering with Python to dates after arriving in glasgow
+> Adding to a csv file, consisiting of time, lat, and lon
+> Reading it into javascript and visualising with points and lines (using k-d tree)
+
+![location data from google]({{ site.baseurl }}/images/journal/year2/hello-world/data.png)
+Test, aaaaaaaa
+![parsed and simplified data]({{ site.baseurl }}/images/journal/year2/hello-world/data2.png)
+Test 2, bbbbbbb
+
+- Radial
+> Making circles every 1km with 100m circles
+> Adding meter markings
+
+- Face Data
+> Turning selfie background transparent
+> Making it 1080x1080 and greyscale
+> Reading the image pixel by pixel and placing a point randomly depending on brightness of pixel (ignoring transparent)
+> Connections determined by brightness
+> Dotting random spots outside
+
+- Video
+> During development outputted the images
+> Linking them all together in a video
+> Creating audio that matches it
+
+
+TEST TEST
+
 ![progress 1]({{ site.baseurl }}/images/journal/year2/hello-world/progress-1.jpg)
 ![progress 2]({{ site.baseurl }}/images/journal/year2/hello-world/progress-2.jpg)
 ![progress 3]({{ site.baseurl }}/images/journal/year2/hello-world/progress-3.jpg)
