@@ -12,14 +12,14 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
-    <script src="{{ site.baseurl }}/zooming.js"></script>
-    <script>
+    <script src="{{ site.baseurl }}/mklb.js"></script>
+    <!-- <script>
       document.addEventListener('DOMContentLoaded', function () {
         new Zooming({
           // options...
         }).listen('.img-zoomable')
       })
-    </script>
+    </script> -->
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -95,7 +95,7 @@
     <script src="{{ site.baseurl }}/jquery.js"></script>
     <script>
       $('p:has(img)').addClass('hasImage');
-      $('img').addClass('img-zoomable');
+      $('img').addClass('mklbItem');
     </script>
     
 
