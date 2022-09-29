@@ -8,15 +8,15 @@ My name is Ally Radomski (she/her)
 
 I'm an artist from the UK studying Interaction Design at The Glasgow School of Art.
 
-### follow me
+<!-- ### Follow me -->
 
-[Instagram @ally_rad](https://www.instagram.com/ally_rad)
+[Instagram](https://www.instagram.com/ally_rad) - [Twitter](https://twitter.com/ally_radomski) - [Email](mailto:allyradomski@protonmail.com) - [objkt.com](https://objkt.com/profile/tz1bJwj5KBMc3UFk3ijykA9c1sGDmw4FEy24/activity)
 
-[Twitter @ally_radomski](https://twitter.com/ally_radomski)
 
+<!-- 
 ### contact me
 
-[allyradomski@protonmail.com](mailto:allyradomski@protonmail.com)
+
 
 ### support me
 
@@ -31,4 +31,4 @@ I'm an artist from the UK studying Interaction Design at The Glasgow School of A
 [Gendered Intelligence](https://genderedintelligence.co.uk/)
 
 <img src="{{ site.baseurl }}/images/pride.png" alt="LGBTQ+ Pride Flag" width="50vh" height="24px"/>
-<img src="{{ site.baseurl }}/images/trans.png" alt="Transgender Pride Flag" width="50vh" height="24px"/>
+<img src="{{ site.baseurl }}/images/trans.png" alt="Transgender Pride Flag" width="50vh" height="24px"/> -->
