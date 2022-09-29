@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign artworkPosts = site.posts | where_exp:"post", "post.categories contains 'artwork'" %}
+{% assign artworkPosts = site.posts | where_exp:"post", "post.categories contains 'artwork' or 'installation'" %}
 {% assign postsByYear = artworkPosts | group_by_exp:"post", "post.date | date: '%Y'" %}
 
 <div class="posts">
