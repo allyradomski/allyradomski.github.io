@@ -4,15 +4,15 @@ title: about
 permalink: /about/
 ---
 
-hi, my name is ally radomski (she/her)
+My name is Ally Radomski (she/her)
 
-i'm an artist from the UK studying interaction design at the Glasgow School of Art, starting september
+I'm an artist from the UK studying Interaction Design at The Glasgow School of Art.
 
 ### follow me
 
-[instagram @ally_rad](https://www.instagram.com/ally_rad)
+[Instagram @ally_rad](https://www.instagram.com/ally_rad)
 
-[twitter @ally_radomski](https://twitter.com/ally_radomski)
+[Twitter @ally_radomski](https://twitter.com/ally_radomski)
 
 ### contact me
 

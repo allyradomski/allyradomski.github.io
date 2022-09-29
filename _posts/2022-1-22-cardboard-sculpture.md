@@ -1,6 +1,6 @@
 ---
 layout: post
-title: cardboard sculpture
+title: Cardboard Sculpture
 image: cardboard.png
 categories: artwork
 ---
