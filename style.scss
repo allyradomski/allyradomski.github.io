@@ -150,11 +150,11 @@ strong, b {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $gray;
+  color: $text;
   background: $lightGray;
 }
 ::selection {
-  color: $gray;
+  color: $text;
   background: $lightGray;
 }
 
