@@ -19,9 +19,9 @@ html {
 }
 
 body {
-	background: $white;
+	background: $background;//$white;
   font: 18px/1.4 $helvetica;
-  color: $black;
+  color: $text;//$black;
   margin: 5px;
 }
 
@@ -48,7 +48,7 @@ body {
 .post-title {
   font-family: $helveticaNeue;
 
-  color: $black;
+  color: $text;//$black;
   
   line-height: 1.7;
   margin: 0.5rem 0 0;//1em 0 15px;
@@ -60,7 +60,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $black;
+  color: $text;//$black;
   font-weight: bold;
 
   line-height: 1.7;
@@ -89,7 +89,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $black;
+  color: $text;//$black;
 }
 
 p {
@@ -161,11 +161,11 @@ img {
   background: $lightGray;
 }
 
-.entry {
-  border-width: 10px;
-  border-style: solid;
-  border-color: $white;
-}
+// .entry {
+//   border-width: 0px;
+//   border-style: solid;
+//   border-color: $text;//$white;
+// }
 
 // https://codepen.io/maxakohler/pen/zBEdrM
 .hasImage {
@@ -200,7 +200,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $black;
+  border-bottom: 1px solid $text;
 
   @include mobile {
     text-align: center;
@@ -236,7 +236,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $black;
+  color: $text;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -246,7 +246,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $black;
+  color: $text;
   font-size: 16px;
 
   @include mobile {
@@ -269,7 +269,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $black;
+    color: $text;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -314,7 +314,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $black;
+  border-bottom: 1px solid $text;
 }
 
 .posts > .post:last-child {
@@ -325,7 +325,7 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $black;
+    border-left: 2px solid $text;
     padding: 0.1em 1em;
     color: $black;
     font-size: 22px;
