@@ -99,6 +99,9 @@
     <script>
       $('p:has(img)').addClass('hasImage');
       $('img').addClass('mklbItem');
+      $('img').wrap('<div class="captionDiv"></div>');
+      $('img').append('<p class="caption"></p>');
+      $('.captionDiv').html.siblings('img').attr('alt');
     </script>
     
 
