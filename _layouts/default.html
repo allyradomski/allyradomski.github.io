@@ -100,8 +100,12 @@
       $('p:has(img)').addClass('hasImage');
       $('img').addClass('mklbItem');
       $('img').wrap('<div class="captionDiv"></div>');
-      $('img').append('<p class="caption"></p>');
-      $('.captionDiv').html.siblings('img').attr('alt');
+      $('.captionDiv').append('<p class="caption"></p>');
+      $('.caption').
+      $('.caption').each(function(index) {
+        let text = $(this).siblings('img').attr('alt');
+        $(this).html = text;
+      });
     </script>
     
 
