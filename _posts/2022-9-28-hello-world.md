@@ -44,10 +44,22 @@ TEST TEST -->
 ![Figure 3]({{ site.baseurl }}/images/journal/year2/hello-world/progress-3.jpg)
 ![Figure 4]({{ site.baseurl }}/images/journal/year2/hello-world/progress-5.jpg)
 
+*Figure 1* above shows.....
+
+*Figure 2* above shows.....
+
+*Figure 3* above shows.....
+
+*Figure 4* above shows.....
+
 ---
 
 ![Figure 5]({{ site.baseurl }}/images/journal/year2/hello-world/progress-6.jpg)
 ![Figure 6]({{ site.baseurl }}/images/journal/year2/hello-world/progress-7.jpg)
+
+*Figure 5* above shows.....
+
+*Figure 6* above shows.....
 
 ---
 
@@ -64,7 +76,9 @@ TEST TEST -->
 
 ![Figure 7]({{ site.baseurl }}/images/journal/year2/hello-world/selfie.jpg)
 
-Libraries used:\
+*Figure 7* above shows.....
+
+<!-- Libraries used:\
 Ubilabs - k-d Tree JavaScript Library - [https://github.com/ubilabs/kd-tree-javascript](https://github.com/ubilabs/kd-tree-javascript)\
 p5.js - [https://p5js.org](https://p5js.org)\
-Font used: Matthew Welch - Secret Code - [https://www.dafont.com/secret-code.font](https://www.dafont.com/secret-code.font)
+Font used: Matthew Welch - Secret Code - [https://www.dafont.com/secret-code.font](https://www.dafont.com/secret-code.font) -->
