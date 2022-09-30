@@ -364,14 +364,26 @@ canvas {
 }
 
 img {
-  max-width: 50%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
+  //max-width: 50%;
+  //max-height: 100%;
+  //width: auto;
+  width: 100%;
+  //height: auto;
   display: block;
   min-width: 0;
-  margin: auto;
+  //margin: auto;
   padding: 0px 5px;
+}
+
+figure {
+  display: flex;
+  flex-flow: column;
+  max-width: 40%;
+  margin: 0 auto;
+}
+
+figcaption {
+  text-align: center;
 }
 
 // .captionDiv {

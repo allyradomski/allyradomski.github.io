@@ -103,8 +103,8 @@
       $('img').wrap('<figure></figure>')
       $('figure').append('<figcaption></figcaption>');
       $('figcaption').each(function(index) {
-        let text = $(this).siblings('img')[0].attr('alt');
-        $(this).html = text;
+        let text = $(this).siblings('img')[0].alt;
+        $(this).html(text);
       });
       // $('img').wrap('<div class="captionDiv"></div>');
       // $('.captionDiv').append('<p class="caption"></p>');
