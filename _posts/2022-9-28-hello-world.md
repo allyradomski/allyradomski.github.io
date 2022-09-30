@@ -46,6 +46,9 @@ I had ideas such as:
 
 Since I only had a few days to finish this project, I needed a big enough data set to show variation. I decided on using the location data Google collects from us.
 
+![Figure A]({{ site.baseurl }}/images/journal/year2/hello-world/data.png)
+![Figure B]({{ site.baseurl }}/images/journal/year2/hello-world/data2.png)
+
 I downloaded my location data in the form of a JSON file, resulting in a file over 500mb, location history dating back to 2016. I parsed this data using Python, converted the dates to Unix time to make it easier to deal with later, and then wrote to a csv file. This contained the time, longitude and latitude. There was a lot of data I didn't want from the original file such as whether my battery is charing, which platform my phone is, etc. This could be fun to play around with in the future.
 
 I created a [p5.js](https://p5js.org) project and loaded the csv file. I experimented plotting the data all the way from 2016, but since a lot of the data is confined to my home and trips to places, it wasn't that interesting.
