@@ -384,6 +384,11 @@ figure {
 
 figcaption {
   text-align: center;
+  word-wrap: anywhere;
+  background: $text;
+  color: $background;
+  margin: 0 5px;
+
 }
 
 // .captionDiv {
@@ -458,6 +463,7 @@ section.imageContainer {
   max-width: 75vw;
   width: auto;
   height: auto;
+  padding: 0;
 }
 
 #mkLightboxContainer #yt-video {
