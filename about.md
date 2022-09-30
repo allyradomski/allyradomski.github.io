@@ -4,9 +4,9 @@ title: about
 permalink: /about/
 ---
 
-My name is Ally Radomski (she/her)
+Hi, my name is Ally Radomski and I'm an aspiring new media artist based in the UK. I'm studying [Interaction Design](https://www.gsa.ac.uk/study/undergraduate-degrees/interaction-design/) at The Glasgow School of Art. Pursuing art is a new found interest for me, I properly started creating art at the start of 2021 using [Processing](https://processing.org) after realising Computer Science wasn't the course for me, I want to create pretty things! I am also interested in creating audio pieces, hoping to explore modular synthesis more in the coming years. 
 
-I'm an artist from the UK studying Interaction Design at The Glasgow School of Art.
+My aim is to create encaptivating installations and experiences that explore the boundaries of what art is.
 
 <!-- ### Follow me -->
 
