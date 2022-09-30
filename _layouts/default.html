@@ -102,7 +102,7 @@
 
       $('img').wrap('<figure></figure>')
       $('figure').append('<figcaption></figcaption>');
-      $('figure').each(function(index) {
+      $('figcaption').each(function(index) {
         let text = $(this).siblings('img')[0].attr('alt');
         $(this).html = text;
       });
