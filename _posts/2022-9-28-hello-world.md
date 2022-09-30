@@ -49,14 +49,15 @@ Since I only had a few days to finish this project, I needed a big enough data s
 ![Figure A]({{ site.baseurl }}/images/journal/year2/hello-world/data.png)
 ![Figure B]({{ site.baseurl }}/images/journal/year2/hello-world/data2.png)
 
-I downloaded my location data in the form of a JSON file, resulting in a file over 500mb, location history dating back to 2016. I parsed this data using Python, converted the dates to Unix time to make it easier to deal with later, and then wrote to a csv file. This contained the time, longitude and latitude. There was a lot of data I didn't want from the original file such as whether my battery is charing, which platform my phone is, etc. This could be fun to play around with in the future.
+I downloaded my location data in the form of a JSON file, resulting in a file over 500mb, location history dating back to 2016. The structure of this file is shown above in *Figure A*. I parsed this data using Python, converted the dates to Unix time to make it easier to deal with later, and then wrote to a csv file as shown in *Figure B*. This contained the time, longitude and latitude. 
+
+There was a lot of data I didn't want from the original file such as whether my battery is charing, which platform my phone is, etc. This could be fun to play around with in the future. 
 
 I created a [p5.js](https://p5js.org) project and loaded the csv file. I experimented plotting the data all the way from 2016, but since a lot of the data is confined to my home and trips to places, it wasn't that interesting.
 
 After this, I decided to filter all the data to be after I arrived in Glasgow (10/09/22) in Python and then write to a csv again.
 
 ---
-
 
 ![Figure 1]({{ site.baseurl }}/images/journal/year2/hello-world/progress-1.jpg)
 ![Figure 2]({{ site.baseurl }}/images/journal/year2/hello-world/progress-2.jpg)
@@ -71,9 +72,10 @@ I like how 'webby' and interesting the resulting shape is. It's ambiguous to wha
 
 In *Figure 3* above, I continued to experiment with this idea. I had the idea to put circles behind it so that the distances between each point is more clear. The circles here don't currently represent any specific distances.
 
-Continuing with that idea, *Figure 4* above shows the accurate scaling with the circles, with each step being 100 meters. For every kilometer, I made the line thicker and added two small labels, '1 KM and 2 KM'. 
-I did the scaling by providing a radius of 2.5km and calculating where the points should be using the fact that:\
-* 1° Longitude = 87.8701824 km\
+Continuing with that idea, *Figure 4* above shows the accurate scaling with the circles, with each step being 100 meters. For every kilometer, I made the line thicker and added two small labels, '1 KM and 2 KM'.
+
+I did the scaling by providing a radius of 2.5km and calculating where the points should be using the fact that:
+* 1° Longitude = 87.8701824 km
 * 1° Latitude = 111.044736 km
 
 The horizontal line in the center goes from west to east. I added this to have some 'latching on' for the orientation.
