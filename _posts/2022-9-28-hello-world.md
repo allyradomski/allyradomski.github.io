@@ -103,7 +103,7 @@ In *Figure 6* above, I made my image more clear by creating more points. This ti
 
 ---
 
-I am very happy with how this project turned out. The data I used is personal to me. The data shows my 2 week exploration of Glasgow so far as I'm settling into my new home. The data of my photo shows the gender exploration aspect of my life, with transitioning from a man to a woman.
+I am very happy with how this project turned out. The data I used is personal to me. The data shows my 2 week exploration of Glasgow so far as I'm settling into my new home and the pride I have in my ability to express my gender identity.
 
 I am a fan of how I included some diagrammatic aspects like adding labels to show distance and circles to show distance. 
 
