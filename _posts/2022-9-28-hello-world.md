@@ -45,12 +45,15 @@ TEST TEST -->
 ![progress 6]({{ site.baseurl }}/images/journal/year2/hello-world/progress-6.jpg)
 ![progress 7]({{ site.baseurl }}/images/journal/year2/hello-world/progress-7.jpg)
 
-<table>
+---
+
+---
+<!-- <table>
     <tr>
         <td>![progress 5]({{ site.baseurl }}/images/journal/year2/hello-world/progress-5.jpg)</td>
         <td>Testtttt</td>
     </tr>
-</table>
+</table> -->
 
 <!-- ![progress 8]({{ site.baseurl }}/images/journal/year2/hello-world/progress-8.jpg)
 
