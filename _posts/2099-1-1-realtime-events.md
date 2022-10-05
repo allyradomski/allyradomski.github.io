@@ -42,7 +42,7 @@ I keep coming back to Zdzisław Beksiński's work and would enjoy doing a deep d
 
 * Fig 3.2 - A cathedral either made or covered in a strange organic structure of strands. It heavily reminds of me a close up shot of the iris (Fig 3.21) by [Suren Manvelyan](https://www.surenmanvelyan.com/eyes/your-beautiful-eyes/?occur=1&cover=0&album=5). The feelings this invokes is emptyness, a relic of a time far gone.
 
-![Fig 3.21 - Suren Manvelyan]({{ site.baseurl }}/images/journal/year2/realtime-events/eye.jpg)
+![Fig 3.21 - Suren Manvelyan | Zdzisław Beksiński]({{ site.baseurl }}/images/journal/year2/realtime-events/eye.png)
 
 ***Fig 4*** -
 Similarly to the work of Zdzisław and Eric (Stars Die), The War Of The Worlds features something called the red weed. This red weed spreads across the earth, blanketing previously lush countryside with a red fleshy organic structure.
