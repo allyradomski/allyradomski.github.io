@@ -93,6 +93,7 @@
       //$('.miro').wrap('<div class="miroDiv"></div>');
 
       $('img').wrap('<figure></figure>')
+      $('video').wrap('<figure></figure>')
       $('figure').append('<figcaption></figcaption>');
       $('figcaption').each(function(index) {
         let text = $(this).siblings('img')[0].alt;
