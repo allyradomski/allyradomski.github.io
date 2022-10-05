@@ -29,7 +29,7 @@ A while back I purchased Fatum Betula on Switch and enjoyed every part of it. It
 * Fig 1.3 - This is during the start of the game in a corridor with water flowing down the walls. An unsettling godly creature appears that asks you to water an ethereal tree that has roots in limbo. 
 A more in-depth look into how the textures work, as shown in *Fig 1.31* below, shows that it's comprised of repeating scrolling water texture and caustics on top of wall texture. 
 
-![Fig 1.31]({{ site.baseurl }}/images/journal/year2/realtime-events/water.mp4)
+![Fig 1.31 - Video of Fig 1.3]({{ site.baseurl }}/images/journal/year2/realtime-events/water.mp4)
 
 ***Fig 2*** -
 I've also played a game called Stars Die which is familiar to Fatum Betula in the style and the overall feelings throughout the game. It's about an island covered in fleshy growth that scientists are researching.
