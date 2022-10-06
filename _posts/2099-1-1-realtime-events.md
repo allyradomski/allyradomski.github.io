@@ -63,6 +63,29 @@ Similarly to the work of Zdzisław and Eric (Stars Die), The War Of The Worlds f
 
 *Fig 4.1* & *Fig 4.2* are both album art for Jeff's musical album.
 
+---
+
+### Development
+
+The first step in my project was to achieve a low resolution look. I did this by following [this](https://www.youtube.com/watch?v=Sru8XDwxC3I) tutorial by Thomas Friday. This worked perfectly except that Unity went through a few layout changes since! The resolution I decided to go with is 256×224 with a standard 4:3 aspect ratio.
+
+![Low res test with cube and skybox]({{ site.baseurl }}/images/journal/year2/realtime-events/lowres.jpg)
+
+After this I experimented with Shader Graph and created a shader that lets me create scrolling textures. This let me mimic the scrolling water textures seen in old games. For this I used numerous aids and my limited experience with shaders already.
+
+![Shader Graph for scrolling textures]({{ site.baseurl }}/images/journal/year2/realtime-events/shadergraph.png)
+
+To bring the water to life, I used [freesound.org](https://freesound.org) to find a water sound. 
+The textures I used for the water are from an old 1994 texture pack disc that I found [here](https://archive.org/details/bakku-no-oni-blue/blue_disc.png) on Archive.org. I also used the skybox from Big Boo's Haunt from Super Mario 64.
+
+<video width="100%" height="auto" title="River of blood with sound and skybox" controls>
+    <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/bloodwater.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+
+
+
 
 
 
