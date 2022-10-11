@@ -67,28 +67,31 @@ Similarly to the work of Zdzisław and Eric (Stars Die), The War Of The Worlds f
 
 ### Development
 
-The first step in my project was to achieve a low resolution look. I did this by following [this](https://www.youtube.com/watch?v=Sru8XDwxC3I) tutorial by Thomas Friday. This worked perfectly except that Unity went through a few layout changes since! The resolution I decided to go with is 256×224 with a standard 4:3 aspect ratio.
+The first step in the development was downgrading the look to a PS1 style game! I followed [Comp-3 Interactive's video](https://www.youtube.com/watch?v=_nxJ8olekBY) tutorial on this.
 
-![Low res test with cube and skybox]({{ site.baseurl }}/images/journal/year2/realtime-events/lowres.jpg)
-
-After this I experimented with Shader Graph and created a shader that lets me create scrolling textures. This let me mimic the scrolling water textures seen in old games. For this I used numerous aids and my limited experience with shaders already.
+I experimented a lot with Shader Graph, which lets you create shaders visually, with nodes, in real-time. I wanted to do this to create the water for the experience. I was inspired by [Jaspar's video](https://www.youtube.com/watch?v=8rCRsOLiO7k) on the topic of scrolling textures in Super Mario Galaxy 2. Although I ended up doing it differently, the concept is similar. I overlayed two different textures that travel in different directions to create water. I sourced these textures from an old 1994 texture pack called [Bakku No Oni Blue](https://archive.org/details/bakku-no-oni-blue/blue_disc.png). It's a collection of blue textures.
 
 ![Shader Graph for scrolling textures]({{ site.baseurl }}/images/journal/year2/realtime-events/shadergraph.png)
 
-To bring the water to life, I used [freesound.org](https://freesound.org) to find a water sound. 
-The textures I used for the water are from an old 1994 texture pack disc that I found [here](https://archive.org/details/bakku-no-oni-blue/blue_disc.png) on Archive.org. I also used the skybox from Big Boo's Haunt from Super Mario 64.
+Above shows the shader I finally settled on. It takes two input textures with numerous different properties, such as colour, speed and tiling. 
 
-<video width="100%" height="auto" title="River of blood with sound and skybox" controls>
-    <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/bloodwater.mp4" type="video/mp4">
+#### Fusion 360
+
+At first I was creating my scene using primitive objects inside Unity, but my peers suggested to use Fusion 360 which is a 3D modelling software. I haven't used Fusion 360 before, and have used very little of alternative software like Blender. The software feels quite intuitive as I picked it up fairly quickly.
+
+![Creating the scene in Fusion 360]({{ site.baseurl }}/images/journal/year2/realtime-events/fusion360.png)
+
+<video width="100%" height="auto" title="Scene with interaction and sound" controls>
+    <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/Progress.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
-I decided to change how everything is shown by following [this](https://www.youtube.com/watch?v=_nxJ8olekBY) tutorial by Comp-3 Interactive. I then started building the scene, I decided to create a bridge with blood flowing down the walls either side. I also experimented with the particle system in Unity by creating blood drips.
+ <!-- I then started building the scene, I decided to create a bridge with blood flowing down the walls either side. I also experimented with the particle system in Unity by creating blood drips.
 
 <video width="100%" height="auto" title="Improved" controls>
     <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/bridge.mp4" type="video/mp4">
     Your browser does not support the video tag.
-</video>
+</video> --> -->
 
 
 
