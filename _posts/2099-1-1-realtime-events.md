@@ -82,16 +82,10 @@ At first I was creating my scene using primitive objects inside Unity, but my pe
 ![Creating the scene in Fusion 360]({{ site.baseurl }}/images/journal/year2/realtime-events/fusion360.png)
 
 <video width="100%" height="auto" title="Scene with interaction and sound" controls>
-    <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/Progress.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/progress.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
- <!-- I then started building the scene, I decided to create a bridge with blood flowing down the walls either side. I also experimented with the particle system in Unity by creating blood drips.
-
-<video width="100%" height="auto" title="Improved" controls>
-    <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/bridge.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video> --> -->
 
 
 
