@@ -11,9 +11,10 @@ For this project we are using Unity which is a popular game engine that can also
 
 ### Research
 
-I had the idea to use procedural audio for the environment, this can be done by using Open Sound Control (OSC). This allows me to connect applications and use realtime sound to control things in other applications, and also to control sound from another application. I am going to use VCV Rack 2 for this since it is free. VCV Rack 2 is a software modular synthesizer that lets us use a bunch of sound modules for free to create music, such as procedural ambient music.
+<!-- I had the idea to use procedural audio for the environment, this can be done by using Open Sound Control (OSC). This allows me to connect applications and use realtime sound to control things in other applications, and also to control sound from another application. I am going to use VCV Rack 2 for this since it is free. VCV Rack 2 is a software modular synthesizer that lets us use a bunch of sound modules for free to create music, such as procedural ambient music. -->
 
-For the visual side of it, I want it to feel like a location that is soothing but also uncanny. I thought about how I could create this in a few weeks, and decided to go for a low poly retro look.
+
+I decided I wanted it to feel like a location that is soothing but also uncanny. I thought about how I could create this in a few weeks, and decided to go for a low poly retro look.
 
 ![Mindmap]({{ site.baseurl }}/images/journal/year2/realtime-events/mindmap.jpg)
 
@@ -75,7 +76,7 @@ I experimented a lot with Shader Graph, which lets you create shaders visually, 
 
 Above shows the shader I finally settled on. It takes two input textures with numerous different properties, such as colour, speed and tiling. 
 
-#### Fusion 360
+#### Playing around with Fusion 360
 
 At first I was creating my scene using primitive objects inside Unity after planning a design on paper, but my peers suggested to use Fusion 360 which is a 3D modelling software. I haven't used Fusion 360 before, and have used very little of alternative software like Blender. The software feels quite intuitive as I picked it up fairly quickly.
 
@@ -83,6 +84,43 @@ At first I was creating my scene using primitive objects inside Unity after plan
 ![Attempt model it in Unity]({{ site.baseurl }}/images/journal/year2/realtime-events/unity_design.jpg)
 ![Modelling it in Fusion 360]({{ site.baseurl }}/images/journal/year2/realtime-events/fusion360_1.jpg)
 ![-]({{ site.baseurl }}/images/journal/year2/realtime-events/fusion360_2.jpg)
+
+After importing it into Unity and messing around with it, I decided that this wasn't the design I wanted to go for. It wasn't a waste of time at all though, as it helped me learn lots about how to create in Fusion 360!
+
+#### Finalised scene
+
+I think it was around midnight I started to create my final scene. I seem to work well in the night-time and get lots of things done. Using my knowledge I learnt from my first attempt I started to put together a scene. I decided to keep adding things until I built up a structure I was happy with. Like how a child draws whatever comes to their mind as they do it, I created the scene this way. This way I am confident I achieved the dream-like, uncanny, weird feeling of the place.
+
+![Modelling the scene in Fusion 360]({{ site.baseurl }}/images/journal/year2/realtime-events/fusion360_3.jpg)
+![-]({{ site.baseurl }}/images/journal/year2/realtime-events/fusion360_4.jpg)
+
+#### Importing into Unity
+
+After modelling it, I exported it and imported it into Uni. I wanted to use the scrolling shader I made before for water, so decided to see what it'd feel and look like on the dome. I liked the way it looked. I went further with this and added blue Moroccan tiling as it felt like it suited the peacefulness of the water trickling down the wall.
+
+
+<video width="100%" height="auto" title="Adding textures to the lower dome" controls>
+    <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/scene_recording_1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+After, I went upwards and added textures to the upper room. I decided to use metal grating as I wanted the player to be able to see the water. I was also inspired by Super Mario 64's Tick Tock Clock level to add this.
+
+<video width="100%" height="auto" title="Upper level" controls>
+    <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/scene_recording_2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+#### Creating triggers
+
+I wanted the player to be able to travel up to the second floor through the tube, so I made a lift! I did this by creating a trigger location attached to the lift, and two empty objects indicating where the start and stop of the platform is. When entering the trigger, I made a counter count up to 1, and vice versa when stepping out. Then I used this value to move the platform by using a lerp function. I used an In-Out-Cubic easing function which I found [here](https://gist.github.com/cjddmut/d789b9eb78216998e95c) on GitHub. This makes the environment feel much more dynamic than just using a linear lerp.
+
+<video width="100%" height="auto" title="Lift that moves using lerp and easings" controls>
+    <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/scene_recording_3.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+
 
 <video width="100%" height="auto" title="Scene with interaction and sound" controls>
     <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/progress.mp4" type="video/mp4">
