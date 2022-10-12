@@ -77,9 +77,12 @@ Above shows the shader I finally settled on. It takes two input textures with nu
 
 #### Fusion 360
 
-At first I was creating my scene using primitive objects inside Unity, but my peers suggested to use Fusion 360 which is a 3D modelling software. I haven't used Fusion 360 before, and have used very little of alternative software like Blender. The software feels quite intuitive as I picked it up fairly quickly.
+At first I was creating my scene using primitive objects inside Unity after planning a design on paper, but my peers suggested to use Fusion 360 which is a 3D modelling software. I haven't used Fusion 360 before, and have used very little of alternative software like Blender. The software feels quite intuitive as I picked it up fairly quickly.
 
-![Creating the scene in Fusion 360]({{ site.baseurl }}/images/journal/year2/realtime-events/fusion360.png)
+![Initial Design]({{ site.baseurl }}/images/journal/year2/realtime-events/design_1.jpg)
+![Attempt model it in Unity]({{ site.baseurl }}/images/journal/year2/realtime-events/unity_design.jpg)
+![Modelling it in Fusion 360]({{ site.baseurl }}/images/journal/year2/realtime-events/fusion360_1.jpg)
+![-]({{ site.baseurl }}/images/journal/year2/realtime-events/fusion360_2.jpg)
 
 <video width="100%" height="auto" title="Scene with interaction and sound" controls>
     <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/progress.mp4" type="video/mp4">
