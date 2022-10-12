@@ -120,10 +120,43 @@ I wanted the player to be able to travel up to the second floor through the tube
     Your browser does not support the video tag.
 </video>
 
+#### Adding dynamic audio
 
+For sounds, I used [freesound.org](https://freesound.org) which has thousands of free to use sounds. Quite a lot of sounds from Minecraft are sourced from here. 
+
+To start with I added sound of water to the scrolling textures. I really like how it works with the textures, it feels like it's all tied together. For the lift I added a low sci-fi sounding hum that changes in pitch throughout the lifts journey as this adds more a sense of speed in the middle of the lift.
+
+I also added lots of doors to the scene, as I like how retro doors look in video games. 
 
 <video width="100%" height="auto" title="Scene with interaction and sound" controls>
-    <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/progress.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/scene_recording_4.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+#### Manipulating properties over time
+
+Next, I added rain using Unity's particle system, along with the sound of rain hitting metal to match it. I also added a texture of my eye above, so that you know you're being watched! When entering the trigger, numerous different properties change:
+
+* Field of View of the camera
+* Colour of the water textures
+* Colour of the rain
+* The pitch of the audio
+
+The way I interpret this is the eye is crying blood, which fills the water with blood. The camera zooms out to heighten your awareness, and the audio pitching down shows something is changing and wrong.
+
+I am really happy with how this is developing as it feels like a location that has character and is telling a sort of ambiguous story. It feels quite surreal.
+
+<video width="100%" height="auto" title="Properties changing with a trigger" controls>
+    <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/scene_recording_5.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+#### More development
+
+I wanted the doors to do something, so I made them come together and spin around above the players head. I feel this is quite unexpected, but not at all out of place for the scene. The eye comes down as the doors spin, drawing your attention to the center, the pupil. I used a falling Shepard tone as the eye approaches to convey a sense of dread. After a few seconds, I teleport the player to a new place where they are surrounded by eyes in all directions. The sequence so far feels all connected.
+
+<video width="100%" height="auto" title="Scene with interaction and sound" controls>
+    <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/scene_recording_6.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
