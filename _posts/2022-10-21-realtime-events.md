@@ -7,14 +7,11 @@ categories: year2
 ---
 ### Introduction
 
-For this project we are using Unity which is a popular game engine that can also be used for more than just games! It provides a diverse palette to create basically whatever you want. In this project, the task is to create a **dynamic environment** in which the user can interact with it using both realtime visuals and dynamic audio.
+For this project we are using Unity which is a popular game engine that can also be used for more than just games! It provides a diverse palette to create basically whatever you want. In this project, the task is to create a **dynamic environment** in which the user can interact with it using both **realtime visuals** and **dynamic audio**.
 
 ---
 
 ### Research
-
-<!-- I had the idea to use procedural audio for the environment, this can be done by using Open Sound Control (OSC). This allows me to connect applications and use realtime sound to control things in other applications, and also to control sound from another application. I am going to use VCV Rack 2 for this since it is free. VCV Rack 2 is a software modular synthesizer that lets us use a bunch of sound modules for free to create music, such as procedural ambient music. -->
-
 
 I decided I wanted it to feel like a location that is soothing but also uncanny. I thought about how I could create this in a few weeks, and decided to go for a low poly retro look.
 
@@ -34,15 +31,6 @@ A while back I purchased Fatum Betula on Switch and enjoyed every aspect of it, 
     <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/water.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
-
-<!-- * Fig 1.1 - This location is of a traditional Japanese (?) house surrounded by water, with a cherry blossom tree next to it. This place just feels odd and wrong but it's very intriquing. It's soothing but feels like I am being watched.
-
-* Fig 1.2 - This one is of a church in autumn surrounded by trees. It makes me question "why is it here?", "who built it?", "why is it so isolated?".
-
-* Fig 1.3 - This is during the start of the game in a corridor with water flowing down the walls. An unsettling godly creature appears that asks you to water an ethereal tree that has roots in limbo. 
-A more in-depth look into how the textures work, as shown in *Fig 1.31* below, shows that it's comprised of repeating scrolling water texture and caustics on top of wall texture.  -->
-
-<!-- ![Fig 1.31 - Video of Fig 1.3]({{ site.baseurl }}/images/journal/year2/realtime-events/water.mp4) -->
 
 #### Fig 2
 
@@ -184,7 +172,15 @@ I also added a few more doors to the scene as one side was lacking with them.
 
 ### Conclusion
 
-blah
+I am very happy with how this project turned out. I feel I definitely achieved the retro look and surreal aspect I initially set out to achieve. The project has two interactions, one the lift, and the next the triggering of the main sequence in this room. When creating this sequence, my default was to do it fully by scripting, but now I realise I could have done it with in-built animation tools, though the doors are probably easier to achieve by scripting. I feel this added to the feeling of the retro style as developers wouldn't have had the tools we have today. I am also proud of how I used the simple water technique to make good looking water, just as older games would have done.
+
+I feel the soundscape I built using free sounds captured and added immensely to the project, because without these sounds, the project would be a lot more dull. The mix of the water stream, rain hitting the metal, and the Shepard tone of the eye combined with the rain turning to blood and the doors spinning above the head bringing your focus to the eye envelopes you in the experience. Then the final creature/angel looking at you for eternity.
+
+As for what I would do differently, I would have made sure all the models had a lower polycount to more represent the limitations of the time. I would have created the sequence to be longer and added more to the calm water trickling down the walls as I feel it gets to the 'bad' stuff too quickly. I would have also added more triggers that occur during your time in the environment.
+
+In conclusion, I feel I definitely achieved the aim of creating a dynamic environment that can be interacted with using a series of triggered events, utilising both realtime visuals and dynamic audio.
+
+
 
 
 
