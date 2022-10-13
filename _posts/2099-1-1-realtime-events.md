@@ -100,7 +100,7 @@ I think it was around midnight I started to create my final scene. I seem to wor
 
 #### Importing into Unity
 
-After modelling it, I exported it and imported it into Uni. I wanted to use the scrolling shader I made before for water, so decided to see what it'd feel and look like on the dome. I liked the way it looked. I went further with this and added blue Moroccan tiling as it felt like it suited the peacefulness of the water trickling down the wall.
+After modelling it, I exported it and imported it into Unity. I wanted to use the scrolling shader I made before for water, so decided to see what it'd feel and look like on the dome. I liked the way it looked. I went further with this and added blue Moroccan tiling as it felt like it suited the peacefulness of the water trickling down the wall.
 
 
 <video width="100%" height="auto" title="Adding textures to the lower dome" controls>
@@ -176,7 +176,15 @@ I also added a few more doors to the scene as one side was lacking with them.
 
 ---
 
+### Final Video
+
+<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/759977908?h=c261d13586&color=ffffff&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+---
+
 ### Conclusion
+
+blah
 
 
 
