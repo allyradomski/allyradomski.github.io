@@ -9,6 +9,8 @@ categories: year2
 
 For this project we are using Unity which is a popular game engine that can also be used for more than just games! It provides a diverse palette to create basically whatever you want. In this project, the task is to create a **dynamic environment** in which the user can interact with it using both realtime visuals and dynamic audio.
 
+---
+
 ### Research
 
 <!-- I had the idea to use procedural audio for the environment, this can be done by using Open Sound Control (OSC). This allows me to connect applications and use realtime sound to control things in other applications, and also to control sound from another application. I am going to use VCV Rack 2 for this since it is free. VCV Rack 2 is a software modular synthesizer that lets us use a bunch of sound modules for free to create music, such as procedural ambient music. -->
@@ -71,6 +73,8 @@ Similarly to the work of Zdzisław and Eric (Stars Die), The War Of The Worlds f
 The first step in the development was downgrading the look to a PS1 style game! I followed [Comp-3 Interactive's video](https://www.youtube.com/watch?v=_nxJ8olekBY) tutorial on this.
 
 I experimented a lot with Shader Graph, which lets you create shaders visually, with nodes, in real-time. I wanted to do this to create the water for the experience. I was inspired by [Jaspar's video](https://www.youtube.com/watch?v=8rCRsOLiO7k) on the topic of scrolling textures in Super Mario Galaxy 2. Although I ended up doing it differently, the concept is similar. I overlayed two different textures that travel in different directions to create water. I sourced these textures from an old 1994 texture pack called [Bakku No Oni Blue](https://archive.org/details/bakku-no-oni-blue/blue_disc.png). It's a collection of blue textures.
+
+The combination of old textures and simple techniques adds to the PS1-retroness. They had more limitations in that era and required to use cheap techniques to give the visuals.
 
 ![Shader Graph for scrolling textures]({{ site.baseurl }}/images/journal/year2/realtime-events/shadergraph.png)
 
@@ -142,6 +146,8 @@ Next, I added rain using Unity's particle system, along with the sound of rain h
 * Colour of the rain
 * The pitch of the audio
 
+I did struggle with changing material properties as it changes it in the assets and not the instance, so it carries over after stopping playing. I managed to fix this in the end though using help of internet.
+
 The way I interpret this is the eye is crying blood, which fills the water with blood. The camera zooms out to heighten your awareness, and the audio pitching down shows something is changing and wrong.
 
 I am really happy with how this is developing as it feels like a location that has character and is telling a sort of ambiguous story. It feels quite surreal.
@@ -159,6 +165,18 @@ I wanted the doors to do something, so I made them come together and spin around
     <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/scene_recording_6.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
+
+#### Finalisation of the project
+
+In the final room I added a 'biblically accurate angel' to the scene along with horrible static sound. I feel this completes this room. It's unescapable and always being watched (going with the eye theme).
+
+!['Biblically Accurate Angel' :)]({{ site.baseurl }}/images/journal/year2/realtime-events/eye_unity.png)
+
+I also added a few more doors to the scene as one side was lacking with them.
+
+---
+
+### Conclusion
 
 
 
