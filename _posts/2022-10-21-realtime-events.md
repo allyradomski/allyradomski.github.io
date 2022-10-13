@@ -13,7 +13,7 @@ For this project we are using Unity which is a popular game engine that can also
 
 ### Research
 
-I decided I wanted it to feel like a location that is soothing but also uncanny. I thought about how I could create this in a few weeks, and decided to go for a low poly retro look.
+For the project, I had to think of something that wasn't too ambitious but also can also smoothly incorporate triggers and dynamic audio. I decided to go with a PS1-look with a surreal environment. I have played a few games with this exact style that I show below in my mindmap.
 
 ![Mindmap]({{ site.baseurl }}/images/journal/year2/realtime-events/mindmap.jpg)
 
@@ -149,14 +149,14 @@ I am really happy with how this is developing as it feels like a location that h
 
 I wanted the doors to do something, so I made them come together and spin around above the players head. I feel this is quite unexpected, but not at all out of place for the scene. The eye comes down as the doors spin, drawing your attention to the center, the pupil. I used a falling Shepard tone as the eye approaches to convey a sense of dread. After a few seconds, I teleport the player to a new place where they are surrounded by eyes in all directions. The sequence so far feels all connected.
 
-<video width="100%" height="auto" title="Scene with interaction and sound" controls>
+<video width="100%" height="auto" title="Adding more animation to the scene" controls>
     <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/scene_recording_6.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
 #### Finalisation of the project
 
-In the final room I added a 'biblically accurate angel' to the scene along with horrible static sound. I feel this completes this room. It's unescapable and always being watched (going with the eye theme).
+In the final room I added a 'biblically accurate angel' to the scene along with horrible static sound. I feel this completes this room. It's unescapable and always being watched (going with the eye theme). I used a billboarding effect on the eye so that it always faces the camera, similar to that of the trees from Super Mario 64.
 
 !['Biblically Accurate Angel' :)]({{ site.baseurl }}/images/journal/year2/realtime-events/eye_unity.png)
 
@@ -179,6 +179,9 @@ I feel the soundscape I built using free sounds captured and added immensely to 
 As for what I would do differently, I would have made sure all the models had a lower polycount to more represent the limitations of the time. I would have created the sequence to be longer and added more to the calm water trickling down the walls as I feel it gets to the 'bad' stuff too quickly. I would have also added more triggers that occur during your time in the environment.
 
 In conclusion, I feel I definitely achieved the aim of creating a dynamic environment that can be interacted with using a series of triggered events, utilising both realtime visuals and dynamic audio.
+
+
+---
 
 
 
