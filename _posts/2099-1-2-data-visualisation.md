@@ -23,13 +23,53 @@ I also felt that maybe isn't the best idea to work with mental health as that wo
 
 #### Satellites
 
-I've decided to go with satellite data as it sounds quite exciting to work on! I got the CSV data from Celestrak [here](https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=csv).
+I've decided to go with satellite data as it sounds quite exciting to work on! I found a site called Celestrak which has all the data of active satellites currently orbiting the earth. 
+
+---
+
+### Development
+
+#### Sourcing CSV file
 
 I used [this](https://www.youtube.com/watch?v=2gAYqtmNJx8) video by NSSI to learn about the key orbital elements.
 
+To start with, I copied the table from Celestrak [here](https://celestrak.org/NORAD/elements/table.php?GROUP=active&FORMAT=tle) but I shortly learnt this isn't the way to go. The issues were the rounding of numbers and the lack of other values like the ones used for the orientation which are Right ascension of the ascending node and the argument of perimeter.
+
+After learning this, I then got the direct CSV file from [here](https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=csv) from Celestrak. I used the video above and numerous sites such as Wikipedia to get the formulas to convert the values from the CSV into more useful ones. I used Miro for this.
+
 ![Miro board for converting cell values to useful values]({{ site.baseurl }}/images/journal/year2/data-visualisation/miro_plan.jpg)
 
-I used numerous resources, mainly wikipedia, to get the formulas to get values such as Semi-major axis, which is needed for visualizing the orbit.
+#### Visualising the data
+
+I began development by reading all the rows and trying to plot these orbits in 3d space.
+
+![Development images]({{ site.baseurl }}/images/journal/year2/data-visualisation/development-1.png)
+![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/development-2.png)
+![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/development-3.png)
+![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/development-4.png)
+
+I was struggling with orbits not matching up with other visualisers other people made online. I mainly used[SatelliteXplorer](https://geoxc-apps.bd.esri.com/space/satellite-explorer/), below shows an image of comparison between mine and their's. It matches up quite well but there's a few inconsistencies.
+
+![Comparison of my sketch to SatelliteXplorer]({{ site.baseurl }}/images/journal/year2/data-visualisation/comparison.png)
+
+#### Breaking down the issue
+
+It was overwhelming to spot the problem with all the orbits showing. I simplified things by adding a equatorial plane and a line showing up so that I could orientate myself and identify the issues.
+
+![Breaking the problem down]({{ site.baseurl }}/images/journal/year2/data-visualisation/breaking_down_problem.png)
+
+After more investigation, it seemed a few of the orbits on SatelliteXplorer were actually inconsistent with the expected orbits. The one I spotted initially was INMARSAT 6-F1, it was meant to be Geostationary but the SatelliteXplorer showed it as not. I learnt this [here](https://www.n2yo.com/satellite/?s=50319). This seemed to match up with the values I expected. I also changed some signs in my code and also neatened it up to help me.
+
+![Sketch code]({{ site.baseurl }}/images/journal/year2/data-visualisation/code.png)
+
+
+
+
+---
+
+### Development
+
+
 
 
 
