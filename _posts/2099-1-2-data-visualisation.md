@@ -25,6 +25,16 @@ I also felt that maybe isn't the best idea to work with mental health as that wo
 
 I've decided to go with satellite data as it sounds quite exciting to work on! I got the CSV data from Celestrak [here](https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=csv).
 
+I used [this](https://www.youtube.com/watch?v=2gAYqtmNJx8) video by NSSI to learn about the key orbital elements.
+
+![Miro board for converting cell values to useful values]({{ site.baseurl }}/images/journal/year2/data-visualisation/miro_plan.jpg)
+
+I used numerous resources, mainly wikipedia, to get the formulas to get values such as Semi-major axis, which is needed for visualizing the orbit.
+
+
+
+
+
 
 
 
