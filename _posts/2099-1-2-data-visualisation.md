@@ -48,7 +48,7 @@ I began development by reading all the rows and trying to plot these orbits in 3
 ![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/development-3.png)
 ![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/development-4.png)
 
-I was struggling with orbits not matching up with other visualisers other people made online. I mainly used[SatelliteXplorer](https://geoxc-apps.bd.esri.com/space/satellite-explorer/), below shows an image of comparison between mine and their's. It matches up quite well but there's a few inconsistencies.
+I was struggling with orbits not matching up with other visualisers other people made online. I mainly used[SatelliteXplorer](https://geoxc-apps.bd.esri.com/space/satellite-explorer/), below shows an image of comparison between mine and theirs. It matches up quite well but there's a few inconsistencies.
 
 ![Comparison of my sketch to SatelliteXplorer]({{ site.baseurl }}/images/journal/year2/data-visualisation/comparison.png)
 
@@ -62,12 +62,9 @@ After more investigation, it seemed a few of the orbits on SatelliteXplorer were
 
 ![Sketch code]({{ site.baseurl }}/images/journal/year2/data-visualisation/code.png)
 
+#### Changing to 2D
 
-
-
----
-
-### Development
+I decided to change from 3D to 2D. This is so I can more clearly visualize the data and so it'll work better as a printed PDF. I feel I'll also have more creative input in 2D as it'll be simpler and more achievable within the time limit.
 
 
 
