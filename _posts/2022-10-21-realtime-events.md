@@ -19,6 +19,7 @@ For the project, I had to think of something that wasn't too ambitious but also 
 
 I created this mindmap whilst researching for the project.
 
+
 #### Fig 1
 
 A while back I purchased Fatum Betula on Switch and enjoyed every aspect of it, from the surreal dream-like environments to the soundtrack. The game utilises a low-poly style reminiscent of the PS1 era. Throughout the game you solve puzzles similar to that of a point-and-click game whilst travelling through lots of different liminal spaces. It feels unknowingly familiar.. like something you'd experience in a fever dream.
@@ -32,11 +33,13 @@ A while back I purchased Fatum Betula on Switch and enjoyed every aspect of it, 
     Your browser does not support the video tag.
 </video>
 
+
 #### Fig 2
 
 I've also played a game called Stars Die which is familiar to Fatum Betula in the style and the overall feelings throughout the game. It's about an island covered in fleshy growth that scientists are researching.
 
 *Fig 2.1* & *Fig 2.2* show screenshots of the game in different areas.
+
 
 #### Fig 3
 
@@ -47,6 +50,7 @@ I keep coming back to Zdzisław Beksiński's work and would enjoy doing a deep d
 * In *Fig 3.2*, there's a cathedral either made or covered in a strange organic structure of strands. It heavily reminds of me a close up shot of the iris (*Fig 3.21*) by [Suren Manvelyan](https://www.surenmanvelyan.com/eyes/your-beautiful-eyes/?occur=1&cover=0&album=5). The feelings this invokes is emptyness, a relic of a time far gone.
 
 ![Fig 3.21 - Suren Manvelyan / Zdzisław Beksiński]({{ site.baseurl }}/images/journal/year2/realtime-events/eye.png)
+
 
 #### Fig 4
 
@@ -68,6 +72,7 @@ The combination of old textures and simple techniques adds to the PS1-retroness.
 
 Above shows the shader I finally settled on. It takes two input textures with numerous different properties, such as colour, speed and tiling. 
 
+
 #### Playing around with Fusion 360
 
 At first I was creating my scene using primitive objects inside Unity after planning a design on paper, but my peers suggested to use Fusion 360 which is a 3D modelling software. I haven't used Fusion 360 before, and have used very little of alternative software like Blender. The software feels quite intuitive as I picked it up fairly quickly.
@@ -79,12 +84,14 @@ At first I was creating my scene using primitive objects inside Unity after plan
 
 After importing it into Unity and messing around with it, I decided that this wasn't the design I wanted to go for. It wasn't a waste of time at all though, as it helped me learn lots about how to create in Fusion 360!
 
+
 #### Finalised scene
 
 I think it was around midnight I started to create my final scene. I seem to work well in the night-time and get lots of things done. Using my knowledge I learnt from my first attempt I started to put together a scene. I decided to keep adding things until I built up a structure I was happy with. Like how a child draws whatever comes to their mind as they do it, I created the scene this way. This way I am confident I achieved the dream-like, uncanny, weird feeling of the place.
 
 ![Modelling the scene in Fusion 360]({{ site.baseurl }}/images/journal/year2/realtime-events/fusion360_3.jpg)
 ![-]({{ site.baseurl }}/images/journal/year2/realtime-events/fusion360_4.jpg)
+
 
 #### Importing into Unity
 
@@ -103,6 +110,7 @@ After, I went upwards and added textures to the upper room. I decided to use met
     Your browser does not support the video tag.
 </video>
 
+
 #### Creating triggers
 
 I wanted the player to be able to travel up to the second floor through the tube, so I made a lift! I did this by creating a trigger location attached to the lift, and two empty objects indicating where the start and stop of the platform is. When entering the trigger, I made a counter count up to 1, and vice versa when stepping out. Then I used this value to move the platform by using a lerp function. I used an In-Out-Cubic easing function which I found [here](https://gist.github.com/cjddmut/d789b9eb78216998e95c) on GitHub. This makes the environment feel much more dynamic than just using a linear lerp.
@@ -111,6 +119,7 @@ I wanted the player to be able to travel up to the second floor through the tube
     <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/scene_recording_3.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
+
 
 #### Adding dynamic audio
 
@@ -124,6 +133,7 @@ I also added lots of doors to the scene, as I like how retro doors look in video
     <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/scene_recording_4.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
+
 
 #### Manipulating properties over time
 
@@ -145,6 +155,7 @@ I am really happy with how this is developing as it feels like a location that h
     Your browser does not support the video tag.
 </video>
 
+
 #### More development
 
 I wanted the doors to do something, so I made them come together and spin around above the players head. I feel this is quite unexpected, but not at all out of place for the scene. The eye comes down as the doors spin, drawing your attention to the center, the pupil. I used a falling Shepard tone as the eye approaches to convey a sense of dread. After a few seconds, I teleport the player to a new place where they are surrounded by eyes in all directions. The sequence so far feels all connected.
@@ -153,6 +164,7 @@ I wanted the doors to do something, so I made them come together and spin around
     <source src="{{ site.baseurl }}/images/journal/year2/realtime-events/scene_recording_6.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
+
 
 #### Finalisation of the project
 
