@@ -67,29 +67,69 @@ After more investigation, it seemed a few of the orbits on SatelliteXplorer were
 I decided to change from 3D to 2D. This is so I can more clearly visualize the data and so it'll work better as a printed PDF. I feel I'll also have more creative input in 2D as it'll be simpler and more achievable within the time limit.
 
 
-![Progress]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress1.jpg)
-![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress2.jpg)
-![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress3.jpg)
+![Gridding the orbits]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress1.jpg)
+![Experimenting with sizing]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress2.jpg)
 
+#### Playing around with different sized cells
+
+I felt the bigger orbits couldn't be shown well if stuck to the same cell size. So I made the cell bigger depending on the orbit size. The way I did this was with a 2d boolean array, and choosing an orbit from an array of unused orbits until one worked by checking the booleans. Then filling the area after with true boolean.
+
+![Picking at random leading to duplicates]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress3.jpg)
 ![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress4.jpg)
-![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress5.jpg)
-![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress6.jpg)
+![Feeling too busy]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress5.jpg)
+![This feels about right]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress6.jpg)
 
-![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress7.jpg)
+
+#### Adding NORAD ID information to the orbit
+
+I wanted people to be able to know which the interesting orbits were, which are usually the larger ones as that allows for larger eccentricity. The way I did this was by giving the NORAD ID number, which can be searched to find the exact satellite shown. I didn't want to use numbers though as I felt that would ruin it. I was also inspired by the Voyager 1 Golden Record, which aims to provide information to intelligent beings that don't understand our systems on Earth. Even though aliens wouldn't know what a NORAD ID is, I still liked the idea.
+
+I played around with drawing designs, first being something other than base-10, but I felt too confused and that it'd be too hard to understand anyway. I finally decided to go with base-10 but simply assigning an symbol to numbers 0 - 9 instead. 
+
+![Trying to represent numbers not in base-10]({{ site.baseurl }}/images/journal/year2/data-visualisation/number_design-1.jpg)
+![Using base-10 and creating characters with primitive shapes]({{ site.baseurl }}/images/journal/year2/data-visualisation/number_design-2.jpg)
+
+#### Trying to implement the designs by importing the SVGs
+
+I designed the designs in Illustrator and tried to import it into Processing to draw it, but I was having too many problems. First, horizontal and vertical lines were not being drawn. I think because it has a bounding width or height of 0? I tried fixing this by drawing the icon as a whole at once with a box, but I couldn't figure out how to get rid of the box, as without it, the sizing for each one was on the bounding size and not the document size.
+
+![Missing lines]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress7.jpg)
 ![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress8.jpg)
-![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress9.jpg)
+![Problem with the boxes]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress9.jpg)
 
-![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress10.jpg)
+#### Trying again
 
-![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress11.png)
-![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress12.png)
+I changed the design to get rid of the vertical and horizontal lines to use diagonal ones instead. At first, it appeared to work, but, for some weird reason, a lot of them were lacking elements? I couldn't make sense of it.
+
+![Near fix..]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress10.jpg)
+
+#### Implementing it manually
+
+I eventually figured out the way to do it which was implementing it manually with code without importing anything. This didn't take too long, but would have been preferable for the other way to work.
+
+I also added symbols to the left to show the date range, 1964 - 2022, the possible ranges of the satellites. I also ranged the colours throughout this, with the darkest on the (1)964 and the lightest on the 202(2). This means the date of the satellite can be shown with just colour :)
+
+For clarity, I added a key to the right hand side to show what each symbol meant, by going from 0 - 9, showing the progression of the symbol.
+
+![Adding dates to the left]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress11.png)
+![Adding key to the right]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress12.png)
 
 
 ### Final
 
-![Overview]({{ site.baseurl }}/images/journal/year2/data-visualisation/final_with_labels.jpg)
+![Overview of elements of image]({{ site.baseurl }}/images/journal/year2/data-visualisation/final_with_labels.jpg)
+
 
 ![Final image]({{ site.baseurl }}/images/journal/year2/data-visualisation/final.png)
+
+### Conclusion
+
+Overall I am quite happy with how this turned out and see it as a success! I felt the data set I used was plenty enough to make an interesting visualization, and that I managed to match the visualization feel to the actual data, which is space and satellites. I enjoy that I managed to convey lots of information without numbers or words. I created symbols that represent numbers in a simple and primitive way. The graphic in the bottom right is also a simple graphic to represent that we are looking at the Earth, as it's a cross on the circle (planet) from the semi-circle (the sun). It could be cool to use a CNC router machine to cut the shapes out on a material, and maybe put a back light behind it! Or go further with the primitive feeling and apply it to slate. There are many different ways it could be displayed, even just a poster.
+
+I am not the happiest with the colours, I felt I should have made the colour range much larger so that the difference between old satellites can be seen easier. Another thing I'd try and fix if I had more time and knowledge would be fixing the curves in the SVG file, so that curves are curved and not just point to point. This way the graphic would be perfect at every scale. One last thing I would have done would be to ensure that the orbits have longitude 0° pointing down. I had lots of confusion with how to orientate them properly using something called vernal equinox direction.
+
+
+
 
 
 
