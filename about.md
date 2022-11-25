@@ -10,7 +10,7 @@ My aim is to create encaptivating installations and experiences that explore the
 
 <!-- ### Follow me -->
 
-[Instagram](https://www.instagram.com/ally_rad) - [Twitter](https://twitter.com/ally_radomski) - [Email](mailto:allyradomski@protonmail.com) - [objkt.com](https://objkt.com/profile/tz1bJwj5KBMc3UFk3ijykA9c1sGDmw4FEy24/activity) - <a rel="me" href="https://genart.social/@ally">Mastodon</a>
+[Instagram](https://www.instagram.com/ally_rad) - [Email](mailto:allyradomski@protonmail.com) - [objkt.com](https://objkt.com/profile/tz1bJwj5KBMc3UFk3ijykA9c1sGDmw4FEy24/activity) - <a rel="me" href="https://genart.social/@ally">Mastodon</a>
 
 
 <!-- 
