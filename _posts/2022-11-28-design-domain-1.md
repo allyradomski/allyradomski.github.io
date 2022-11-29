@@ -60,7 +60,9 @@ Knowing that there's arduino kits in the studio, I researched and found this [ar
 
 I did a simple test to make sure it was working using Whadda's github page [manual](https://github.com/WhaddaMakers/Electronic-scale-load-cell-sensor) and it was a success, the values changed depending on how much pressure I was applying to the device.
 
-#### Laser cutting wood
+#### 3D Workshop
+
+I went to the 3D workshop in the Reid to get some wood laser cut and some metal tubes made.
 
 
 
