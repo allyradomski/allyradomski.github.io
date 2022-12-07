@@ -34,5 +34,19 @@ Below is the final animated version.
 
 <div style="padding:141.41% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/778276489?h=904d90e81b&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
+---
+
+### After Effects
+
+After the tutorial with Gillian, I felt I had a small grasp of the software and wanted to explore it more. Using the song Foot Chamber by Soap&Skin, I attempted to visualize this song using typography and video.
+
+The video was taken in slow-motion on a train whilst on a trip. I really liked the scenery and the parallax of all the layers of the view. I wanted to include the town as I felt it fit into the song, it felt quite remote, but in a gorgeous place. I feel the song is sad but pretty.
+
+Soap&Skin made some music for the Netflix series Dark, in which the intro has lots of mirrored imagery. I explored the way in which I could mirror my video, and also not make it feel too stale.
+
+Below is the final video. Due to compression and the grain, it doesn't look exactly like my original.
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/779060150?h=1d008341c5&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
 
 
