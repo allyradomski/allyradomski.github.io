@@ -83,7 +83,10 @@ Whilst those were being made, I asked someone at the metal workshop to see if th
 
 After attaching the components down to the board, I decided to make a quick prototype. I linked the arduino to Processing, which was then connected to VCV Rack 2 using OSC messages. The message sent was simply the strain detected on the load cell. This isn't exactly how it'll work in the end, the load cell will be used to detect which object is on it, and then activate preset values. Although, seeing how much fun Nic had with this, I may also add something like a knob, allowing you to manipulate the sounds!
 
-![Sound changing depending on strain applied]({{ site.baseurl }}/images/journal/year2/design-domain-1/quick-demo.mp4)
+<video width="100%" height="auto" title="Sound changing depending on strain applied" controls>
+    <source src="{{ site.baseurl }}/images/journal/year2/design-domain-1/quick-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 ### Putting it together
 
