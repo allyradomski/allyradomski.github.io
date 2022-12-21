@@ -46,7 +46,7 @@ I need to know which objects are currently 'in-view'. I could use image recognit
 
 I made a small map of the components I felt would be crucial in pursuing this project. Obviously whn developing it, more will arise, but this is a base on what to think on.
 
-![Map of components of projet]({{ site.baseurl }}/images/journal/year2/design-domain-1/components.png)
+![Map of components of project]({{ site.baseurl }}/images/journal/year2/design-domain-1/components.png)
 
 #### Experimenting with OCR
 
@@ -60,9 +60,44 @@ Knowing that there's arduino kits in the studio, I researched and found this [ar
 
 I did a simple test to make sure it was working using Whadda's github page [manual](https://github.com/WhaddaMakers/Electronic-scale-load-cell-sensor) and it was a success, the values changed depending on how much pressure I was applying to the device.
 
-#### 3D Workshop
+#### 3D Workshop - CNC Router
 
-I went to the 3D workshop in the Reid to get some wood laser cut and some metal tubes made.
+I went to the 3D workshop in the Reid to get some wood laser cut.
+
+I used Illustrator to create the design for the scale, simply using two bits of wood, one for the base and one for the top. I also added a pattern to the top to symbolise sound waves. The blue bits were simply for me to test whereabouts the components could fit on the base. I measured the distance between the holes using a photo, not the best way to do it, but I didn't have any proper equipment on hand.
+
+![Using Illustrator to create CNC design]({{ site.baseurl }}/images/journal/year2/design-domain-1/illustrator.png)
+
+![Failed first cut]({{ site.baseurl }}/images/journal/year2/design-domain-1/cut-1.jpg)
+![Both wooden components]({{ site.baseurl }}/images/journal/year2/design-domain-1/cut-2.jpg)
+
+The holes are aligned perfectly!
+
+#### 3D Workshop - Metal Workshop
+
+Whilst those were being made, I asked someone at the metal workshop to see if they could cut me four metal tubes with a length of 24mm, inner diameter of 4mm and outer diameter of 8mm. This is what my screws go through for support.
+
+---
+
+### Quick prototype*ish*
+
+After attaching the components down to the board, I decided to make a quick prototype. I linked the arduino to Processing, which was then connected to VCV Rack 2 using OSC messages. The message sent was simply the strain detected on the load cell. This isn't exactly how it'll work in the end, the load cell will be used to detect which object is on it, and then activate preset values. Although, seeing how much fun Nic had with this, I may also add something like a knob, allowing you to manipulate the sounds!
+
+![Sound changing depending on strain applied]({{ site.baseurl }}/images/journal/year2/design-domain-1/quick-demo.mp4)
+
+### Putting it together
+
+After receiving the tubes from the metal workshop and my ordered screws arriving, I put it together and it all came together how I imagined. The metal tubes support the screws well and different objects can sit happily on top of the scale. The scale also worked when I calibrated it! One small issue is that the wood is the limiting factor, in that apply too much pressue and the wood may snap. Though, that will only happen if mistreated. I might use a different material in Design Domain Part 2.
+
+![All the components together]({{ site.baseurl }}/images/journal/year2/design-domain-1/together.jpg)
+
+---
+
+### Reflection
+
+I am very happy with how Part 1 of Design Domain went. I got two different components made in the Reid workshop using my designs, I dove into Arduino and managed to get it to connect to my load cell and Processing, with help from Cat and online articles, and then put it all together to make a solid prototype. I'm excited to explore this further in Part 2, especially exploring which objects to use and creating sounds for these objects. I feel I used quite a diverse set of skills so far.
+
+
 
 
 
