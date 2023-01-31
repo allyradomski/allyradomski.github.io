@@ -2,8 +2,9 @@
 layout: default
 ---
 
-Projects published here may now be infrequent as currently doing projects at The Glasgow School of Art for [Interaction Design](https://www.gsa.ac.uk/study/undergraduate-degrees/interaction-design/).
-See work [here](https://allyradomski.art/journal/year2/)
+<p>Projects published here may now be infrequent as currently doing projects at The Glasgow School of Art for <a href="https://www.gsa.ac.uk/study/undergraduate-degrees/interaction-design/">Interaction Design</a>.</p>
+
+<p>See work <a href="{{ site.baseurl }}/journal/year2/">here</a>.</p>
 
 {% assign artworkPosts = site.posts | where_exp:"post", "post.categories contains 'artwork'" %}
 {% assign postsByYear = artworkPosts | group_by_exp:"post", "post.date | date: '%Y'" %}
