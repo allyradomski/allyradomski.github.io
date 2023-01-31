@@ -8,6 +8,8 @@ Hi, my name is Ally Radomski and I'm an aspiring new media artist based in the U
 
 My aim is to create encaptivating installations and experiences that explore the boundaries of what art is.
 
+<img src="{{ site.baseurl }}/images/selfie.jpg" alt="Photo of myself" width="50vh" height="24px"/>
+
 <!-- ### Follow me -->
 
 [Instagram](https://www.instagram.com/ally_rad) - [Email](mailto:allyradomski@protonmail.com) - [objkt.com](https://objkt.com/profile/tz1bJwj5KBMc3UFk3ijykA9c1sGDmw4FEy24/activity) - <a rel="me" href="https://genart.social/@ally">Mastodon</a>
