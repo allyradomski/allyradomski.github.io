@@ -405,10 +405,11 @@ figure {
 figcaption {
   text-align: center;
   word-wrap: anywhere;
-  background: $text;
-  color: $background;
+  background: $gray;
+  color: $black;
   margin: 0 5px;
   border-radius: 0px 0px 5px 5px;
+  padding: 2%;
 
 }
 
