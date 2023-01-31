@@ -8,7 +8,7 @@ Hi, my name is Ally Radomski and I'm an aspiring new media artist based in the U
 
 My aim is to create encaptivating installations and experiences that explore the boundaries of what art is.
 
-<img src="{{ site.baseurl }}/selfie.jpg" alt="Photo of myself" width="50vh" height="24px"/>
+<img src="{{ site.baseurl }}/selfie.jpg" alt="Photo of myself" width="50vh" height="auto"/>
 
 <!-- ### Follow me -->
 
