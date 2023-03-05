@@ -6,10 +6,21 @@ layout: default
 
 <p>See work <a href="{{ site.baseurl }}/journal/year2/">here</a>.</p>
 
+{% assign exhibitionPosts = site.posts | where_exp:"post", "post.categories contains 'exhibition'" %}
+
 {% assign artworkPosts = site.posts | where_exp:"post", "post.categories contains 'artwork'" %}
 {% assign postsByYear = artworkPosts | group_by_exp:"post", "post.date | date: '%Y'" %}
 
+
+
 <div class="posts">
+  <p>EXHIBITIONS ↴</p>
+  <ul class="post-list">
+    {% for post in exhibitionPosts.items %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
   {% for year in postsByYear %}
     <p>{{ year.name }} ↴</p>
       <ul class="post-list">
