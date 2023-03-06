@@ -4,7 +4,7 @@ layout: default
 
 <p>Projects published here may now be infrequent as currently doing projects at The Glasgow School of Art for <a href="https://www.gsa.ac.uk/study/undergraduate-degrees/interaction-design/">Interaction Design</a>.</p>
 
-<p>See work <a href="{{ site.baseurl }}/journal/year2/">here</a>.</p>
+<p>↪ <a href="{{ site.baseurl }}/journal/year2/">GSA Projects</a></p>
 
 {% assign exhibitionPosts = site.posts | where_exp:"post", "post.categories contains 'exhibition'" %}
 
@@ -14,21 +14,31 @@ layout: default
 
 
 <div class="posts">
-  <p>EXHIBITIONS ↴</p>
+  <p>EXHIBITIONS ⤵</p>
   <ul class="post-list">
     {% for post in exhibitionPosts %}
-      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      <li>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+         @ {{ post.location }}
+      </li>
+
     {% endfor %}
   </ul>
 
+  <p>ART ⤵</p>
+
+  <ul style="list-style-type: none !important">
   {% for year in postsByYear %}
-    <p>{{ year.name }} ↴</p>
+  <li>
+    <p>{{ year.name }}</p>
       <ul class="post-list">
         {% for post in year.items %}
           <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
+  </li>
   {% endfor %}
+  </ul>
 </div>
 
 <!-- <div class="posts">
