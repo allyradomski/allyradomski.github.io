@@ -43,6 +43,10 @@ All these are quite negative, but I often long for a way to express myself and d
 
 I am my thoughts, so writing could appear throughout showing these thoughts in a rather unclear and abstract way so maybe they could relate to them. Maybe the user could interact with these by looking at them, which could then influence the scene.
 
+<video title="Mockup of my idea" controls>
+  <source src="{{ site.baseurl }}/images/journal/year2/extended-reality/Final.mp4" type="video/mp4">
+</video>
+
 # Research
 
 # Conclusion
