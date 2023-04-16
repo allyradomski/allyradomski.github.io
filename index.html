@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<p>Projects published here may now be infrequent as currently doing projects at The Glasgow School of Art for <a href="https://www.gsa.ac.uk/study/undergraduate-degrees/interaction-design/">Interaction Design</a>.</p>
+<!--<p>Projects published here may now be infrequent as currently doing projects at The Glasgow School of Art for <a href="https://www.gsa.ac.uk/study/undergraduate-degrees/interaction-design/">Interaction Design</a>.</p>-->
 
 <p>↪ <a href="{{ site.baseurl }}/journal/year2/">GSA Projects</a></p>
 
@@ -29,18 +29,31 @@ layout: default
 
   <ul style="list-style-type: none !important">
   {% for year in postsByYear %}
+  <details data-id="{{forloop.index}}">
+  <summary>{{ year.name }}</summary>
   <li>
-    <p>{{ year.name }}</p>
+    
       <ul class="post-list">
         {% for post in year.items %}
           <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
   </li>
+  </details>
   {% endfor %}
   </ul>
 </div>
 
+<script>
+  let elems = document.body.getElementsByTagName("details");
+  for (let i = 0; i < elems.length; i++) {
+    console.log(elems[i]);
+    if (elems[i].getAttribute("data-id") <= 3) {
+      elems[i].open = true;
+      
+    }
+  }
+</script>
 <!-- <div class="posts">
   {% for post in site.posts %}
     {% if post.categories contains "artwork" %}
