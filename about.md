@@ -11,26 +11,6 @@ My aim is to create encaptivating installations and experiences that explore the
 <img src="{{ site.baseurl }}/selfie.jpg" alt="Photo of myself" width="50vh" height="auto"/>
 
 <!-- ### Follow me -->
+[contact@allyradomski.art](mailto:contact@allyradomski.art)
 
-[Instagram](https://www.instagram.com/ally_rad) - [Email](mailto:allyradomski@protonmail.com) - [objkt.com](https://objkt.com/profile/tz1bJwj5KBMc3UFk3ijykA9c1sGDmw4FEy24/activity) - <a rel="me" href="https://genart.social/@ally">Mastodon</a>
-
-
-<!-- 
-### contact me
-
-
-
-### support me
-
-[fx(hash) - tezos 🌍🌱💚](https://www.fxhash.xyz/u/Ally)
-
-[objkt.com - tezos 🌿🌴💚](https://objkt.com/profile/tz1bJwj5KBMc3UFk3ijykA9c1sGDmw4FEy24/activity)
-
-### causes I care about
-
-[Stonewall](https://www.stonewall.org.uk)
-
-[Gendered Intelligence](https://genderedintelligence.co.uk/)
-
-<img src="{{ site.baseurl }}/images/pride.png" alt="LGBTQ+ Pride Flag" width="50vh" height="24px"/>
-<img src="{{ site.baseurl }}/images/trans.png" alt="Transgender Pride Flag" width="50vh" height="24px"/> -->
+[Instagram](https://www.instagram.com/ally_rad) - [objkt.com](https://objkt.com/profile/tz1bJwj5KBMc3UFk3ijykA9c1sGDmw4FEy24/activity) - <a rel="me" href="https://genart.social/@ally">Mastodon</a>
