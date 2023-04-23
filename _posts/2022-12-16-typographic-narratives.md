@@ -4,7 +4,6 @@ title: Typographic Narratives
 categories: year2
 ---
 
----
 
 ### Introduction
 

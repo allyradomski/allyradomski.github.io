@@ -352,7 +352,7 @@ nav {
     border-left: 2px solid $text;
     padding: 0.1em 1em;
     color: $black;
-    font-size: 22px;
+    font-size: 18px/1.4;
     font-style: italic;
   }
 
@@ -652,4 +652,14 @@ details[open] > summary {
   margin-bottom: 0.5rem;
 }
 
+.section-nav {
+  margin: 5px 0;
+  padding: 10px 30px;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  list-style-type: none;
+}
 
+.section-nav ul {
+  list-style-type: none;
+}

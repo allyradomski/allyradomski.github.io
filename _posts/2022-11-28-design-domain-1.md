@@ -4,7 +4,6 @@ title: Design Domain Part 1
 categories: year2
 ---
 
----
 
 ### Introduction
 

@@ -4,7 +4,7 @@ title: Realtime Events
 categories: year2
 ---
 
----
+
 ### Introduction
 
 For this project we are using Unity which is a popular game engine that can also be used for more than just games! It provides a diverse palette to create basically whatever you want. In this project, the task is to create a **dynamic environment** in which the user can interact with it using both **realtime visuals** and **dynamic audio**.
