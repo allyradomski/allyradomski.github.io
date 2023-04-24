@@ -243,3 +243,17 @@ After drawing the textures, I opened them in photoshop and perspective warped it
 ![Textures within the scene]({{ site.baseurl }}/images/journal/year2/extended-reality/progress1.jpg)
 
 I think it's really effective! One improvement could be the lighting, so that it mimics the other lighting in the camera. There is something called lighting estimation that you can do, which I tried to no luck, but I might try explore that later.
+
+## Creating second scene
+
+Next I created the second scene for my poem Ghost. I didn't encounter any issues, it was just a case of creating all the textures on paper and importing them and creating the scene.
+
+### Custom font
+
+I used a site called [Calligraphr](https://www.calligraphr.com/en/) to convert my handwriting into a font. I then imported this font into Unity and used TextMeshPro to place the text around the scene.
+
+### Images
+![Created scene]({{ site.baseurl }}/images/journal/year2/extended-reality/animated.gif)
+
+![APK loaded onto phone]({{ site.baseurl }}/images/journal/year2/extended-reality/secondscene-1.jpg)
+![-]({{ site.baseurl }}/images/journal/year2/extended-reality/secondscene-2.jpg)
