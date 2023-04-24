@@ -222,3 +222,24 @@ I wrote this as I felt whenever I had moments I had been longing for, the time i
 >Spring, I wonder what's next.
 
 I wrote this when being upset about how fast time passes and the feeling of having achieved nothing.
+
+## Creating the first scene
+### The textures
+After playing around with ideas in my head, I felt it would be nice to "extend the paper" with textures that look hand drawn. Best way to do this is to draw them on paper I guessed.
+
+I realized grid paper was the right way for this, as I needed to keep them all the correct size relative to each other when applying them, as differences in pen widths would be confusing.
+
+![Scan of drawings]({{ site.baseurl }}/images/journal/year2/extended-reality/scan1.jpeg)
+
+After drawing the textures, I opened them in photoshop and perspective warped it to make sure that the grid lines were aligned to the x and y axis. I then cropped each one into it's own file and applied the threshold filter to make it pure black and white. When needed, I made the white fully transparent (for the door and window and person).
+
+![Door]({{ site.baseurl }}/images/journal/year2/extended-reality/Door.png)
+![Floor]({{ site.baseurl }}/images/journal/year2/extended-reality/Floor.png)
+![Wall]({{ site.baseurl }}/images/journal/year2/extended-reality/Wall.png)
+![Window]({{ site.baseurl }}/images/journal/year2/extended-reality/Window.png)
+
+### Applying the textures
+
+![Textures within the scene]({{ site.baseurl }}/images/journal/year2/extended-reality/progress1.jpg)
+
+I think it's really effective! One improvement could be the lighting, so that it mimics the other lighting in the camera. There is something called lighting estimation that you can do, which I tried to no luck, but I might try explore that later.

@@ -2,14 +2,14 @@
 layout: journalbar
 ---
 
-
+{% include toc.html html=content class="toc" %}
 
 <article class="post">
 
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
-    {{ content | toc }}
+    {{ content }}
   </div>
 
   <div class="date">
