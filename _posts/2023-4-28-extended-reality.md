@@ -83,6 +83,19 @@ I felt AR would broaden my skillset instead of doing just VR. Mixing real life a
 
 # Development
 
+## Note
+**I wanted to quickly note that this learning journal isn't necessarily the chronological order in which I created the project. When working on this project, I worked on the zine, sounds, art and scene setup in parallel, together.**
+
+## Research
+
+I wanted to extend into the paper of the zine, a more handcrafted approach with a feeling more distant to pure digitalness.
+
+I gathered some games together that show the general feeling I want to achieve. I grew up with LittleBigPlanet which entirely feels like a scene handcrafted throughout. Don't Starve feels like a spooky pop-up book, almost like Haunted House by Jan Pieńkowski, a book I remember admiring the imagery from. The Unfinished Swan using paint to splash and guide the player on a linear story throughout, I distinctly remembering playing it and loving it when it released on PS+ in 2015.
+
+![Games with wanted feeling]({{ site.baseurl }}/images/journal/year2/extended-reality/research1.png)
+
+The other games I found have the same artistic energy I want to give off. They just feel so pure and lots of heart gone into it, which is important to show poems with a lot of my heart in.
+
 ## Setting up Unity project
 
 The first thing I needed to do was set up my project in Unity. I used the URP with AR Foundation and ARCore as a basis for my project. 
@@ -257,3 +270,44 @@ I used a site called [Calligraphr](https://www.calligraphr.com/en/) to convert m
 
 ![APK loaded onto phone]({{ site.baseurl }}/images/journal/year2/extended-reality/secondscene-1.jpg)
 ![-]({{ site.baseurl }}/images/journal/year2/extended-reality/secondscene-2.jpg)
+
+## Creating the third scene
+
+The poem for this page is Repetition, although I'm not fully sure if it counts as a poem. I wanted to show time passing, and the scariness and wackyness of it. I decided to create a clock.
+
+![Clock in action]({{ site.baseurl }}/images/journal/year2/extended-reality/clock.gif)
+
+All the lines are inside the clock, except the last which is below. The 4 lines behind the hands are the 4 seasons. Winter is the jagged one, like my emotions during it. The smooth wavy one is summer, like a calming crashing of the waves, peaceful. Spring is just straight, it's decent! Autumn is the decent into winter.
+
+## Zine progress
+
+![Zine progress]({{ site.baseurl }}/images/journal/year2/extended-reality/zine.png)
+
+A lot of revisits have been made to each aspect so far of the zine. I decided to remove the writing from the Ghost poem scene as it was difficult to read. I am content with keeping it on the page.
+
+### Image markers
+
+The image markers all do have meaning, maybe not to anyone else, but it does to me. The image marker for ghost is the last photo taken with the person it talks about, but you wouldn't know if you don't know. Created in Processing.
+
+The image marker for Blanket of Discomfort is my crying eye. I tend to take a photo occasionally when crying thinking it could come in handy for a project, so there that is. It was created in Processing too.
+
+The marker for Repetiton may be rather morbid, I told Processing to place 7677 circles, the total number of days since my birth when creating it. Though again you wouldn't know that, but yeah. 21 squares too.
+
+The markers for Full Emptiness are apart of the page background, thought it'd be fitting for the name. Empty markers! The emptiness gets filled!
+
+## Fourth scene!
+
+![Two sub scenes]({{ site.baseurl }}/images/journal/year2/extended-reality/fourthscene.png)
+
+### Floor boards
+
+I am very proud of the seamless floor boards. I drew 16 rectangles and put them together in pairs. I then put them in a square and cut edges off at random and placed them at the opposite side to make it tile.
+
+## Texture work
+
+Lots of textures been made shown below, not all might be used.
+![Finder window of all drawn and edited textures]({{ site.baseurl }}/images/journal/year2/extended-reality/texturefinder.png)
+
+### Animated textures
+
+A question might be asked that why some textures are animated and some aren't. The general gist is that animated textures should draw your attention to them. But it could also be that I just wanted to animate them because I wanted to.
