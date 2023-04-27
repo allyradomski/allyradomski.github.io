@@ -311,3 +311,76 @@ Lots of textures been made shown below, not all might be used.
 ### Animated textures
 
 A question might be asked that why some textures are animated and some aren't. The general gist is that animated textures should draw your attention to them. But it could also be that I just wanted to animate them because I wanted to.
+
+## Revisiting the first scene
+
+I am not happy with this scene now, as compared to the other two, it's not up to standard. It's difficult to see the scene from the top down, so I have made the decision to rotate it. Here is an quick image of me changing it.
+
+![Rotating it]({{ site.baseurl }}/images/journal/year2/extended-reality/revisit.png)
+
+I am not happy, this will not do. my eye in the image marker should play a part. Maybe this dungeon can be inside my pupil. 
+
+### Creating a depth mask from an image
+I posterized my eye and selected my pupil and auto traced it to svg. Using Fusion 360 I created a 3d object mask to apply my depth mask to.
+
+![Illustrator]({{ site.baseurl }}/images/journal/year2/extended-reality/eye1.png)
+![Fusion 360]({{ site.baseurl }}/images/journal/year2/extended-reality/eye2.png)
+![Unity]({{ site.baseurl }}/images/journal/year2/extended-reality/eye3.png)
+
+![In the eye]({{ site.baseurl }}/images/journal/year2/extended-reality/poem1revisit.jpg)
+
+I'm much happier already with this. I've debated whether to invert the colours on the unity scene here. I'll have a further think.
+
+## Thoughts for the final two pages
+
+The one poem I haven't represented yet is Insatiable bliss, and I'm wondering whether to either have this on a two page spread, or on 1 page with another poem at the end. 
+
+I'm against a 6th poem as I haven't really got anything else finished for it and I don't want to pressure myself into making a poem.
+
+Another idea is to not have a poem on the last page, instead having a trigger that does something differently. Perhaps one that plays sounds, maybe sounds that make me feel safe like rain on a tent, or the songs of local birds at home.
+
+### Creative block
+
+I'm struggling to find anyway to find a way to visualize Insatiable Bliss. It's more a feeling. I suppose sound could try evoke this feeling.
+
+After speaking fellow students about my final poem, Kieron said maybe could do colours getting sucked away into a whirlpool type thing. And I really liked that idea.
+
+## Final page
+
+I drew a heart and did the same process as before and imported it into Unity.
+
+![Mask heart]({{ site.baseurl }}/images/journal/year2/extended-reality/heart.png)
+
+### Twirls
+
+I experimented in Photoshop with the twirl filter. This is how I'm going to make my whirl pool.
+
+![Pre-twirl]({{ site.baseurl }}/images/journal/year2/extended-reality/twirl.png)
+![Post-twirl]({{ site.baseurl }}/images/journal/year2/extended-reality/twirl2.png)
+
+I'll draw the "star" on paper, import it, twirl it, and then add falling colours in Processing.
+
+![Drawn star on paper and scanned in]({{ site.baseurl }}/images/journal/year2/extended-reality/twirl3.png)
+![Applied threshold effect and removed background, then twirled]({{ site.baseurl }}/images/journal/year2/extended-reality/twirl4.png)
+
+![Effect working]({{ site.baseurl }}/images/journal/year2/extended-reality/twirl.gif)
+
+---
+
+# Conclusion
+
+<div style="padding:45% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/821746331?h=00c46a06db&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+![Front Cover]({{ site.baseurl }}/images/journal/year2/extended-reality/Pages/Front Cover.png)
+![Page 1]({{ site.baseurl }}/images/journal/year2/extended-reality/Pages/Page 1.png)
+![Page 2]({{ site.baseurl }}/images/journal/year2/extended-reality/Pages/Page 2.png)
+![Page 3]({{ site.baseurl }}/images/journal/year2/extended-reality/Pages/Page 3.png)
+
+![Page 4]({{ site.baseurl }}/images/journal/year2/extended-reality/Pages/Page 4.png)
+![Page 5]({{ site.baseurl }}/images/journal/year2/extended-reality/Pages/Page 5.png)
+![Page 6]({{ site.baseurl }}/images/journal/year2/extended-reality/Pages/Page 6.png)
+![Back Cover]({{ site.baseurl }}/images/journal/year2/extended-reality/Pages/Back Cover.png)
+
+Download - [AR Zine APK](https://drive.google.com/file/d/1H6WKzz0ZxLyDsyS67lO50nwZkYrRgcvT/view?usp=share_link)
+
+I'm very happy with the outcome of this project. I felt I challenged myself to do something very different and artistic, and my main goal of expressing myself more was successful.
