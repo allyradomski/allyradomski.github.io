@@ -22,6 +22,6 @@ Photos taken by [Alicia Bickerstaff](https://aliciabickerstaff.myportfolio.com/w
 
 ### Works
 
-<iframe src="https://www.youtube-nocookie.com/embed/5Ryn53xIvvw?vq=hd1080&loop=1&modestbranding=1&rel=0&iv_load_policy=3&color=white&disablekb=1&playlist=5Ryn53xIvvw" width="100%" height="100%" title="To Make Things Perfectly Queer @ Vic Café & Bar" frameborder="0" style="aspect-ratio: 16 / 9" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5Ryn53xIvvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ![Artworks on wall]({{ site.baseurl }}/images/installation/posts/queersoc/wall.jpg)
