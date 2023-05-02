@@ -39,4 +39,45 @@ Though I can think of some problems for exhibiting:
 * Space, Years 1, 2 and 3 will be occupying the space (Barnes' Garage). Anything requiring space like projection mapping may be difficult. I do not have much idea of anything Years 1 & 3 are doing. 
   * Difficult to exactly know as such a short time to complete this.
 
-Extended Reality I feel is my best project yet in terms of personal worth. I'm not sure if it plays a part that it's fresh in my mind, but I feel it could be interesting to have my zine on a table with a tablet and ambient sounds around. Maybe a monitor with visuals. For visuals I may need a BrightSign from Media Studio. A monitor that plays from USB would also do. 
+Exploring these points in my mind, I decided to do Extended Reality. I'm not sure if it plays a part that it's fresh in my mind, but I feel it could be interesting to have my zine on a table with a tablet and ambient sounds around. Maybe a monitor with visuals. For visuals I may need a BrightSign from Media Studio. A monitor that plays from USB would also do. 
+
+## Exploration Conclusion
+
+Given we only have 3 days to do this, I decided to go with the AR zine as it stands alone with just the tablet. It is also my proudest work of the year and I feel comfortable exhibiting it. I'm going to have a plynth with the zine and the tablet, and maybe explore audio if there's enough time.
+
+# Setup
+
+## Scouting the spot
+
+For AR I knew I wanted a manoeuvrable spot for people to move the tablet around on the zine, so I chose a spot on the inside of the room. I also wanted a bright spot for the AR to work effectively, so I made sure the spot was in good sight of the sunlight through the window.
+
+## Top of plynth
+
+The plynth I selected from the studio had 4 holes in the top for cables. I'm not using any cables, and it kind of ruins it. After pondering ideas like paper, or cutting and painting a wood panel, the ikea tables in the storage cupboard caught my eye. 
+
+The top of the table looked perfect. It fitted well with the plynth with a bit of overhang and the legs simply came off.
+
+## Patching up the dirt on the plynth
+
+I used white paint to paint over the dirt on the plynth to try make it consistent white. This was with help from my peers who also needed to paint their walls for their pieces.
+
+## Attaching the top
+
+This was difficult to align in the center, and took a few attempts, but I am happy.
+
+## Cover for the top
+
+I brought down my zine to get a feel for what it would be like on the plynth. I didn't quite realise how off white the top actually was. I knew I couldn't just put it on top without anything else and I didn't really want to as that's boring. 
+
+I thought it'd be nice to use the grid paper I used to draw the textures for the Unity scene within the zine. I also found strips printed on acryillic from when I was messing around with scanimation. 
+
+All of these are black and white and I thought I'd try see what it looks like on top and it looks perfect. Honestly surprised how quickly it is coming along.
+
+![Selecting plynth to use]({{ site.baseurl }}/images/journal/year2/open-share/step1.jpg)
+![Top of white table fixed]({{ site.baseurl }}/images/journal/year2/open-share/step2.jpg)
+![Attaching paper used to make textures]({{ site.baseurl }}/images/journal/year2/open-share/step3.jpg)
+
+# Conclusion
+
+![Photo of display]({{ site.baseurl }}/images/journal/year2/open-share/exhibition1.jpg)
+![Using the tablet]({{ site.baseurl }}/images/journal/year2/open-share/exhibition2.jpg)

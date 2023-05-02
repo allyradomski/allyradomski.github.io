@@ -384,3 +384,9 @@ I'll draw the "star" on paper, import it, twirl it, and then add falling colours
 Download - [AR Zine APK](https://drive.google.com/file/d/1H6WKzz0ZxLyDsyS67lO50nwZkYrRgcvT/view?usp=share_link)
 
 I'm very happy with the outcome of this project. I felt I challenged myself to do something very different and artistic, and my main goal of expressing myself more was successful.
+
+## Exhibiting the zine
+
+For open share I decided to work further on this and prepare it for exhibition.
+
+[Open Share journal]({{ site.baseurl }}/year2/openshare)
