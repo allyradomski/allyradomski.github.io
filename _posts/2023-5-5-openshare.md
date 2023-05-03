@@ -79,5 +79,15 @@ All of these are black and white and I thought I'd try see what it looks like on
 
 # Conclusion
 
+## Information card for the exhibition
+
+I need to write an information card which will be displayed on the plynth. I have been trying to figure out words for a while, trying not to make it sound pretentious or too personal, as I want people to take their own things away from it.
+
+>Inside is a collection of poems written as an outlet for my emotions. It explores themes of uncertainty, confusion, loneliness, and hopelessness. The poems can be experienced using the tablet: allowing further expression of the poems through hand-drawn visuals curated into digital scenes. 
+>
+>I hope that others will be able to find their own personal meaning in this zine, even though it is written from my own perspectives and emotions. 
+
+## Images
+
 ![Photo of display]({{ site.baseurl }}/images/journal/year2/open-share/exhibition1.jpg)
 ![Using the tablet]({{ site.baseurl }}/images/journal/year2/open-share/exhibition2.jpg)
