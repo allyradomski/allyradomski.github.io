@@ -2,6 +2,7 @@
 layout: journalpost
 title: Typographic Narratives
 categories: year2
+assetdir: /assets/posts/2022-12-16-typographic-narratives
 ---
 
 
@@ -21,13 +22,13 @@ I used Geomerative in Processing to create a few different outputs. It took a wh
 
 Initially I chose the word "FUCKKKK" because it was one of the first that popped into my head. I felt I could somehow represent this exclamation of fustration or anger with Processing by making it morph and stretch and repeat in a weird glitchy seeming manner.
 
-![Drooping effect with threshold filter]({{ site.baseurl }}/images/journal/year2/typographic-narratives/white-processing.png)
+![Drooping effect with threshold filter]({{ page.assetdir }}/white-processing.png)
 
-![Frame of monochromatic version of effect]({{ site.baseurl }}/images/journal/year2/typographic-narratives/grey-processing.png)
+![Frame of monochromatic version of effect]({{ page.assetdir }}/grey-processing.png)
 
 I changed it to "FUUUCK" as that's how you'd say it if extending it. Below is an experiment with it being red.
 
-![Red version of final effect]({{ site.baseurl }}/images/journal/year2/typographic-narratives/red-processing.png)
+![Red version of final effect]({{ page.assetdir }}/red-processing.png)
 
 Below is the final animated version.
 
@@ -63,12 +64,12 @@ I wanted to further explore After Effects, especially expressions further. I had
 
 5. Finally, I used the corner-pin effect to put it on an empty billboard I found online, and then added a glow so that it adds to the effect, espeically with it being in the night. 
 
-![1]({{ site.baseurl }}/images/journal/year2/typographic-narratives/step-1.png)
-![2]({{ site.baseurl }}/images/journal/year2/typographic-narratives/step-2.png)
-![3]({{ site.baseurl }}/images/journal/year2/typographic-narratives/step-3.png)
+![1]({{ page.assetdir }}/step-1.png)
+![2]({{ page.assetdir }}/step-2.png)
+![3]({{ page.assetdir }}/step-3.png)
 
-![4]({{ site.baseurl }}/images/journal/year2/typographic-narratives/step-4.png)
-![5]({{ site.baseurl }}/images/journal/year2/typographic-narratives/step-5.png)
+![4]({{ page.assetdir }}/step-4.png)
+![5]({{ page.assetdir }}/step-5.png)
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/780338136?h=8aa6ef8add&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
@@ -87,7 +88,7 @@ The text keeps the same relative size in your eyes, so it feels it is keeping th
 Here is a little bonus project :)
 
 <video width="100%" height="auto" title="Mario 64 shifting portait" controls>
-    <source src="{{ site.baseurl }}/images/journal/year2/typographic-narratives/mario.mp4" type="video/mp4">
+    <source src="{{ page.assetdir }}/mario.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 

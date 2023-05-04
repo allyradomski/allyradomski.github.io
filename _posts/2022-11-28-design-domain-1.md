@@ -2,6 +2,7 @@
 layout: journalpost
 title: Design Domain Part 1
 categories: year2
+assetdir: /assets/posts/2022-11-28-design-domain-1
 ---
 
 
@@ -25,7 +26,7 @@ I do like the idea of giving sound to silent objects depending on the properties
 
 Giving a sound to something that doesn’t have sound is subjective. Not everyone is going to agree on what it would sound like if it made a sound.. but often people do feel the same way about it. I remember watching Tom Scott’s [video](https://youtu.be/1TDIAObsqcs) on the Bouba/kiki effect, in which people are given two shapes and two names, and they match the name to the shape. 
 
-![Kiki? Bouba?]({{ site.baseurl }}/images/journal/year2/design-domain-1/kiki-bouba.svg)
+![Kiki? Bouba?]({{ page.assetdir }}/kiki-bouba.svg)
 
 Most people gave the left spikey shape the name Kiki, even across the world in different cultures. This is a similar idea of what I want to do, giving sound to a static silent shape. I want the sounds to be relatable.
 
@@ -45,13 +46,13 @@ I need to know which objects are currently 'in-view'. I could use image recognit
 
 I made a small map of the components I felt would be crucial in pursuing this project. Obviously whn developing it, more will arise, but this is a base on what to think on.
 
-![Map of components of project]({{ site.baseurl }}/images/journal/year2/design-domain-1/components.png)
+![Map of components of project]({{ page.assetdir }}/components.png)
 
 #### Experimenting with OCR
 
 I wanted to see how viable reading text through the camera in real-time would be. For this, I used Processing and a library called Tess4J, which is based on Tesseract. There was a lot of fiddling and learning how to use something called Maven, but I made it work in the end. The text detection worked.. sometimes.. it wasn’t reliable! Maybe I needed to do better post-processing on the image before reading it, or maybe it’s just made for reading uniform documents. I just knew this wouldn’t be suitable.
 
-![Screenshot of experiment with Tess4J]({{ site.baseurl }}/images/journal/year2/design-domain-1/ocr.png)
+![Screenshot of experiment with Tess4J]({{ page.assetdir }}/ocr.png)
 
 #### Arduino weighing scale
 
@@ -65,10 +66,10 @@ I went to the 3D workshop in the Reid to get some wood laser cut.
 
 I used Illustrator to create the design for the scale, simply using two bits of wood, one for the base and one for the top. I also added a pattern to the top to symbolise sound waves. The blue bits were simply for me to test whereabouts the components could fit on the base. I measured the distance between the holes using a photo, not the best way to do it, but I didn't have any proper equipment on hand.
 
-![Using Illustrator to create CNC design]({{ site.baseurl }}/images/journal/year2/design-domain-1/illustrator.png)
+![Using Illustrator to create CNC design]({{ page.assetdir }}/illustrator.png)
 
-![Failed first cut]({{ site.baseurl }}/images/journal/year2/design-domain-1/cut-1.jpg)
-![Both wooden components]({{ site.baseurl }}/images/journal/year2/design-domain-1/cut-2.jpg)
+![Failed first cut]({{ page.assetdir }}/cut-1.jpg)
+![Both wooden components]({{ page.assetdir }}/cut-2.jpg)
 
 The holes are aligned perfectly!
 
@@ -83,7 +84,7 @@ Whilst those were being made, I asked someone at the metal workshop to see if th
 After attaching the components down to the board, I decided to make a quick prototype. I linked the arduino to Processing, which was then connected to VCV Rack 2 using OSC messages. The message sent was simply the strain detected on the load cell. This isn't exactly how it'll work in the end, the load cell will be used to detect which object is on it, and then activate preset values. Although, seeing how much fun Nic had with this, I may also add something like a knob, allowing you to manipulate the sounds!
 
 <video width="100%" height="auto" title="Sound changing depending on strain applied" controls>
-    <source src="{{ site.baseurl }}/images/journal/year2/design-domain-1/quick-demo.mp4" type="video/mp4">
+    <source src="{{ page.assetdir }}/quick-demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
@@ -91,7 +92,7 @@ After attaching the components down to the board, I decided to make a quick prot
 
 After receiving the tubes from the metal workshop and my ordered screws arriving, I put it together and it all came together how I imagined. The metal tubes support the screws well and different objects can sit happily on top of the scale. The scale also worked when I calibrated it! One small issue is that the wood is the limiting factor, in that apply too much pressue and the wood may snap. Though, that will only happen if mistreated. I might use a different material in Design Domain Part 2.
 
-![All the components together]({{ site.baseurl }}/images/journal/year2/design-domain-1/together.jpg)
+![All the components together]({{ page.assetdir }}/together.jpg)
 
 ---
 

@@ -2,7 +2,7 @@
 layout: journalpost
 title: Extended Reality (XR)
 categories: year2
-toc: true
+assetdir: /assets/posts/2023-4-28-extended-reality
 ---
 
 
@@ -39,14 +39,14 @@ I had a thought it'd be interesting to mix a virtual reality with our physical r
 
 My thought is to be able to view part of the reality we live in within VR. My idea is to put the VR headset on, but a camera will stream feed into Unity so that you can see the world in the headset, but then to augment that further.
 
-![Sketch of my idea showing connectivity between headset and camera]({{ site.baseurl }}/images/journal/year2/extended-reality/drawing-1.jpeg)
+![Sketch of my idea showing connectivity between headset and camera]({{ page.assetdir }}/drawing-1.jpeg)
 
 I am my thoughts, so writing could appear throughout showing these thoughts in a rather unclear and abstract way so maybe they could relate to them. Maybe the user could interact with these by looking at them, which could then influence the scene.
 
 Here's a little mockup of my idea. Only problem with this concept is the requirement of an external camera.
 
 <video title="Mockup of my idea" controls>
-  <source src="{{ site.baseurl }}/images/journal/year2/extended-reality/Final.mp4" type="video/mp4">
+  <source src="{{ page.assetdir }}/Final.mp4" type="video/mp4">
 </video>
 
 ## Idea 2 - Exploring liminal spaces in someway
@@ -65,9 +65,9 @@ Thinking back on dreams I've had do remind me of liminal spaces. A space between
 
 Having talked to my friend about making zines, it made me realize that I could make my own zine and use AR to bring it to life.
 
-![Creating a hole]({{ site.baseurl }}/images/journal/year2/extended-reality/ideaar-1.jpg)
-![Adding textures]({{ site.baseurl }}/images/journal/year2/extended-reality/ideaar-2.jpg)
-![Transition to URP]({{ site.baseurl }}/images/journal/year2/extended-reality/ideaar-3.jpg)
+![Creating a hole]({{ page.assetdir }}/ideaar-1.jpg)
+![Adding textures]({{ page.assetdir }}/ideaar-2.jpg)
+![Transition to URP]({{ page.assetdir }}/ideaar-3.jpg)
 
 ## Idea 4 - Portals
 
@@ -75,7 +75,7 @@ In the tutorial I discussed ideas with Neil and ultimately I decided on doing AR
 
 By watching a [tutorial on stencil buffers](https://www.youtube.com/watch?v=EzM8LGzMjmc) and using depth masks, I managed to create a semi working portal effect.
 
-![Portal prototype in Unity]({{ site.baseurl }}/images/journal/year2/extended-reality/portal.mp4)
+![Portal prototype in Unity]({{ page.assetdir }}/portal.mp4)
 
 ## Exploration Conclusion
 
@@ -92,7 +92,7 @@ I wanted to extend into the paper of the zine, a more handcrafted approach with 
 
 I gathered some games together that show the general feeling I want to achieve. I grew up with LittleBigPlanet which entirely feels like a scene handcrafted throughout. Don't Starve feels like a spooky pop-up book, almost like Haunted House by Jan Pieńkowski, a book I remember admiring the imagery from. The Unfinished Swan using paint to splash and guide the player on a linear story throughout, I distinctly remembering playing it and loving it when it released on PS+ in 2015.
 
-![Games with wanted feeling]({{ site.baseurl }}/images/journal/year2/extended-reality/research1.png)
+![Games with wanted feeling]({{ page.assetdir }}/research1.png)
 
 The other games I found have the same artistic energy I want to give off. They just feel so pure and lots of heart gone into it, which is important to show poems with a lot of my heart in.
 
@@ -112,7 +112,7 @@ I used an application called [ARMaker](https://shawnlehner.github.io/ARMaker/) t
 
 I then used illustrator to put 6 markers on an A3 size image document, ignoring the front cover and back cover.
 
-![Quick mock zine]({{ site.baseurl }}/images/journal/year2/extended-reality/mockzine.png)
+![Quick mock zine]({{ page.assetdir }}/mockzine.png)
 
 ## The Poems
 
@@ -242,18 +242,18 @@ After playing around with ideas in my head, I felt it would be nice to "extend t
 
 I realized grid paper was the right way for this, as I needed to keep them all the correct size relative to each other when applying them, as differences in pen widths would be confusing.
 
-![Scan of drawings]({{ site.baseurl }}/images/journal/year2/extended-reality/scan1.jpeg)
+![Scan of drawings]({{ page.assetdir }}/scan1.jpeg)
 
 After drawing the textures, I opened them in photoshop and perspective warped it to make sure that the grid lines were aligned to the x and y axis. I then cropped each one into it's own file and applied the threshold filter to make it pure black and white. When needed, I made the white fully transparent (for the door and window and person).
 
-![Door]({{ site.baseurl }}/images/journal/year2/extended-reality/Door.png)
-![Floor]({{ site.baseurl }}/images/journal/year2/extended-reality/Floor.png)
-![Wall]({{ site.baseurl }}/images/journal/year2/extended-reality/Wall.png)
-![Window]({{ site.baseurl }}/images/journal/year2/extended-reality/Window.png)
+![Door]({{ page.assetdir }}/Door.png)
+![Floor]({{ page.assetdir }}/Floor.png)
+![Wall]({{ page.assetdir }}/Wall.png)
+![Window]({{ page.assetdir }}/Window.png)
 
 ### Applying the textures
 
-![Textures within the scene]({{ site.baseurl }}/images/journal/year2/extended-reality/progress1.jpg)
+![Textures within the scene]({{ page.assetdir }}/progress1.jpg)
 
 I think it's really effective! One improvement could be the lighting, so that it mimics the other lighting in the camera. There is something called lighting estimation that you can do, which I tried to no luck, but I might try explore that later.
 
@@ -266,22 +266,22 @@ Next I created the second scene for my poem Ghost. I didn't encounter any issues
 I used a site called [Calligraphr](https://www.calligraphr.com/en/) to convert my handwriting into a font. I then imported this font into Unity and used TextMeshPro to place the text around the scene.
 
 ### Images
-![Created scene]({{ site.baseurl }}/images/journal/year2/extended-reality/animated.gif)
+![Created scene]({{ page.assetdir }}/animated.gif)
 
-![APK loaded onto phone]({{ site.baseurl }}/images/journal/year2/extended-reality/secondscene-1.jpg)
-![-]({{ site.baseurl }}/images/journal/year2/extended-reality/secondscene-2.jpg)
+![APK loaded onto phone]({{ page.assetdir }}/secondscene-1.jpg)
+![-]({{ page.assetdir }}/secondscene-2.jpg)
 
 ## Creating the third scene
 
 The poem for this page is Repetition, although I'm not fully sure if it counts as a poem. I wanted to show time passing, and the scariness and wackyness of it. I decided to create a clock.
 
-![Clock in action]({{ site.baseurl }}/images/journal/year2/extended-reality/clock.gif)
+![Clock in action]({{ page.assetdir }}/clock.gif)
 
 All the lines are inside the clock, except the last which is below. The 4 lines behind the hands are the 4 seasons. Winter is the jagged one, like my emotions during it. The smooth wavy one is summer, like a calming crashing of the waves, peaceful. Spring is just straight, it's decent! Autumn is the decent into winter.
 
 ## Zine progress
 
-![Zine progress]({{ site.baseurl }}/images/journal/year2/extended-reality/zine.png)
+![Zine progress]({{ page.assetdir }}/zine.png)
 
 A lot of revisits have been made to each aspect so far of the zine. I decided to remove the writing from the Ghost poem scene as it was difficult to read. I am content with keeping it on the page.
 
@@ -297,7 +297,7 @@ The markers for Full Emptiness are apart of the page background, thought it'd be
 
 ## Fourth scene!
 
-![Two sub scenes]({{ site.baseurl }}/images/journal/year2/extended-reality/fourthscene.png)
+![Two sub scenes]({{ page.assetdir }}/fourthscene.png)
 
 ### Floor boards
 
@@ -306,7 +306,7 @@ I am very proud of the seamless floor boards. I drew 16 rectangles and put them 
 ## Texture work
 
 Lots of textures been made shown below, not all might be used.
-![Finder window of all drawn and edited textures]({{ site.baseurl }}/images/journal/year2/extended-reality/texturefinder.png)
+![Finder window of all drawn and edited textures]({{ page.assetdir }}/texturefinder.png)
 
 ### Animated textures
 
@@ -316,18 +316,18 @@ A question might be asked that why some textures are animated and some aren't. T
 
 I am not happy with this scene now, as compared to the other two, it's not up to standard. It's difficult to see the scene from the top down, so I have made the decision to rotate it. Here is an quick image of me changing it.
 
-![Rotating it]({{ site.baseurl }}/images/journal/year2/extended-reality/revisit.png)
+![Rotating it]({{ page.assetdir }}/revisit.png)
 
 I am not happy, this will not do. my eye in the image marker should play a part. Maybe this dungeon can be inside my pupil. 
 
 ### Creating a depth mask from an image
 I posterized my eye and selected my pupil and auto traced it to svg. Using Fusion 360 I created a 3d object mask to apply my depth mask to.
 
-![Illustrator]({{ site.baseurl }}/images/journal/year2/extended-reality/eye1.png)
-![Fusion 360]({{ site.baseurl }}/images/journal/year2/extended-reality/eye2.png)
-![Unity]({{ site.baseurl }}/images/journal/year2/extended-reality/eye3.png)
+![Illustrator]({{ page.assetdir }}/eye1.png)
+![Fusion 360]({{ page.assetdir }}/eye2.png)
+![Unity]({{ page.assetdir }}/eye3.png)
 
-![In the eye]({{ site.baseurl }}/images/journal/year2/extended-reality/poem1revisit.jpg)
+![In the eye]({{ page.assetdir }}/poem1revisit.jpg)
 
 I'm much happier already with this. I've debated whether to invert the colours on the unity scene here. I'll have a further think.
 
@@ -349,21 +349,21 @@ After speaking fellow students about my final poem, Kieron said maybe could do c
 
 I drew a heart and did the same process as before and imported it into Unity.
 
-![Mask heart]({{ site.baseurl }}/images/journal/year2/extended-reality/heart.png)
+![Mask heart]({{ page.assetdir }}/heart.png)
 
 ### Twirls
 
 I experimented in Photoshop with the twirl filter. This is how I'm going to make my whirl pool.
 
-![Pre-twirl]({{ site.baseurl }}/images/journal/year2/extended-reality/twirl.png)
-![Post-twirl]({{ site.baseurl }}/images/journal/year2/extended-reality/twirl2.png)
+![Pre-twirl]({{ page.assetdir }}/twirl.png)
+![Post-twirl]({{ page.assetdir }}/twirl2.png)
 
 I'll draw the "star" on paper, import it, twirl it, and then add falling colours in Processing.
 
-![Drawn star on paper and scanned in]({{ site.baseurl }}/images/journal/year2/extended-reality/twirl3.png)
-![Applied threshold effect and removed background, then twirled]({{ site.baseurl }}/images/journal/year2/extended-reality/twirl4.png)
+![Drawn star on paper and scanned in]({{ page.assetdir }}/twirl3.png)
+![Applied threshold effect and removed background, then twirled]({{ page.assetdir }}/twirl4.png)
 
-![Effect working]({{ site.baseurl }}/images/journal/year2/extended-reality/twirl.gif)
+![Effect working]({{ page.assetdir }}/twirl.gif)
 
 ---
 
@@ -371,15 +371,15 @@ I'll draw the "star" on paper, import it, twirl it, and then add falling colours
 
 <div style="padding:45% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/821746331?h=00c46a06db&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-![Front Cover]({{ site.baseurl }}/images/journal/year2/extended-reality/Pages/Front Cover.png)
-![Page 1]({{ site.baseurl }}/images/journal/year2/extended-reality/Pages/Page 1.png)
-![Page 2]({{ site.baseurl }}/images/journal/year2/extended-reality/Pages/Page 2.png)
-![Page 3]({{ site.baseurl }}/images/journal/year2/extended-reality/Pages/Page 3.png)
+![Front Cover]({{ page.assetdir }}/Pages/Front Cover.png)
+![Page 1]({{ page.assetdir }}/Pages/Page 1.png)
+![Page 2]({{ page.assetdir }}/Pages/Page 2.png)
+![Page 3]({{ page.assetdir }}/Pages/Page 3.png)
 
-![Page 4]({{ site.baseurl }}/images/journal/year2/extended-reality/Pages/Page 4.png)
-![Page 5]({{ site.baseurl }}/images/journal/year2/extended-reality/Pages/Page 5.png)
-![Page 6]({{ site.baseurl }}/images/journal/year2/extended-reality/Pages/Page 6.png)
-![Back Cover]({{ site.baseurl }}/images/journal/year2/extended-reality/Pages/Back Cover.png)
+![Page 4]({{ page.assetdir }}/Pages/Page 4.png)
+![Page 5]({{ page.assetdir }}/Pages/Page 5.png)
+![Page 6]({{ page.assetdir }}/Pages/Page 6.png)
+![Back Cover]({{ page.assetdir }}/Pages/Back Cover.png)
 
 Download - [AR Zine APK](https://drive.google.com/file/d/1H6WKzz0ZxLyDsyS67lO50nwZkYrRgcvT/view?usp=share_link)
 

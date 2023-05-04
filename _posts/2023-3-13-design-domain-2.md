@@ -2,6 +2,7 @@
 layout: journalpost
 title: Design Domain Part 2
 categories: year2
+assetdir: /assets/posts/2023-3-13-design-domain-2
 ---
 
 
@@ -18,7 +19,7 @@ Designing and creating the housing was the first thing I felt I needed to do in 
 
 I used Fusion 360 to put together a design for the housing, and then experimenting with animating inside Fusion 360. I liked the idea of making a little construction animation and thought it'd be a nice new skill to try learn. Although the animation is quite janky.
 
-![Janky animation of design in Fusion 360]({{ site.baseurl }}/images/journal/year2/design-domain-2/anim.mp4)
+![Janky animation of design in Fusion 360]({{ page.assetdir }}/anim.mp4)
 
 ### Laser cut file
 
@@ -28,9 +29,9 @@ I decided to use [Boxes.py](https://www.festi.info/boxes.py/) to create the hous
 * Green = deep engrave
 * Red = light engrave
 
-![Laser cut file 1]({{ site.baseurl }}/images/journal/year2/design-domain-2/case6mmlaserply-1.png)
+![Laser cut file 1]({{ page.assetdir }}/case6mmlaserply-1.png)
 
-![Laser cut file 2]({{ site.baseurl }}/images/journal/year2/design-domain-2/case6mmlaserply-2.png)
+![Laser cut file 2]({{ page.assetdir }}/case6mmlaserply-2.png)
 
 * Box sides w/ patterns
 * Plate connecting to box inside w/ two holes for screws
@@ -51,9 +52,9 @@ I sent the laser cut files to the 3D Making workshop to have the wood cut which 
 
 But overall I was happy with the result, and seeing it come together into an actual 3D housing, from idea to reality, did excite me.
 
-![Glueing the box together]({{ site.baseurl }}/images/journal/year2/design-domain-2/gluing.jpg)
+![Glueing the box together]({{ page.assetdir }}/gluing.jpg)
 
-![Constructed box]({{ site.baseurl }}/images/journal/year2/design-domain-2/constructed.jpg)
+![Constructed box]({{ page.assetdir }}/constructed.jpg)
 
 ### Finalising the housing
 
@@ -61,7 +62,7 @@ I had numerous ideas of how to decorate the housing, to make it less "lasercutty
 
 I ended up spray painting the housing black, I found the spray paint in the IxD studio's lockers, which are available to all. I used masking tape to mask off the components I installed inside. It would have been more sensible to paint it before-hand, but I didn't, and the masking tape was effective.
 
-![Spray painting the box]({{ site.baseurl }}/images/journal/year2/design-domain-2/spray-painting.jpg)
+![Spray painting the box]({{ page.assetdir }}/spray-painting.jpg)
 
 ## Selecting the objects
 I struggled with time on this project, so I used the objects I had lying around. 
@@ -78,11 +79,11 @@ These are quite a unique selection of objects.
 ### Arduino
 Using [example code from Whadda](https://github.com/WhaddaMakers/Electronic-scale-load-cell-sensor) I used an arduino to read the values from the scale load sensor. The arduino code printed the result to the serial port, which could then be read by Processing, the software I used to control everything. 
 
-![Code for the Arduino]({{ site.baseurl }}/images/journal/year2/design-domain-2/arduino-code.png)
+![Code for the Arduino]({{ page.assetdir }}/arduino-code.png)
 
 ### Processing
 
-![Code for Processing]({{ site.baseurl }}/images/journal/year2/design-domain-2/processing.png)
+![Code for Processing]({{ page.assetdir }}/processing.png)
 
 ---
 
@@ -90,7 +91,7 @@ Using [example code from Whadda](https://github.com/WhaddaMakers/Electronic-scal
 
 The finished display was displayed on a shelf in the studio, with two speakers for the sound. I also spray painted wood with golden speckles for the backing of the housing. I felt this was very effective. The objects could be switched out and different sounds would be played which represented how I saw these objects and what I felt they would sound like and the emotions they'd radiate.
 
-![Display of project]({{ site.baseurl }}/images/journal/year2/design-domain-2/display.jpg)
+![Display of project]({{ page.assetdir }}/display.jpg)
 
 
 

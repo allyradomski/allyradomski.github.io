@@ -2,6 +2,7 @@
 layout: journalpost
 title: Data Visualisation
 categories: year2
+assetdir: /assets/posts/2022-11-4-data-visualisation
 ---
 
 
@@ -36,47 +37,47 @@ To start with, I copied the table from Celestrak [here](https://celestrak.org/NO
 
 After learning this, I then got the direct CSV file from [here](https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=csv) from Celestrak. I used the video above and numerous sites such as Wikipedia to get the formulas to convert the values from the CSV into more useful ones. I used Miro for this.
 
-![Miro board for converting cell values to useful values]({{ site.baseurl }}/images/journal/year2/data-visualisation/miro_plan.jpg)
+![Miro board for converting cell values to useful values]({{ page.assetdir }}/miro_plan.jpg)
 
 #### Visualising the data
 
 I began development by reading all the rows and trying to plot these orbits in 3d space.
 
-![Development images]({{ site.baseurl }}/images/journal/year2/data-visualisation/development-1.png)
-![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/development-2.png)
-![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/development-3.png)
-![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/development-4.png)
+![Development images]({{ page.assetdir }}/development-1.png)
+![-]({{ page.assetdir }}/development-2.png)
+![-]({{ page.assetdir }}/development-3.png)
+![-]({{ page.assetdir }}/development-4.png)
 
 I was struggling with orbits not matching up with other visualisers other people made online. I mainly used[SatelliteXplorer](https://geoxc-apps.bd.esri.com/space/satellite-explorer/), below shows an image of comparison between mine and theirs. It matches up quite well but there's a few inconsistencies.
 
-![Comparison of my sketch to SatelliteXplorer]({{ site.baseurl }}/images/journal/year2/data-visualisation/comparison.png)
+![Comparison of my sketch to SatelliteXplorer]({{ page.assetdir }}/comparison.png)
 
 #### Breaking down the issue
 
 It was overwhelming to spot the problem with all the orbits showing. I simplified things by adding a equatorial plane and a line showing up so that I could orientate myself and identify the issues.
 
-![Breaking the problem down]({{ site.baseurl }}/images/journal/year2/data-visualisation/breaking_down_problem.png)
+![Breaking the problem down]({{ page.assetdir }}/breaking_down_problem.png)
 
 After more investigation, it seemed a few of the orbits on SatelliteXplorer were actually inconsistent with the expected orbits. The one I spotted initially was INMARSAT 6-F1, it was meant to be Geostationary but the SatelliteXplorer showed it as not. I learnt this [here](https://www.n2yo.com/satellite/?s=50319). This seemed to match up with the values I expected. I also changed some signs in my code and also neatened it up to help me.
 
-![Sketch code]({{ site.baseurl }}/images/journal/year2/data-visualisation/code.png)
+![Sketch code]({{ page.assetdir }}/code.png)
 
 #### Changing to 2D
 
 I decided to change from 3D to 2D. This is so I can more clearly visualize the data and so it'll work better as a printed PDF. I feel I'll also have more creative input in 2D as it'll be simpler and more achievable within the time limit.
 
 
-![Gridding the orbits]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress1.jpg)
-![Experimenting with sizing]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress2.jpg)
+![Gridding the orbits]({{ page.assetdir }}/progress1.jpg)
+![Experimenting with sizing]({{ page.assetdir }}/progress2.jpg)
 
 #### Playing around with different sized cells
 
 I felt the bigger orbits couldn't be shown well if stuck to the same cell size. So I made the cell bigger depending on the orbit size. The way I did this was with a 2d boolean array, and choosing an orbit from an array of unused orbits until one worked by checking the booleans. Then filling the area after with true boolean.
 
-![Picking at random leading to duplicates]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress3.jpg)
-![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress4.jpg)
-![Feeling too busy]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress5.jpg)
-![This feels about right]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress6.jpg)
+![Picking at random leading to duplicates]({{ page.assetdir }}/progress3.jpg)
+![-]({{ page.assetdir }}/progress4.jpg)
+![Feeling too busy]({{ page.assetdir }}/progress5.jpg)
+![This feels about right]({{ page.assetdir }}/progress6.jpg)
 
 
 #### Adding NORAD ID information to the orbit
@@ -85,22 +86,22 @@ I wanted people to be able to know which the interesting orbits were, which are 
 
 I played around with drawing designs, first being something other than base-10, but I felt too confused and that it'd be too hard to understand anyway. I finally decided to go with base-10 but simply assigning an symbol to numbers 0 - 9 instead. 
 
-![Trying to represent numbers not in base-10]({{ site.baseurl }}/images/journal/year2/data-visualisation/number_design-1.jpg)
-![Using base-10 and creating characters with primitive shapes]({{ site.baseurl }}/images/journal/year2/data-visualisation/number_design-2.jpg)
+![Trying to represent numbers not in base-10]({{ page.assetdir }}/number_design-1.jpg)
+![Using base-10 and creating characters with primitive shapes]({{ page.assetdir }}/number_design-2.jpg)
 
 #### Trying to implement the designs by importing the SVGs
 
 I designed the designs in Illustrator and tried to import it into Processing to draw it, but I was having too many problems. First, horizontal and vertical lines were not being drawn. I think because it has a bounding width or height of 0? I tried fixing this by drawing the icon as a whole at once with a box, but I couldn't figure out how to get rid of the box, as without it, the sizing for each one was on the bounding size and not the document size.
 
-![Missing lines]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress7.jpg)
-![-]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress8.jpg)
-![Problem with the boxes]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress9.jpg)
+![Missing lines]({{ page.assetdir }}/progress7.jpg)
+![-]({{ page.assetdir }}/progress8.jpg)
+![Problem with the boxes]({{ page.assetdir }}/progress9.jpg)
 
 #### Trying again
 
 I changed the design to get rid of the vertical and horizontal lines to use diagonal ones instead. At first, it appeared to work, but, for some weird reason, a lot of them were lacking elements? I couldn't make sense of it.
 
-![Near fix..]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress10.jpg)
+![Near fix..]({{ page.assetdir }}/progress10.jpg)
 
 #### Implementing it manually
 
@@ -110,16 +111,16 @@ I also added symbols to the left to show the date range, 1964 - 2022, the possib
 
 For clarity, I added a key to the right hand side to show what each symbol meant, by going from 0 - 9, showing the progression of the symbol.
 
-![Adding dates to the left]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress11.png)
-![Adding key to the right]({{ site.baseurl }}/images/journal/year2/data-visualisation/progress12.png)
+![Adding dates to the left]({{ page.assetdir }}/progress11.png)
+![Adding key to the right]({{ page.assetdir }}/progress12.png)
 
 
 ### Final
 
-![Overview of elements of image]({{ site.baseurl }}/images/journal/year2/data-visualisation/final_with_labels.jpg)
+![Overview of elements of image]({{ page.assetdir }}/final_with_labels.jpg)
 
 
-![Final image]({{ site.baseurl }}/images/journal/year2/data-visualisation/final.png)
+![Final image]({{ page.assetdir }}/final.png)
 
 ### Conclusion
 

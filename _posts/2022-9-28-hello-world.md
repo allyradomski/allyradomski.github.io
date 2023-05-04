@@ -2,6 +2,7 @@
 layout: journalpost
 title: Hello World
 categories: year2
+assetdir: /assets/posts/2022-9-28-hello-world
 ---
 
 Hello World Project
@@ -13,9 +14,9 @@ Hello World Project
 > Adding to a csv file, consisiting of time, lat, and lon
 > Reading it into javascript and visualising with points and lines (using k-d tree)
 
-![location data from google]({{ site.baseurl }}/images/journal/year2/hello-world/data.png)
+![location data from google]({{ page.assetdir }}/data.png)
 Test, aaaaaaaa
-![parsed and simplified data]({{ site.baseurl }}/images/journal/year2/hello-world/data2.png)
+![parsed and simplified data]({{ page.assetdir }}/data2.png)
 Test 2, bbbbbbb -->
 <!-- 
 - Radial
@@ -46,8 +47,8 @@ I had ideas such as:
 
 Since I only had a few days to finish this project, I needed a big enough data set to show variation. I decided on using the location data Google collects from us.
 
-![Figure A]({{ site.baseurl }}/images/journal/year2/hello-world/data.png)
-![Figure B]({{ site.baseurl }}/images/journal/year2/hello-world/data2.png)
+![Figure A]({{ page.assetdir }}/data.png)
+![Figure B]({{ page.assetdir }}/data2.png)
 
 I downloaded my location data in the form of a JSON file, resulting in a file over 500mb, location history dating back to 2016. The structure of this file is shown above in *Figure A*. I parsed this data using Python, converted the dates to Unix time to make it easier to deal with later, and then wrote to a csv file as shown in *Figure B*. This contained the time, longitude and latitude. 
 
@@ -59,10 +60,10 @@ After this, I decided to filter all the data to be after I arrived in Glasgow (1
 
 ---
 
-![Figure 1]({{ site.baseurl }}/images/journal/year2/hello-world/progress-1.jpg)
-![Figure 2]({{ site.baseurl }}/images/journal/year2/hello-world/progress-2.jpg)
-![Figure 3]({{ site.baseurl }}/images/journal/year2/hello-world/progress-3.jpg)
-![Figure 4]({{ site.baseurl }}/images/journal/year2/hello-world/progress-5.jpg)
+![Figure 1]({{ page.assetdir }}/progress-1.jpg)
+![Figure 2]({{ page.assetdir }}/progress-2.jpg)
+![Figure 3]({{ page.assetdir }}/progress-3.jpg)
+![Figure 4]({{ page.assetdir }}/progress-5.jpg)
 
 *Figure 1* above shows me loading the location data from the simplified csv file and plotting the points using the longitude (x) and latitude (y). We can see there's a lot of points in some areas, and other areas are quite sparse. This is due to how long I have spent time there. I can tell the points are accurate as I can recognise the streets I've been along lots.
 
@@ -84,8 +85,8 @@ I am really liking the progress of how it is looking. It reminds me of submarine
 
 ---
 
-![Figure 5]({{ site.baseurl }}/images/journal/year2/hello-world/progress-6.jpg)
-![Figure 6]({{ site.baseurl }}/images/journal/year2/hello-world/progress-7.jpg)
+![Figure 5]({{ page.assetdir }}/progress-6.jpg)
+![Figure 6]({{ page.assetdir }}/progress-7.jpg)
 
 I thought about adding an actual selfie but keeping with the theme. In *Figure 5* above, I experiment with this. I first got a photo and removed the background and then turned it into greyscale. I then looped over every pixel in the canvas and placing a point if:
 1. It isn't a fully transparent pixel
@@ -97,7 +98,7 @@ In *Figure 6* above, I made my image more clear by creating more points. This ti
 
 ---
 
-![Figure 7]({{ site.baseurl }}/images/journal/year2/hello-world/selfie.jpg)
+![Figure 7]({{ page.assetdir }}/selfie.jpg)
 
 *Figure 7* above shows the **final** image of this project. I made it so more random points outside my head are added, this fills the space and adds to the 'webbyness' of it all. For a final touch, I added my name to the bottom along with the university and the course name.
 
