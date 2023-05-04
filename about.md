@@ -15,4 +15,4 @@ I am currently studying Interaction Design at The Glasgow School of Art.
 
 she/her - [contact@allyradomski.art](mailto:contact@allyradomski.art) - [Instagram](https://www.instagram.com/ally_rad)
 
-<img src="{{ site.baseurl }}/selfie.jpg" alt="Photo of myself" width="50vh" height="auto"/>
+<img src="/assets/selfie.jpg" alt="Photo of myself" width="50vh" height="auto"/>
