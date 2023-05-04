@@ -73,9 +73,9 @@ I thought it'd be nice to use the grid paper I used to draw the textures for the
 
 All of these are black and white and I thought I'd try see what it looks like on top and it looks perfect. Honestly surprised how quickly it is coming along.
 
-![Selecting plynth to use]({{ site.baseurl }}/images/journal/year2/open-share/step1.jpg)
-![Top of white table fixed]({{ site.baseurl }}/images/journal/year2/open-share/step2.jpg)
-![Attaching paper used to make textures]({{ site.baseurl }}/images/journal/year2/open-share/step3.jpg)
+![Selecting plynth to use]({{ site.baseurl}}/assets/posts/2023-5-5-openshare/step1.jpg)
+![Top of white table fixed]({{ site.baseurl}}/assets/posts/2023-5-5-openshare/step2.jpg)
+![Attaching paper used to make textures]({{ site.baseurl}}/assets/posts/2023-5-5-openshare/step3.jpg)
 
 # Conclusion
 
@@ -89,5 +89,5 @@ I need to write an information card which will be displayed on the plynth. I hav
 
 ## Images
 
-![Photo of display]({{ site.baseurl }}/images/journal/year2/open-share/exhibition1.jpg)
-![Using the tablet]({{ site.baseurl }}/images/journal/year2/open-share/exhibition2.jpg)
+![Photo of display]({{ site.baseurl}}/assets/posts/2023-5-5-openshare/exhibition1.jpg)
+![Using the tablet]({{ site.baseurl}}/assets/posts/2023-5-5-openshare/exhibition2.jpg)
