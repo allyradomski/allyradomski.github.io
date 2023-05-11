@@ -8,11 +8,15 @@ permalink: /about/
 
 My aim is to create encaptivating installations and experiences that explore the boundaries of what art is.-->
 
-I am a creator based in Glasgow. Blending digital and other traditional mediums is what I enjoy the most. I have a background in computer science and I wanted to bring out the creativity in the discipline. I find great satisfaction in the act of creation. There's nothing quite like seeing all the different elements come together to bring an idea into existence. It's a truly exhilarating experience, an unparalleled rush.
+<p>I am a creator based in Glasgow. Blending digital and other traditional mediums is what I enjoy the most. I have a background in computer science and I wanted to bring out the creativity in the discipline. I find great satisfaction in the act of creation. There's nothing quite like seeing all the different elements come together to bring an idea into existence.</p>
 
 I am currently studying Interaction Design at The Glasgow School of Art.
 
+<a href="mailto:contact@allyradomski.art"><button class="primaryButton">✉️ Contact</button></a>
+<a href="https://www.instagram.com/ally_rad"><button class="secondaryButton">📷 Instagram</button></a>
 
-she/her - [contact@allyradomski.art](mailto:contact@allyradomski.art) - [Instagram](https://www.instagram.com/ally_rad)
 
-<img src="/assets/selfie.jpg" alt="Photo of myself" width="50vh" height="auto"/>
+
+
+<img src="/assets/selfie.jpg" style="float: left;" alt="Photo of myself"/>
+

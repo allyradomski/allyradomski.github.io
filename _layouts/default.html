@@ -81,6 +81,7 @@
             wobli.setAttribute("id", `wobb${i}`);
             wobli.style.position = "relative";
             wobli.appendChild(document.createTextNode(wobtxt.charAt(i)));
+            //wobli.style.display = "inline-block";
             wobble.appendChild(wobli);
           }
           setInterval("wobbler()", 10);
@@ -91,6 +92,8 @@
       function wobbler() {
           for (let i = 0; i < wobtxt.length; i++) {
               document.getElementById(`wobb${i}`).style.top = `${Math.round(5 * hovercnt * Math.sin((i / wobtxt.length + wobcnt*0.05) * 6.283 ))}px`;
+              document.getElementById(`wobb${i}`).style.transform = "rotate(" + Math.sin(i / wobtxt.length + wobcnt*0.05) * 90.0 * hovercnt + "deg)";
+              //document.getElementById(`wobb${i}`).style.transform = "rotate(90deg)";
           }
           hovercnt -= 0.01;
           if (hovercnt < 0) {
@@ -129,9 +132,9 @@
     
     {% include analytics.html %}
 
-    <footer>
+    <!-- <footer>
       &copy; Copyright {{ site.time | date: "%Y" }}, Ally Radomski
-    </footer> 
+    </footer>  -->
 
   </body>
 </html>
