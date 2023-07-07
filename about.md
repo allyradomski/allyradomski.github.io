@@ -13,7 +13,7 @@ My aim is to create encaptivating installations and experiences that explore the
 I am currently studying Interaction Design at The Glasgow School of Art.
 
 <a href="mailto:contact@allyradomski.art"><button class="primaryButton">✉️ Contact</button></a>
-<a href="https://www.instagram.com/ally_rad"><button class="secondaryButton">📷 Instagram</button></a>
+<a href="https://www.instagram.com/allyradomskiart/"><button class="secondaryButton">📷 Instagram</button></a>
 
 
 
