@@ -1,140 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <!--<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>-->
-    <title>{{ site.name }}</title>
-
-    {% include meta.html %}
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
-    <script defer src="{{ site.baseurl }}/mklb.js"></script>
-    <!-- <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        new Zooming({
-          // options...
-        }).listen('.img-zoomable')
-      })
-    </script> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
-    <meta name="msapplication-TileColor" content="#000000">
-    <meta name="theme-color" content="#ffffff">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ "/style.css" | relative_url }}">
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <title>{{ site.title }} - {{ page.title }}</title>
   </head>
+  <body class="mx-4 p-0 mx-xl-auto px-xl-4">
+    {% include navbar.html %}
 
-  <body>
-    <!--<img src="{{ site.baseurl }}/images/trans.svg" id="banner">-->
-    <div id="background"></div>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <div class="site-info">
-            
-            <h1 class="site-name" id="wobble" onclick="wobbleme()">{{ site.name }}</h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/">Artwork</a>
-            <a href="{{ site.baseurl }}/blog">Blog</a>
-            <!-- <a href="{{ site.baseurl }}/installations">Installations</a> -->
-            <a href="{{ site.baseurl }}/about">About</a>
-            <!-- <a href="{{ site.baseurl }}/appreciation">♡</a> -->
-          </nav>
-        </header>
-      </div>
-    </div>
-
-    <div id="main" role="main" class="container">
+    <main class="mx-lg-4 py-4">
       {{ content }}
-    </div>
+    </main>
 
-    <script>
-      // https://codepen.io/maxakohler/pen/zBEdrM
-
-      // adapted from https://codepen.io/kaleidosium/pen/KKNEVdK
-      let wobble;
-      let wobcnt = 0;
-      let hovercnt = 0;
-      let gen = true;
-      let wobtxt;
-      function wobbleme() {
-        if (gen) {
-          gen = false;
-          wobble = document.getElementById("wobble");
-          wobtxt = wobble.firstChild.nodeValue;
-
-          while (wobble.childNodes.length) { wobble.removeChild(wobble.childNodes[0]); }
-          for (i = 0; i < wobtxt.length; i++) {
-            wobli = document.createElement("span");
-            wobli.setAttribute("id", `wobb${i}`);
-            wobli.style.position = "relative";
-            wobli.appendChild(document.createTextNode(wobtxt.charAt(i)));
-            //wobli.style.display = "inline-block";
-            wobble.appendChild(wobli);
-          }
-          setInterval("wobbler()", 10);
-        }
-        hovercnt = 2;
-      }
-
-      function wobbler() {
-          for (let i = 0; i < wobtxt.length; i++) {
-              document.getElementById(`wobb${i}`).style.top = `${Math.round(5 * hovercnt * Math.sin((i / wobtxt.length + wobcnt*0.05) * 6.283 ))}px`;
-              document.getElementById(`wobb${i}`).style.transform = "rotate(" + Math.sin(i / wobtxt.length + wobcnt*0.05) * 90.0 * hovercnt + "deg)";
-              //document.getElementById(`wobb${i}`).style.transform = "rotate(90deg)";
-          }
-          hovercnt -= 0.01;
-          if (hovercnt < 0) {
-            hovercnt = 0;
-          }
-          wobcnt++;
-      }
-    </script>
-    <script src="{{ site.baseurl }}/jquery.js"></script>
-    <script>
-      $('p:has(img)').addClass('hasImage');
-      $('img').addClass('mklbItem');
-
-      // $('img').wrap('<figure></figure>')
-      // $('figure').append('<figcaption></figcaption>');
-      // $('figcaption').each(function(index) {
-      //   let text = $(this).siblings('img')[0].alt;
-      //   $(this).html(text);
-      // });
-      // $('img').wrap('<div class="captionDiv"></div>');
-      // $('.captionDiv').append('<p class="caption"></p>');
-      // $('.caption').each(function(index) {
-      //   let text = $(this).siblings('img')[0].attr('alt');
-      //   $(this).html = text;
-      // });
-    </script>
-    
-
-    <!-- <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          <p>...</p>
-        </footer>
-      </div>
-    </div> -->
-    
-    {% include analytics.html %}
-
-    <!-- <footer>
-      &copy; Copyright {{ site.time | date: "%Y" }}, Ally Radomski
-    </footer>  -->
-
+    {% include footer.html %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
   </body>
 </html>
