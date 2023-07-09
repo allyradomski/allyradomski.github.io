@@ -1,0 +1,68 @@
+---
+layout: default
+title: "Work"
+---
+
+<div class="container-fluid bg-transparent g-0 p-0">
+    <div class="row gx-4 gy-4 p-0">
+        {% for post in paginator.posts %}
+        <div class="col-md-12 col-lg-4">
+            <div class="card card-hover">
+                <div class="row gx-0">
+                    <div class="col-sm-12 col-md-6 col-lg-12 position-relative">
+                        <img src="{{ post.cover }}" alt="" class="img-fluid card-image">
+                        <div class="col-12 d-none d-lg-block hover-info hyperspan">
+                            <div class="card-body h-100 d-flex flex-column align-items-start">
+                                <p class="card-title lead">{{ post.title }}</p>
+                                <p class="card-text align-self-stretch text-truncate">{{ post.description }}</p>
+                                <p class="card-text mt-auto align-self-end d-md-inline" style="color: rgb(127, 127, 127) !important;">
+                                    <small>
+                                    {{ post.date | date: "%B" }}
+                                    {{ post.date | date: "%Y" }}
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-12 d-lg-none card-info">
+                        <div class="card-body h-100 d-flex flex-column align-items-start">
+                            <p class="card-title lead">{{ post.title }}</p>
+                            <p class="card-text align-self-stretch">{{ post.description }}</p>
+                            <p class="card-text text-end text-secondary mt-auto align-self-end d-md-inline" style="color: rgb(127, 127, 127) !important;">
+                                <small>
+                                {{ post.date | date: "%B" }}
+                                {{ post.date | date: "%Y" }}
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a href="{{ post.url }}" class="hyperspan"></a>
+            </div>
+            
+        </div>
+        {% endfor %}
+        <div class="pagination justify-content-center col-12">
+            <div class="btn-group btn-group-md" role="group">
+                {% if paginator.previous_page %}
+                    <button type="button" class="btn btn-light" onclick="window.location.href='{{ paginator.previous_page_path }}'">&#8249;</button>
+                {% else %}
+                    <!-- <button type="button" class="btn btn-light disabled">&#8249;</button> -->
+                {% endif %}
+                <div class="btn btn-light disabled">{{ paginator.page }} / {{ paginator.total_pages }}</div>
+                {% if paginator.next_page %}
+                <button type="button" class="btn btn-light" onclick="window.location.href='{{ paginator.next_page_path }}'">&#8250;</button>
+                {% else %}
+                <!-- <button type="button" class="btn btn-light disabled">&#8250;</button> -->
+                {% endif %}
+            </div>
+        </div>
+    </div>
+   
+</div>
+
+<!-- <p class="text-center">{{ paginator.total_posts }} total posts</p> -->
+
+
+
+
