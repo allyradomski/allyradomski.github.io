@@ -10,7 +10,7 @@ plugins:
 paginate: 6
 paginate_path: "/work/:num/"
 
-permalink: pretty
+permalink: /work/:title #pretty
 
 collections:
   journal:
