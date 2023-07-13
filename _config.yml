@@ -10,8 +10,6 @@ plugins:
 paginate: 6
 paginate_path: "/work/:num/"
 
-permalink: /work/:title #pretty
-
 collections:
   journal:
     output: true
@@ -26,11 +24,13 @@ defaults:
       title: "Missing title"
       description: "Missing description"
       cover: "/assets/missing.png"
+      permalink: /work/:title
   -
     scope:
       path: ""
       type: "journal"
     values:
       layout: "post"
+      permalink: /journal/:title
       sitemap: false
 
