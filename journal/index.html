@@ -4,36 +4,43 @@ title: Journal
 sitemap: false
 ---
 
+<h3>Learning Journal</h3>
+Learning journal entries for Interaction Design at Glasgow School of Art.
+<br>
+<br>
+
 <div class="row">
-    <div class="col-12 col-md-4 border-end">
+    <div class="col-12 col-md-4">
         <ul class="list-group list-group-flush">
             <li class="list-group-item"><h5 class="text-center">Year 2</h5></li>
 
             {% for module in site.journal %}
-            <!-- {% if module.year == 2 %} -->
+            {% if module.year == 2 %}
                 <li class="list-group-item"><a href="{{ module.url }}" class="link-secondary">{{ module.title }}</a></li>
-            <!-- {% endif %} -->
+            {% endif %}
             {% endfor %}
-
-            <!-- <li class="list-group-item"><a href="" class="link-secondary">Hello World</a></li>
-            <li class="list-group-item"><a href="" class="link-secondary">Realtime Events</a></li>
-            <li class="list-group-item"><a href="" class="link-secondary">Data Visualisation</a></li>
-            <li class="list-group-item"><a href="" class="link-secondary">Design Domain Part 1</a></li>
-            <li class="list-group-item"><a href="" class="link-secondary">Typographic Narratives</a></li>
-            <li class="list-group-item"><a href="" class="link-secondary">Control</a></li>
-            <li class="list-group-item"><a href="" class="link-secondary">Design Domain Part 2</a></li>
-            <li class="list-group-item"><a href="" class="link-secondary">Extended Reality (XR)</a></li>
-            <li class="list-group-item"><a href="" class="link-secondary">Open Share</a></li> -->
         </ul>
     </div>
     <div class="col-12 col-md-4">
         <ul class="list-group list-group-flush">
             <li class="list-group-item"><h5 class="text-center">Year 3</h5></li>
+
+            {% for module in site.journal %}
+            {% if module.year == 3 %}
+                <li class="list-group-item"><a href="{{ module.url }}" class="link-secondary">{{ module.title }}</a></li>
+            {% endif %}
+            {% endfor %}
         </ul>
     </div>
-    <div class="col-12 col-md-4 border-start">
+    <div class="col-12 col-md-4">
         <ul class="list-group list-group-flush">
             <li class="list-group-item"><h5 class="text-center">Year 4</h5></li>
+
+            {% for module in site.journal %}
+            {% if module.year == 4 %}
+                <li class="list-group-item"><a href="{{ module.url }}" class="link-secondary">{{ module.title }}</a></li>
+            {% endif %}
+            {% endfor %}
         </ul>
     </div>
 </div>
