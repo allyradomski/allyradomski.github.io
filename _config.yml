@@ -10,6 +10,8 @@ plugins:
 paginate: 6
 paginate_path: "/work/:num/"
 
+future: true
+
 collections:
   journal:
     output: true
