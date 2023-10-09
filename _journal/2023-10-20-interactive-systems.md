@@ -31,3 +31,14 @@ assetdir: /assets/journal/2023-10-20-interactive-systems
   * Needs parts building like stand with wire through it and laser engraved perspex sheets.
 
 We created WhatsApp group chats to communicate through each sub-project.
+
+## Platform Objects
+
+I did some research and stuff in Figjam.
+
+<img src="{{ page.assetdir }}/Mock up.png" class="col-12 figure-img img-fluid" alt="Figjam image">
+
+<img src="{{ page.assetdir }}/Testing font styles.png" class="col-12 figure-img img-fluid" alt="Figjam image">
+
+<img src="{{ page.assetdir }}/Testing circle.png" class="col-12 figure-img img-fluid" alt="Figjam image">
+
