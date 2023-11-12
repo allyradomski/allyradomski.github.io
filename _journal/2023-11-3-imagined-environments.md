@@ -118,6 +118,8 @@ I'm going to travel to Lochwinnoch and film in the ruins, waterfalls, woods, and
 </div>
 I captured a bunch of footage during my day there. I just used my phone camera. I had thought of booking out a camera and tripod but I felt it'd be too much time for scope of the project.
 
+I also wrote two different writings during my trip here that I want to incorporate, one was written whilst walking down the boardwalk towards the ruins. The other was a poem written to the waterfalls.
+
 #### After Effects
 
 <div class="row gy-4">
@@ -149,9 +151,25 @@ I connected the tracking data to the photo of the deer, which I draw and scanned
 <div class="col-4">
 I wanted to also put the deer on a bus seat that I captured on the way to Central Station. I used Mocha again and tracked it like I did with the bus. It was a bit more work and not tracked as well, but I liked the outcome when I applied Posterize Time effect to the windows.
 </div>
+<div class="col-4">
+I wanted to add a deer sitting on the grass in this shot atop the ruins. I tracked the ground and used the tracking data to transform position of the image.
+
+I added audio I recorded of me reading some writing I did on my visit and overlayed scrolling image of my writing on top of the video. I am still not entirely sure about this but I'll see.
+</div>
+<figure class="figure col-8">
+    <img src="{{ page.assetdir }}/Lake AE.jpg" class="figure-img img-fluid" alt="Deer sitting next to a lake">
+    <figcaption class="figure-caption">Deer sitting next to a lake</figcaption>
+</figure>
 </div>
 
 #### Ableton
+
+I used Ableton to create two different sounds for the video.
+
+* Using a granulator (it splits audio into little grains and plays it back however you set), I input my reading of writing I wrote whilst walking down a boardwalk. I gradually made it clearer as to what I was saying, but you'll only hear snippets of it.
+
+* Using the imagiro piano plugin I recorded myself playing a random simple tune on the piano that I felt would fit into the video. It was quite quick and not that much other substance to it but I enjoy the simplicity of it.
+
 <figure class="figure col-12">
     <img src="{{ page.assetdir }}/Music.png" class="figure-img img-fluid" alt="Using Ableton to make sounds">
     <figcaption class="figure-caption">Using Ableton to make sounds</figcaption>
