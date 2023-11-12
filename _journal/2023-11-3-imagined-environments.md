@@ -96,3 +96,63 @@ Here's how I think it could go:
 * Gets on the train and is pictured laying down across two seats
 * Wanders down a footpath within a bunch of trees
 * Relaxes somewhere on the floor next to a lake
+
+### Development
+#### Source Capture
+<div class="row gy-4">
+<div class="col-6">
+I'm going to travel to Lochwinnoch and film in the ruins, waterfalls, woods, and train station I've marked on the map. These are my favourite places and I wanted to capture them.
+</div>
+<figure class="figure col-6">
+    <img src="{{ page.assetdir }}/Map.jpg" class="figure-img img-fluid" alt="Map of Lochwinnoch">
+    <figcaption class="figure-caption">Map of Lochwinnoch</figcaption>
+</figure>
+<figure class="figure col-6">
+    <img src="{{ page.assetdir }}/Files.jpg" class="figure-img img-fluid" alt="List of videos captured">
+    <figcaption class="figure-caption">List of videos captured</figcaption>
+</figure>
+<figure class="figure col-6">
+    <img src="{{ page.assetdir }}/Photos.png" class="figure-img img-fluid" alt="Screenshots of some of the videos">
+    <figcaption class="figure-caption">Screenshots of some of the videos</figcaption>
+</figure>
+</div>
+I captured a bunch of footage during my day there. I just used my phone camera. I had thought of booking out a camera and tripod but I felt it'd be too much time for scope of the project.
+
+#### After Effects
+
+<div class="row gy-4">
+<figure class="figure col-6">
+    <img src="{{ page.assetdir }}/Chair Mocha.jpeg" class="figure-img img-fluid" alt="Tracking train windows and chairs in Mocha">
+    <figcaption class="figure-caption">Tracking train windows and chairs in Mocha</figcaption>
+</figure>
+<div class="col-6">
+I used Mocha to track the two train windows and the two chairs. I was having trouble with the tracking as it was drifting, but Gillian helped and showed me how to properly do the tracking data and how to connect the masks to this tracking data.
+</div>
+<div class="col-4">
+I used the tracking masks in After Effects in two ways. I made the windows gain colour throughout the sequence by changing the opacity of them. I wanted the chair to keep the colour as that'll highlight where the deer sits.
+
+I connected the tracking data to the photo of the deer, which I draw and scanned in and neatened up.
+</div>
+<figure class="figure col-4">
+    <img src="{{ page.assetdir }}/Chair AE.jpg" class="figure-img img-fluid" alt="Mask in After Effects">
+    <figcaption class="figure-caption">Mask in After Effects</figcaption>
+</figure>
+<figure class="figure col-4">
+    <img src="{{ page.assetdir }}/Deer Chair AE.jpg" class="figure-img img-fluid" alt="Adding deer and changing colours in After Effects">
+    <figcaption class="figure-caption">Adding deer and changing colours in After Effects</figcaption>
+</figure>
+
+<figure class="figure col-8">
+    <img src="{{ page.assetdir }}/Bus AE.jpg" class="figure-img img-fluid" alt="Masking bus windows and chairs">
+    <figcaption class="figure-caption">Masking bus windows and chairs</figcaption>
+</figure>
+<div class="col-4">
+I wanted to also put the deer on a bus seat that I captured on the way to Central Station. I used Mocha again and tracked it like I did with the bus. It was a bit more work and not tracked as well, but I liked the outcome when I applied Posterize Time effect to the windows.
+</div>
+</div>
+
+#### Ableton
+<figure class="figure col-12">
+    <img src="{{ page.assetdir }}/Music.png" class="figure-img img-fluid" alt="Using Ableton to make sounds">
+    <figcaption class="figure-caption">Using Ableton to make sounds</figcaption>
+</figure>
