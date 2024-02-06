@@ -109,9 +109,13 @@ Over the past few months I have started writing more to capture ideas I want, I 
 - [Calligraphr](https://www.calligraphr.com/en/) - Turn handwriting into fonts
 - [FontForge](https://fontforge.org/en-US/) - Used to merge Calligraphr fonts to get passed paid character limit
 An idea was to etch out the letters of words. I can do this by deconstructing 
+- [OBS](https://obsproject.com) - Used to capture the Processing output
+
 
 ### Help
 - ["Drawing part of a Bézier curve by reusing a basic Bézier-curve-function?"](https://stackoverflow.com/questions/878862/drawing-part-of-a-bézier-curve-by-reusing-a-basic-bézier-curve-function) - Figuring out how to draw part of a bezier curve with variables Geomerative provides
+- [Media Studio BrightSign & CRT Monitor](https://glasgowschoolofart.padlet.org/hturek1/media-studio-brightsign-crt-monitor-y8wdokfbdp0lzrkb) - Media Studio Padlet
+- [Exporting Video for BrightSign / USB stick from Adobe Premiere Pro](https://glasgowschoolofart.padlet.org/hturek1/exporting-video-for-brightsign-usb-stick-from-adobe-premiere-cw6cdi3l1jocehii) - Media Studio Padlet
 
 ## Process
 
@@ -132,6 +136,63 @@ An idea was to etch out the letters of words. I can do this by deconstructing
     </figure>
 </div>
 
+### Geomerative
+
+I spent sometime looking through the documentation and figured out how to get the commands used to draw the lettering. I drew part of it by calculating the total length of the word (the perimeter of the lines?) and exiting out drawing it when I reached a progress point.
+
+I implemented using my own handwriting as a font.
+
+<figure class="figure col-6">
+    <img src="{{ page.assetdir }}/processing_test.jpg" class="figure-img img-fluid" alt="Testing writing outline">
+    <figcaption class="figure-caption">Testing writing outline</figcaption>
+</figure>
+
+### VCV Rack 2
+
+I used The MidiBus library to link the sketch up to VCV Rack 2. I trigger CC events when the text is drawn and when photos change in the background.
+<figure class="figure col-6">
+    <img src="{{ page.assetdir }}/vcv.png" class="figure-img img-fluid" alt="Project patch">
+    <figcaption class="figure-caption">Project patch</figcaption>
+</figure>
+
+#### Field recordings
+
+I captured a bunch of recordings of outside, both walking and with a tripod, using a Zoom H1N recorder. I used these in my patch by having them in a folder and loading them with the Voxglitch modules.
+
+### Photo sequence
+
+The photos are loaded from a folder and displayed at random intervals in the sketch.
+
+<figure class="figure col-6">
+    <img src="{{ page.assetdir }}/processing_test_2.jpg" class="figure-img img-fluid" alt="Photos in background">
+    <figcaption class="figure-caption">Photos in background</figcaption>
+</figure>
+
+### Getting the equipment
+
+I have borrowed different equipment from the media studio to display my project through a CRT TV and hear it through multiple headphones.
+
+### Capturing the video
+
+#### OBS
+
+I used OBS to capture the audio from VCV Rack and the video from Processing.
+
+OBS allows me to easily output the video at 1920x1080 (needed for the Brightsign) and center the Processing output (1440x1080, matches 4:3 of CRT TV and digital camera) with the use of BetterDisplay to easily do this. It also allows me to easily use H.264 (not entirely sure what this is) and a Constant Bit Rate of 25 mbps which is also required for the Brightsign.
+
+<figure class="figure col-6">
+    <img src="{{ page.assetdir }}/obs.png" class="figure-img img-fluid" alt="Screenshot of OBS setup">
+    <figcaption class="figure-caption">Screenshot of OBS setup</figcaption>
+</figure>
+
+####  Autorun file
+
+Following the padlets for videos on the Brightsign, I had to put a file on the SD Card that automatically scales and loops videos for 4:3 CRT TV. One edit I did in the file was change the view mode so that it chops off edges of 16:9 video to just the 4:3 video so it displays correctly on the CRT TV.
+
+<figure class="figure col-8">
+    <img src="{{ page.assetdir }}/photo_crt.jpg" class="figure-img img-fluid" alt="Photo of setup">
+    <figcaption class="figure-caption">Photo of setup</figcaption>
+</figure>
 
 ### Setup
 
