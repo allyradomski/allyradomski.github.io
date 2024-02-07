@@ -161,11 +161,22 @@ I captured a bunch of recordings of outside, both walking and with a tripod, usi
 
 ### Photo sequence
 
-The photos are loaded from a folder and displayed at random intervals in the sketch.
+The photos are loaded from a folder and displayed at random intervals in the sketch. I had some problems with crashing during the program, it turned out to be it was trying to show ".DS_Store" file as a photo, a hidden mac system file in every folder. Bit annoying!
 
 <figure class="figure col-6">
     <img src="{{ page.assetdir }}/processing_test_2.jpg" class="figure-img img-fluid" alt="Photos in background">
     <figcaption class="figure-caption">Photos in background</figcaption>
+</figure>
+
+### Choosing the sentences
+
+I have to choose what sentences to show during the program. I have sourced many writings. Some are from my writing notebook, others are some song lyrics that I like. I also draw symbols sometimes too, which were drawn on a whim which I feel is needed for a project about presentness. 
+
+It loads them from a text file called sentences.txt and shuffles them and then writes them out. I had some more issues with the audio getting hung, which I found was due to empty lines in the text file!
+
+<figure class="figure col-6">
+    <img src="{{ page.assetdir }}/sublime.png" class="figure-img img-fluid" alt="Text file loaded">
+    <figcaption class="figure-caption">Text file loaded</figcaption>
 </figure>
 
 ### Getting the equipment
@@ -203,3 +214,22 @@ Following the padlets for videos on the Brightsign, I had to put a file on the S
     </figure>
 </div>
 
+# Photos
+<div class="row">
+    <figure class="figure col-6">
+        <img src="{{ page.assetdir }}/crt_photo_1.jpg" class="figure-img img-fluid" alt="An elipsis.">
+        <figcaption class="figure-caption">An elipsis</figcaption>
+    </figure>
+    <figure class="figure col-6">
+        <img src="{{ page.assetdir }}/crt_photo_2.jpg" class="figure-img img-fluid" alt="A drawing of the sun.">
+        <figcaption class="figure-caption">A drawing of the sun.</figcaption>
+    </figure>
+    <figure class="figure col-6">
+        <img src="{{ page.assetdir }}/crt_photo_3.jpg" class="figure-img img-fluid" alt="The word bird.">
+        <figcaption class="figure-caption">The word "bird."</figcaption>
+    </figure>
+    <figure class="figure col-6">
+        <img src="{{ page.assetdir }}/crt_photo_4.jpg" class="figure-img img-fluid" alt="The word Peacelove.">
+        <figcaption class="figure-caption">The word "Peacelove."</figcaption>
+    </figure>
+</div>
