@@ -233,3 +233,9 @@ Following the padlets for videos on the Brightsign, I had to put a file on the S
         <figcaption class="figure-caption">The word "Peacelove."</figcaption>
     </figure>
 </div>
+
+# Conclusion
+
+I feel proud of what I accomplished in this two week project. I do want to work on it further and figure out how I'd "dress up" the exhibition, so it's not just a CRT TV on a plynth, but maybe a nice homely table or a rug pattern similar to my family living room at home. 
+
+I will probably also explore different ways the photos can fade out, to see if more "drama" suits the project or not, or just to refine the elements that are already there.
