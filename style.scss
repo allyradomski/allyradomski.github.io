@@ -126,3 +126,9 @@ font-size: 1rem;
 h6, .h6 {
 font-size: 1rem;
 }
+
+@font-face {
+    font-family: handwriting;
+    src: url("/assets/files/handwriting.ttf");
+    size-adjust: 200%;
+ }
