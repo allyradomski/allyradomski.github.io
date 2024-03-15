@@ -3,7 +3,14 @@
 
 @import "variables";
 
+@font-face {
+    font-family: aileron;
+    src: url("/assets/files/Aileron-Regular.otf");
+}
+
 body {
+    font-family: aileron;
+    letter-spacing: .05rem;
     //padding-left: 2rem;
     //padding-right: 2rem;
     max-width: 1200px;

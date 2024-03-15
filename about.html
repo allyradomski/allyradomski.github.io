@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-<div class="row gy-4">
+<div class="row gy-4 py-2">
     <div class="col-12 col-md-6">
         <img src="/assets/selfie.jpg" class="img-fluid" alt="Selfie">
     </div>
@@ -21,19 +21,38 @@ title: About
             <br>
             <span class="fa fa-link"></span>
             <a href="https://www.instagram.com/allyradomskiart/" class="link-secondary">Instagram</a>
+            -
             <a href="https://www.linkedin.com/in/ally-radomski-563217155/" class="link-secondary">LinkedIn</a>
+            -
             <a href="https://soundcloud.com/ally-945204558" class="link-secondary">Soundcloud</a>
-            <a href="https://objkt.com/users/tz1bJwj5KBMc3UFk3ijykA9c1sGDmw4FEy24/owned" class="link-secondary">Objkt</a>   
+            -
+            <a href="https://objkt.com/users/tz1bJwj5KBMc3UFk3ijykA9c1sGDmw4FEy24/owned" class="link-secondary">Objkt</a>  
+            
+            <br>
+            <br>
+            {% for like in site.likes %}
+
+
+             <span class="badge rounded-pill text-bg-secondary"><a href="{{ like.url }}" class="link-light">{{ like.title }}</a></li></span>
+
+            {% endfor %}
         </p>
     </div>
 </div>
 
-{% for like in site.likes %}
+<br>
+Exhibitions
+<br>
+2024
+<br>
+• Iridescence - The Vic, Glasgow
+<br>
+2022
+<br>
+• TUSK Mini - Star & Shadow Cinema, Newcastle
+<br>
 
-    <!-- <p>{{ like.title }}</p> -->
-    <span class="badge rounded-pill text-bg-secondary"><a href="{{ like.url }}" class="link-light">{{ like.title }}</a></li></span>
 
-{% endfor %}
 
 
 
