@@ -4,19 +4,28 @@
 @import "variables";
 
 @font-face {
-    font-family: aileron;
-    src: url("/assets/files/Aileron-Regular.otf");
+    font-family: Poppins;
+    src: url("/assets/files/PoppinsLatin-Light.ttf");
+}
+
+@font-face {
+    font-family: Title;
+    src: url("/assets/files/OfficeCodePro-Light.ttf");
 }
 
 body {
-    font-family: aileron;
-    letter-spacing: .05rem;
-    //padding-left: 2rem;
-    //padding-right: 2rem;
+    font-family: Poppins;
+    letter-spacing: -.025rem;
+
     max-width: 1200px;
     margin: auto;
 }
 
+.navbar-brand {
+    font-family: Title;
+    
+    // font-size: 1.4rem;
+}
 // @media (min-width: 992px) body {
 
 // }

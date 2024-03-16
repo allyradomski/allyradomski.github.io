@@ -14,10 +14,26 @@ title: About
             <i id="imageClick">she/they 🏳️‍🌈</i>
             <br>
             <br>
-            I make stuff. I'm based in Glasgow.
-            <br>
+            I make stuff. I'm based in Glasgow. 💚
             <br>
             <span class="fa fa-graduation-cap"></span>Glasgow School of Art - Interaction Design (2022 - 2025)
+            <br>
+            {% for like in site.likes %}
+             <span class="badge rounded-pill text-bg-secondary"><a href="{{ like.url }}" class="link-light">{{ like.title }}</a></li></span>
+            {% endfor %}
+
+            <br>
+            Exhibitions -
+            <br>
+            2024
+            <br>
+            • Iridescence - The Vic, Glasgow
+            <br>
+            2022
+            <br>
+            • TUSK Mini - Star & Shadow Cinema, Newcastle
+            <br>
+
             <br>
             <span class="fa fa-link"></span>
             <a href="https://www.instagram.com/allyradomskiart/" class="link-secondary">Instagram</a>
@@ -26,21 +42,27 @@ title: About
             -
             <a href="https://soundcloud.com/ally-945204558" class="link-secondary">Soundcloud</a>
             -
-            <a href="https://objkt.com/users/tz1bJwj5KBMc3UFk3ijykA9c1sGDmw4FEy24/owned" class="link-secondary">Objkt</a>  
-            
-            <br>
-            <br>
-            {% for like in site.likes %}
-
-
-             <span class="badge rounded-pill text-bg-secondary"><a href="{{ like.url }}" class="link-light">{{ like.title }}</a></li></span>
-
-            {% endfor %}
+            <a href="https://objkt.com/users/tz1bJwj5KBMc3UFk3ijykA9c1sGDmw4FEy24/owned" class="link-secondary">Objkt</a>
         </p>
     </div>
+    <!-- <div class="col-12 col-md-6">
+        <p>
+            <br>
+            Exhibitions
+            <br>
+            2024
+            <br>
+            • Iridescence - The Vic, Glasgow
+            <br>
+            2022
+            <br>
+            • TUSK Mini - Star & Shadow Cinema, Newcastle
+            <br>
+        </p>
+    </div> -->
 </div>
 
-<br>
+<!-- <br>
 Exhibitions
 <br>
 2024
@@ -50,7 +72,7 @@ Exhibitions
 2022
 <br>
 • TUSK Mini - Star & Shadow Cinema, Newcastle
-<br>
+<br> -->
 
 
 
