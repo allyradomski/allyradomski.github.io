@@ -128,12 +128,33 @@ I then felt. I felt both satisfied and exhausted. Satisfied this could be an ide
     <figcaption class="figure-caption">Wrapped rocks</figcaption>
 </figure>
 
-# Display
+### Possible Display
 
-<div class="row justify-content-md-center">
+<!-- <div class="row justify-content-md-center"> -->
 <figure class="figure col-6">
     <img src="{{ page.assetdir }}/setup.jpg" class="figure-img img-fluid" alt="Possible way to display">
     <figcaption class="figure-caption">Possible way to display</figcaption>
 </figure>
-</div>
+<!-- </div> -->
+
+### What I want to convey
+
+In this idea I want to convey that humans are a very complex system of processes from which we evolved from the emergence of life 3.5 billion years ago. In conveying this, I also want to convey that processes were involved in the project creation. A sort of meta process.
+
+Being human, I struggle with emotions sometimes. I've been quite exhausted and down, maybe due to having two passion projects at the same time a couple weeks ago, or some other factor I don't know. For a few of my past projects I have been quite interested in showing emotions and introspective thoughts. 
+
+I'd like to convey all this in this work inspired by instruction-based artworks too.
+
+Most instructions I've looked at include a title and almost poetry like instructions. I also like the idea of having instructions inside instructions. 
+
+<figure class="figure col-6">
+    <img src="{{ page.assetdir }}/process.png" class="figure-img img-fluid" alt="Process idea">
+    <figcaption class="figure-caption">Process idea</figcaption>
+</figure>
+
+<figure class="figure col-12">
+    <img src="{{ page.assetdir }}/setup2.jpg" class="figure-img img-fluid" alt="Display">
+    <figcaption class="figure-caption">Display</figcaption>
+</figure>
+
 
