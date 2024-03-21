@@ -157,4 +157,22 @@ Most instructions I've looked at include a title and almost poetry like instruct
     <figcaption class="figure-caption">Display</figcaption>
 </figure>
 
+# 100 word statement
+
+"A 100 word supporting statement, including a title, description/materials and rationale."
+
+## Title
+
+For the title I can use the titles from the instructions, either PROCESS, ABUNDANCE OF THREAD, or both? I could maybe represent the process nature of this project.
+
+## Description
+
+“ABUNDANCE OF THREAD” attempts to capture the processes involved in the creation of itself while simultaneously exploring the seemingly arbitrary emotions and decisions brewed up in the human mind.
+
+Why the thread? Because I had an abundance and wanted to do something with it.
+Why the rocks? Because they were on my windowsill.
+
+3.5 billionish years ago life emerged from non-living matter… after many years of many processes, here I am, wrapping rocks up for this project.
+
+The work was inspired by instruction-based art and abstract poetry. I continued on the theme of introspection and self from previous projects.
 
