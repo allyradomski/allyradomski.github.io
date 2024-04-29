@@ -111,6 +111,23 @@ I will be capturing data from lochwinnoch, I also want to capture things analogy
     <figcaption class="figure-caption">Sculpture</figcaption>
 </figure>
 
+# Output
+
+<figure class="figure col-12">
+    <img src="{{ page.assetdir }}/ExpressiveDataLow-1.jpg" class="figure-img img-fluid" alt="Overview">
+    <figcaption class="figure-caption">Overview</figcaption>
+</figure>
+
+<figure class="figure col-12">
+    <img src="{{ page.assetdir }}/ExpressiveDataLow-2.jpg" class="figure-img img-fluid" alt="Top-down">
+    <figcaption class="figure-caption">Top-down</figcaption>
+</figure>
+
+<figure class="figure col-12">
+    <img src="{{ page.assetdir }}/ExpressiveDataLow-3.jpg" class="figure-img img-fluid" alt="Close-up">
+    <figcaption class="figure-caption">Close-up</figcaption>
+</figure>
+
 
 
 
