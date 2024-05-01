@@ -57,61 +57,84 @@ I created an animation of this model of "blobs" moving through the curve. This w
     <figcaption class="figure-caption">Animation of model</figcaption>
 </figure>
 
-## Capturing the data
+## Using new data
+
 I will be capturing data from lochwinnoch, I also want to capture things analogy like moss, rocks and sand.
 
+I wanted to use clay and then to be fired and painted, but that cannot be done in the time frame. I went and asked at the Stow casting workshop about it. I will have to use clay that can airdry. I chose the DAS clay which I bought from The Works.
+
+
+<div class="row">
 <figure class="figure col-12">
-    <img src="{{ page.assetdir }}/blender4.png" class="figure-img img-fluid" alt="Blender">
-    <figcaption class="figure-caption">Blender</figcaption>
+    <img src="{{ page.assetdir }}/blender4.png" class="figure-img img-fluid" alt="Model of new data">
+    <figcaption class="figure-caption">Model of new data</figcaption>
 </figure>
 
+<figure class="figure col-4">
+    <img src="{{ page.assetdir }}/print1.jpg" class="figure-img img-fluid" alt="Printing process">
+    <figcaption class="figure-caption">Printing process</figcaption>
+</figure>
+
+<figure class="figure col-4">
+    <img src="{{ page.assetdir }}/print2.jpg" class="figure-img img-fluid" alt="Print">
+    <figcaption class="figure-caption">Print</figcaption>
+</figure>
+
+<figure class="figure col-4">
+    <img src="{{ page.assetdir }}/imprint.jpg" class="figure-img img-fluid" alt="Pressing it down into clay">
+    <figcaption class="figure-caption">Pressing it down into clay</figcaption>
+</figure>
+
+</div>
+
+I used the new data I collected to create a model based on previous experiments, I then printed it out using PrusaSlicer on the Original Prusa i3 MK3S.
+
+I attempted to press it down into the clay, it sort of worked! Though I cannot do my idea of filling it with water since this is air dry clay and would go soft if I wasn't fully covering with sealant.
+
+## Pressing a print into clay
+
+I had the idea to press the print into clay and use it as a channel for water. Sort of like my journey.
+I created the inverse of the print using two models and the boolean modifier and another object to cut it in half.
 <figure class="figure col-12">
     <img src="{{ page.assetdir }}/blender5.png" class="figure-img img-fluid" alt="Blender">
     <figcaption class="figure-caption">Blender</figcaption>
 </figure>
 
-## Prusa
+I printed this model, it was a semi-success. It had a hole in one of the parts (I think a modelling issue from me) and the filament was very flakey in the dips.
+
+I printed it again with painted on supports with the areas I needed. This added an extra hour, from 2 hours to 3.
 
 <figure class="figure col-12">
-    <img src="{{ page.assetdir }}/prusa.png" class="figure-img img-fluid" alt="Prusa">
-    <figcaption class="figure-caption">Prusa</figcaption>
-</figure>
-
-## Print
-
-<figure class="figure col-12">
-    <img src="{{ page.assetdir }}/print1.jpg" class="figure-img img-fluid" alt="Print">
-    <figcaption class="figure-caption">Print</figcaption>
-</figure>
-
-<figure class="figure col-12">
-    <img src="{{ page.assetdir }}/print2.jpg" class="figure-img img-fluid" alt="Print">
-    <figcaption class="figure-caption">Print</figcaption>
-</figure>
-
-<figure class="figure col-12">
-    <img src="{{ page.assetdir }}/imprint.jpg" class="figure-img img-fluid" alt="Print">
-    <figcaption class="figure-caption">Print</figcaption>
+    <img src="{{ page.assetdir }}/prusa.png" class="figure-img img-fluid" alt="GCode with added supports">
+    <figcaption class="figure-caption">GCode with added supports</figcaption>
 </figure>
 
 <figure class="figure col-12">
     <img src="{{ page.assetdir }}/print3.jpg" class="figure-img img-fluid" alt="Print">
-    <figcaption class="figure-caption">Print</figcaption>
+    <figcaption class="figure-caption">Left: Print with supports - Right: No supports and other way up</figcaption>
 </figure>
 
 ## Sculpture
 
+Using the materials I collected I created the sculpture, deciding carefully what to put in each area. For example, the feather is where I saw birds, the lichen is nex to where I found it. The stones from the lochside were scattered where the loch would be.
+
+It was very peaceful creating the sculpture, it felt satisfying like I was building a little world.
+
 <figure class="figure col-12">
-    <img src="{{ page.assetdir }}/sculpture.jpg" class="figure-img img-fluid" alt="Sculpture">
-    <figcaption class="figure-caption">Sculpture</figcaption>
+    <img src="{{ page.assetdir }}/sculpture.jpg" class="figure-img img-fluid" alt="Wet">
+    <figcaption class="figure-caption">Wet</figcaption>
 </figure>
 
 <figure class="figure col-12">
-    <img src="{{ page.assetdir }}/sculpture2.jpg" class="figure-img img-fluid" alt="Sculpture">
-    <figcaption class="figure-caption">Sculpture</figcaption>
+    <img src="{{ page.assetdir }}/sculpture2.jpg" class="figure-img img-fluid" alt="Dry">
+    <figcaption class="figure-caption">Dry</figcaption>
 </figure>
+
+One issue though is that the print either isn't completely flat, so water comes out, and or there's a leak in it somewhere.
 
 # Output
+
+Captured with studio DSLR with a subtle filter using lighroom. I filtered through many photos to get the best ones.
 
 <figure class="figure col-12">
     <img src="{{ page.assetdir }}/ExpressiveDataLow-1.jpg" class="figure-img img-fluid" alt="Overview">
@@ -128,6 +151,8 @@ I will be capturing data from lochwinnoch, I also want to capture things analogy
     <figcaption class="figure-caption">Close-up</figcaption>
 </figure>
 
+# Conclusion
 
+In conclusion I am happy with the outcome. I'd have liked to have done my original plan with paint and a fired model which can contain water, but this alternate wasn't bad. It was suggested in the review the print and the clay don't really go together, I think the colours do go together, and it could be interpreted as my life in an artificial world exploring the natural world. But I do see that, I did intend for the print to be filled too.
 
 
