@@ -10,7 +10,7 @@ Learning journal entries for Interaction Design at Glasgow School of Art.
 <br>
 
 <div class="row">
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-md-6">
         <ul class="list-group list-group-flush">
             <li class="list-group-item"><h5 class="text-center">Year 2</h5></li>
 
@@ -21,23 +21,12 @@ Learning journal entries for Interaction Design at Glasgow School of Art.
             {% endfor %}
         </ul>
     </div>
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-md-6">
         <ul class="list-group list-group-flush">
             <li class="list-group-item"><h5 class="text-center">Year 3</h5></li>
 
             {% for module in site.journal %}
             {% if module.year == 3 %}
-                <li class="list-group-item"><a href="{{ module.url }}" class="link-secondary">{{ module.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-    </div>
-    <div class="col-12 col-md-4">
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item"><h5 class="text-center">Year 4</h5></li>
-
-            {% for module in site.journal %}
-            {% if module.year == 4 %}
                 <li class="list-group-item"><a href="{{ module.url }}" class="link-secondary">{{ module.title }}</a></li>
             {% endif %}
             {% endfor %}

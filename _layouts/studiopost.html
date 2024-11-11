@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="post-content m-0">
+    <a href="{{ site.baseurl }}/studio">← go back</a>
+    <br>
+    <br>
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+    <br>
+    {{ content }}
+    <p class="text-end my-4">
+        {% for tag in page.tags %}
+        <span class="badge rounded-pill text-bg-secondary">{{ tag }}</span>
+        {% endfor %}
+        
+        <i class="fa-regular fa-calendar"></i>
+        {{ page.date | date: "%B" }}
+        {{ page.date | date: "%Y" }}
+        
+    </p>
+</div>

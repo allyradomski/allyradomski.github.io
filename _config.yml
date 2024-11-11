@@ -17,6 +17,8 @@ collections:
     output: true
   likes:
     output: true
+  studio:
+    output: true
 
 defaults:
   -
@@ -45,4 +47,14 @@ defaults:
       layout: "post"
       permalink: /me/:title
       sitemap: false
+  -
+    scope:
+      path: ""
+      type: "studio"
+    values:
+      layout: "studiopost"
+      title: "Missing title"
+      description: "Missing description"
+      cover: "/assets/missing.png"
+      permalink: /studio/:title
 
