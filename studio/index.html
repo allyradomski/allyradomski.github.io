@@ -6,13 +6,14 @@ sitemap: false
 
 <div class="container-fluid bg-transparent g-0 p-0 py-2">
     <div class="row gx-4 gy-4 p-0">
-        {% for module in site.studio %}
+        <!-- {% assign posts = site.studio | sort: "date" %} -->
+        {% for module in site.studio reversed %}
         <div class="col-md-12 col-lg-4">
             <div class="card card-hover">
                 <div class="row gx-0">
                     <div class="col-sm-12 col-md-6 col-lg-12 position-relative">
                         <img src="{{ module.cover }}" alt="" class="img-fluid card-image">
-                        <div class="col-12 d-none d-lg-block hover-info hyperspan">
+                        <!-- <div class="col-12 d-none d-lg-block hover-info hyperspan">
                             <div class="card-body h-100 d-flex flex-column align-items-start">
                                 <p class="card-title lead">{{ module.title }}</p>
                                 <p class="card-text align-self-stretch text-truncate">{{ module.description }}</p>
@@ -23,18 +24,18 @@ sitemap: false
                                     </small>
                                 </p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-12 d-lg-none card-info">
+                    <div class="col-sm-12 col-md-6 col-lg-12  card-info">
                         <div class="card-body h-100 d-flex flex-column align-items-start">
                             <p class="card-title lead">{{ module.title }}</p>
                             <p class="card-text align-self-stretch">{{ module.description }}</p>
-                            <p class="card-text text-end text-secondary mt-auto align-self-end d-md-inline" style="color: rgb(127, 127, 127) !important;">
+                            <!-- <p class="card-text text-end text-secondary mt-auto align-self-end d-md-inline" style="color: rgb(127, 127, 127) !important;">
                                 <small>
                                 {{ module.date | date: "%B" }}
                                 {{ module.date | date: "%Y" }}
                                 </small>
-                            </p>
+                            </p> -->
                         </div>
                     </div>
                 </div>
