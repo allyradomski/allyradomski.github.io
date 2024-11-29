@@ -23,8 +23,17 @@ The audio files are looped and can be played in with more than 2 channels, which
 Further experimentation will confirm if there are any issues with lots of audio files being played and looped at the same time.
 
 <div class="row" style="border-style: dotted; border-color: black; border-width: 5px; padding: 10px;">
-<video class="col-12" width="100%" height="auto" title="Pd recording" controls>
+<video class="col-12" width="100%" height="auto" title="Pd recording" preload="none" controls>
     <source src="{{ page.assetdir }}/pdrecording.mp4" type="video/mp4">
+</video>
+</div>
+<br>
+
+This is another quite patch I did, this time adding a sort of heart beat and breathing sound and sample from Soundsnap of a Pine cone being ripped up and put it through a granulator and other effects in Ableton. I attached these to be controlled by CC again and I gradually change values to try to sort of simulate a creature changing mood and getting stressed.
+
+<div class="row" style="border-style: dotted; border-color: black; border-width: 5px; padding: 10px;">
+<video class="col-12" width="100%" height="auto" title="Pd recording 2" preload="none" controls>
+    <source src="{{ page.assetdir }}/pdrecording2.mp4" type="video/mp4">
 </video>
 </div>
 <br>

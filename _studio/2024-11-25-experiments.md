@@ -29,12 +29,12 @@ I borrowed a DMX light and a USB ENTTEC adapter and played around with how it wo
 
 
 <div class="row" style="border-style: dotted; border-color: black; border-width: 5px; padding: 10px;">
-<video class="col-6" width="100%" height="auto" title="Light experiment" controls>
+<video class="col-6" width="100%" height="auto" title="Light experiment" preload="none" controls>
     <source src="{{ page.assetdir }}/lightexperiment.mp4" type="video/mp4">
 </video>
 
 
-<video class="col-6" width="100%" height="auto" title="Light experiment 2" controls>
+<video class="col-6" width="100%" height="auto" title="Light experiment 2" preload="none" controls>
     <source src="{{ page.assetdir }}/lightexperiment2.mp4" type="video/mp4">
 </video>
 </div>
