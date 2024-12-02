@@ -37,3 +37,14 @@ This is another quite patch I did, this time adding a sort of heart beat and bre
 </video>
 </div>
 <br>
+
+## Kinect experiment
+
+Using the small PC I have, I installed all the libraries and applications I needed. Not without some issue, I had to install a wifi driver and enable sound from BIOS (took me hours to figure that out) to get it to work.
+
+This is a small sketch I made in Processing, which attempts to track people and add their movement to an agitator value, which grows with movement. The test seemed to be able to change the CC values in Pure Data fine enough.
+<div class="row" style="border-style: dotted; border-color: black; border-width: 5px; padding: 10px;">
+<video class="col-12" width="100%" height="auto" title="Kinect recording" preload="none" controls>
+    <source src="{{ page.assetdir }}/kinectrecording.mp4" type="video/mp4">
+</video>
+</div>
