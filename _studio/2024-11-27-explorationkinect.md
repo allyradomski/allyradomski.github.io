@@ -48,3 +48,14 @@ This is a small sketch I made in Processing, which attempts to track people and 
     <source src="{{ page.assetdir }}/kinectrecording.mp4" type="video/mp4">
 </video>
 </div>
+
+<br>
+
+### Further experiments
+
+I attempted to make a more robust program to detect movement without the use of the skeletons. I realise the skeletons aren't necessarily needed if all I want to detect is movement. I made this sketch to visualise how it could work. The depth of the cubes are determined with the movement seen within that part of the kinect. The bar represents the overall average of movement. The blue ball could represent agitation.
+<div class="row" style="border-style: dotted; border-color: black; border-width: 5px; padding: 10px;">
+<video class="col-12" width="100%" height="auto" title="Kinect test movement processing" preload="none" controls>
+    <source src="{{ page.assetdir }}/processingkinecttest.mp4" type="video/mp4">
+</video>
+</div>
