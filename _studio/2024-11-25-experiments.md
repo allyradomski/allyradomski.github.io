@@ -16,10 +16,10 @@ I used an old recording I made whilst in the Lake District and used a grandulato
 <br>
 
 ## 25:31:12 hours in my bedroom
-I haven’t the energy to go out and I often find myself stuck in my bedroom, which ultimately isn’t a place I feel at home in and it encourages bad habits such as sleeping my life away. I decided to record the audio over a span of 24 hours, inspired by the “Environmental Sound Matter” essay by López. I wanted to hear what a “floating ear” above my bed headboard would hear. Complete with snoring, singing, flatulation, creaky door hinges, cars outside my window. I haven’t got around to it, but I planned to abstract the sounds at parts and manipulate them into something entirely different that resonates with an emotion I am trying to represent. I had struggled with acting “normal” while being observed by this microphone, which I dont think is possible unless I set it up and then somehow completely forget it.
+I haven’t the energy to go out and I often find myself stuck in my bedroom, which ultimately isn’t a place I feel completely at home in. I decided to record the audio over a span of 24 hours, inspired by the “Environmental Sound Matter” essay by López. I wanted to hear what a “floating ear” above my bed headboard would hear. Complete with snoring, singing, creaky door hinges, cars outside my window. I haven’t got around to it, but I planned to abstract the sounds at parts and manipulate them into something entirely different that resonates with an emotion I am trying to represent. I had struggled with acting “normal” while being observed by this microphone, which I dont think is possible unless I set it up and then somehow completely forget it.
 
 ## 32:65 minutes of a spot in Pollock park
-On a need for air and time to think, I walked to a spot in Pollock park where the rays were shining through the trees. I wanted to capture the sound matter of the location whilst I was writing and thinking. At first, I felt the pressure of being observed again, I had a particularly runny nose that day and I didn’t want to sniffle as that would be heard, but I eventually gave in. It’s natural.
+On a need for air and time to think, I walked to a spot in Pollock park where the rays were shining through the trees. I wanted to capture the sound matter of the location whilst I was writing and thinking. At first, I felt the pressure of being observed, I had a particularly runny nose that day and I didn’t want to sniffle as that would be heard, but I eventually gave in. It’s natural.
 
 <br>
 ## DMX Lighting
