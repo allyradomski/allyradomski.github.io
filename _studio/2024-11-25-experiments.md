@@ -1,7 +1,7 @@
 ---
 year: 4
 title: Experiments with sound and light
-description: Numerous experiments using sound, light, and a combination.
+description: 🧪
 assetdir: /assets/studio/experiments
 cover: /assets/studio/experiments/cover.jpg
 ---
