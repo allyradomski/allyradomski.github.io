@@ -1,7 +1,7 @@
 ---
 year: 4
 title: Reflection
-description: 💡
+description: Semester 1 / Week 14
 assetdir: /assets/studio/reflection
 ---
 2025, to get cracking, I want to first consider what I actually want to make.

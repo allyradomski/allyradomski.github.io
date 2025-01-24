@@ -1,7 +1,7 @@
 ---
 year: 4
 title: Exploration into an idea
-description: 📷
+description: Semester 1 / Week 10 - 11
 assetdir: /assets/studio/explorationkinect
 cover: /assets/studio/explorationkinect/map.jpg
 ---

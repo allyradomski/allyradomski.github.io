@@ -1,7 +1,6 @@
 ---
-year: 4
 title: Experiments with sound and light
-description: 🧪
+description: Semester 1 / Week 3 - 4
 assetdir: /assets/studio/experiments
 cover: /assets/studio/experiments/cover.jpg
 ---
@@ -10,7 +9,7 @@ cover: /assets/studio/experiments/cover.jpg
 ## Ableton experiment
 I used an old recording I made whilst in the Lake District and used a grandulator on it with a midi controller with CC knobs, then cutting the “performance” up and abstracting the parts I liked. I made a short audio file, just an experiment.
 
-<div class="row" style="border-style: dotted; border-color: black; border-width: 5px; padding: 10px;">
+<div class="row" style="padding: 10px;">
 <audio controls src="{{ page.assetdir }}/experiment.mp3"></audio>
 </div>
 <br>
@@ -28,13 +27,13 @@ I borrowed a DMX light and a USB ENTTEC adapter and played around with how it wo
 
 
 
-<div class="row" style="border-style: dotted; border-color: black; border-width: 5px; padding: 10px;">
-<video class="col-6" width="100%" height="auto" title="Light experiment" preload="none" controls>
+<div class="row" style="padding: 10px;">
+<video class="col-6" style="filter: drop-shadow(0px 0px 7px red);" width="100%" height="auto" title="Light experiment" controls>
     <source src="{{ page.assetdir }}/lightexperiment.mp4" type="video/mp4">
 </video>
 
 
-<video class="col-6" width="100%" height="auto" title="Light experiment 2" preload="none" controls>
+<video class="col-6" style="filter: drop-shadow(0px 0px 7px lime);" width="100%" height="auto" title="Light experiment 2" controls>
     <source src="{{ page.assetdir }}/lightexperiment2.mp4" type="video/mp4">
 </video>
 </div>
