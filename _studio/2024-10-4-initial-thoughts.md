@@ -7,7 +7,7 @@ assetdir: /assets/studio/initial-thoughts/
 
 In my [Studio Project Proposal]({{ page.assetdir }}/Y4_ProjectProposal_AllyRadomski.pdf), I explained my initial thoughts about what I wanted to achieve and do this year in my studio project. Obviously this is just my initial proposal and will change as I explore ideas.
 <br><br>
-<div class="" style="padding: 1em; border-left-style: solid; border-color: LightGray">
+<div class="block">
 <b>Project Proposal Summary</b>
 <br><br>
 <p>
@@ -18,7 +18,7 @@ In my [Studio Project Proposal]({{ page.assetdir }}/Y4_ProjectProposal_AllyRadom
 
 I want to create something that someone can be in, an environment that can be stepped into. I want to create a space. I have had this idea for a while whilst admiring art pieces by artists that achieve creating spaces. My initial references in my proposal were these.
 <br><br>
-<div class="" style="padding: 1em; border-left-style: solid; border-color: LightGray">
+<div class="block">
 <b>References in Proposal</b>
 <br><br>
 <ul style="">
