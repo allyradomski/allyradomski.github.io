@@ -2,7 +2,7 @@
 title: Experiments with light
 description: Semester 1 / Week 3 - 4
 assetdir: /assets/studio/experiments
-# cover: /assets/studio/experiments/cover.jpg
+cover: /assets/studio/experiments/cover.jpg
 ---
 
 I want to experiment with DMX lighting and how it works. I know lighting is an important aspect of installation environments. 

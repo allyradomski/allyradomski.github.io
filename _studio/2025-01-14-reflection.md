@@ -1,8 +1,8 @@
 ---
-year: 4
 title: Reflection
 description: Semester 1 / Week 14
 assetdir: /assets/studio/reflection
+cover: /assets/studio/reflection/cover.jpg
 ---
 2025, to get cracking, I want to first consider what I actually want to make.
 The main points I want to follow are:

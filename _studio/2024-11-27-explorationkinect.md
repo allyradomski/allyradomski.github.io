@@ -3,7 +3,7 @@ year: 4
 title: Exploration into an idea
 description: Semester 1 / Week 10 - 11
 assetdir: /assets/studio/explorationkinect
-cover: /assets/studio/explorationkinect/map.jpg
+cover: /assets/studio/explorationkinect/cover.jpg
 ---
 
 I have been exploring into the idea of having a "living room" that reacts to human movement within it. I want the room to retreat in nervousness. This could encourage people to stay still within the room. It could also react to the number of people within the room. An extreme idea of this is reacting to any human presence at all, requiring you to mask yourself with a blanket or something to get close to it. 

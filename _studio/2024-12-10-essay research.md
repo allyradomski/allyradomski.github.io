@@ -2,7 +2,7 @@
 title: Research
 description: Christmas Break
 assetdir: /assets/studio/research
-# cover: /assets/studio/wip/speakerwip.jpg
+cover: /assets/studio/research/cover.jpg
 ---
 During the completion of my DH&T essay over the break, I collected many resources that have influenced me creatively. The overall theme of my essay was about seeing sound as something that can stand independently as a thing by itself. [Going back]({{site.baseurl}}/studio/experiments-sound) to when I first started researching, I talked about how Francisco López’s essays were influential to me and set me on a deep, rich and interesting exploration into the substance of sound.
 
