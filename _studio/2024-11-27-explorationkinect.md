@@ -10,7 +10,7 @@ I have been exploring into the idea of having a "living room" that reacts to hum
 
 The idea of this came from thinking about anthropocentrism within nature and the idea that we won't experience how other creatures experience fully as this world doesn't revolve around us. Bird watchers are careful and become one with the environment as to not disturb it. 
 
-<img src="{{ page.cover }}" class="col-6">
+<img src="{{ page.assetdir }}/map.jpg" class="col-6">
 
 Here is the idea related to the sound aspect of it. I wanted to be able to play a rich sound environment but considering technical restrictions. I am not sure but I suspect Pure Data may be a good way to play sound files and compile them back into a sound environment when exported from Ableton as "stems". I am inspired by how games seamlessly change their music depending on the environment. Although in older games, this is done by midi and small samples.
 
@@ -54,6 +54,123 @@ This is a small sketch I made in Processing, which attempts to track people and 
 ### Further experiments
 
 I attempted to make a more robust program to detect movement without the use of the skeletons. I realise the skeletons aren't necessarily needed if all I want to detect is movement. I made this sketch to visualise how it could work. The depth of the cubes are determined with the movement seen within that part of the kinect. The bar represents the overall average of movement. The blue ball could represent agitation.
+
+<div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            depthmovement.pde
+        </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+        <pre><code class="language-java">import kinect4WinSDK.Kinect;
+import peasy.PeasyCam;
+
+static final int SCAN_WIDTH = 56;
+static final int SCAN_HEIGHT = 42;
+
+int boxSize;
+
+float[][] depthMatrix;
+
+float[][] movementMatrix;
+float movementOverall = 0.0;
+Kinect kinect;
+PeasyCam cam;
+
+void setup() {
+  size(640, 480, P3D);
+  
+  cam = new PeasyCam(this, 400);
+  kinect = new Kinect(this);
+  rectMode(CENTER);
+  
+  boxSize = int(kinect.WIDTH / 56.0);
+  depthMatrix = new float[SCAN_WIDTH][SCAN_HEIGHT];
+  for (int i = 0; i < SCAN_WIDTH; i++) {
+    for (int j = 0; j < SCAN_HEIGHT; j++) {
+      depthMatrix[i][j] = 0.0;
+    }
+  }
+  movementMatrix = new float[SCAN_WIDTH][SCAN_HEIGHT];
+  for (int i = 0; i < SCAN_WIDTH; i++) {
+    for (int j = 0; j < SCAN_HEIGHT; j++) {
+      movementMatrix[i][j] = 0.0;
+    }
+  }
+}
+
+void a() {
+  PImage depthMap = kinect.GetDepth();
+  for (int i = 0; i < SCAN_WIDTH; i++) {
+    int xPosition = int(map(i, -1, SCAN_WIDTH + 1, 0, kinect.WIDTH));
+    for (int j = 0; j < SCAN_HEIGHT; j++) {
+      int yPosition = int(map(j, -1, SCAN_HEIGHT + 1, 0, kinect.HEIGHT));
+      
+      float newDepth = lerp(depthMatrix[i][j], brightness(depthMap.get(xPosition, yPosition)), 0.1);
+      
+      movementMatrix[i][j] = constrain(movementMatrix[i][j] + abs(map(depthMatrix[i][j] - newDepth, 0, 255, 0, 1)), 0, 1);
+      depthMatrix[i][j] = newDepth;
+      
+      fill(depthMatrix[i][j], 0, 0);
+ 
+      push();
+      translate(xPosition, yPosition, -movementMatrix[i][j] * 250);
+      box(boxSize);
+      pop();
+    }
+  }
+}
+
+void updateMovementMatrix() {
+  for (int i = 0; i < SCAN_WIDTH; i++) {
+    for (int j = 0; j < SCAN_HEIGHT; j++) {
+      movementMatrix[i][j] -= 0.001;
+      if (movementMatrix[i][j] < 0) {
+        movementMatrix[i][j] = 0;
+      }
+    }
+  }
+}
+
+void getMovementOverall() {
+  float total = 0.0;
+  
+  for (int i = 0; i < SCAN_WIDTH; i++) {
+    for (int j = 0; j < SCAN_HEIGHT; j++) {
+      total += movementMatrix[i][j];
+    }
+  }
+  
+  total = total / (SCAN_WIDTH * SCAN_HEIGHT);
+  movementOverall = lerp(movementOverall, total, 0.1);
+  push();
+  fill(0, total * 255, 0);
+  translate(kinect.WIDTH + boxSize * 2, kinect.HEIGHT - boxSize - total * kinect.HEIGHT * 0.5, 0);
+  box(boxSize, total * kinect.HEIGHT, boxSize);
+  pop();
+  
+  push();
+  translate(kinect.WIDTH + boxSize * 12, kinect.HEIGHT * 0.5 - boxSize, 0);
+  fill(0, 0, movementOverall * 255);
+  sphere(movementOverall * 8 * boxSize);
+  pop();
+}
+
+void draw() {
+  background(255);
+  translate(-width * 0.5, - height * 0.5);
+
+  a();
+  updateMovementMatrix();
+  getMovementOverall();
+}
+</code></pre>
+</div>
+</div>
+</div>
+<br>
 <div class="row" style="padding: 10px;">
 <video class="col-6" style="filter: drop-shadow(0px 0px 7px rgb(255, 0, 0));" width="100%" height="auto" title="Kinect test movement processing" controls>
     <source src="{{ page.assetdir }}/processingkinecttest.mp4" type="video/mp4">
