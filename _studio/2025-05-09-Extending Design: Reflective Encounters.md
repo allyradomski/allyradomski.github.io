@@ -66,3 +66,28 @@ Although not a seemingly obvious place, the installation could be installed so i
 <img class="col-6" src="https://i2-prod.business-live.co.uk/incoming/article5795528.ece/ALTERNATES/s1227b/The-Library-of-Birmingham-Book-Rotunda.jpg">
 <img class="col-6" src="https://i.pinimg.com/originals/0e/5c/9c/0e5c9c207e914025208bc5649c60f768.jpg">
 </div>
+
+### Sir Duncan Rice Library
+
+This library suggested by my friend has a lot of estate for imagery. Projections could be put on each level so people can read it from the bannisters.
+
+<div class="row gy-4">
+<img class="col-6" src="https://i.pinimg.com/originals/bc/af/d8/bcafd8ec22c327e28dbef683af95e81d.jpg">
+<img class="col-6" src="https://www.urbanrealm.com/images/news/newspic_2392.jpg">
+</div>
+
+<br>
+## Feedback session
+
+I had a tutorial with Gillian and we discussed different places in which it could be. We came to realise that spaces like Birmingham and Duncan Rice would not suit the locations as they lend themselves to passing through the locations that I suggested, like under the elevator. I would want it to be a static location, as I initially said that it is quite intimate and people seemed to be engaged with it when I presented it previously. 
+
+Spaces such as V&A Dundee have extensive archives of many things, but it also includes book archives with would fit with what I want to do. 
+
+I do need to select a space as a priority as I cannot start the rest of the project without doing so.
+
+### V&A Dundee
+
+<div class="row gy-4">
+<img class="col-6" src="https://a.storyblok.com/f/181458/960x560/ada06d36b3/event_bsl-tour-ocean-liners_header-image.jpg">
+</div>
+
