@@ -58,4 +58,6 @@ At the end of the meeting, he gave me questions to answer that will give him an 
 
 Answering these questions have cleared my mind on what I want to accomplish in the Work In Progress (WiP) show. I'll start development into these ideas.
 
+I had a follow up meeting with Daniel, as explained in my WIP section of my learning journal.
+
 

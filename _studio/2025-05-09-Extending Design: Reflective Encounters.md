@@ -20,7 +20,7 @@ After some consideration, I am going to go with **Audiovisual** to develop furth
 
 ## Learning InDesign
 
-Adobe InDesign was the suggested program to use to create the document. I'm going to spend some time learning this. Currently I am a bit stuck on where to start, but there's a meeting on Thursday so that'll be helpful. I started an InDesign course on LinkedIn learning (cheeky 1 monh free trial) and it appears good so far! It is updated to 2024 and has lesson resources so that you can followo along. I feel I am picking it up fairly quickly. I found myself struggling with Adobe products like Photoshop, Illustrator and InDesign, I didn't feel it too intuitive, but it only seems to take a little while to learn the foundations of it.
+Adobe InDesign was the suggested program to use to create the document. I'm going to spend some time learning this. Currently I am a bit stuck on where to start, but there's a meeting on Thursday so that'll be helpful. I started an online InDesign course and it appears good so far. It is updated to 2024 and has lesson resources so that you can folloow along. I feel I am picking it up fairly quickly. I found myself struggling with Adobe products like Photoshop, Illustrator and InDesign, I didn't feel it too intuitive, but it only seems to take a little while to learn the foundations of it.
 
 ## Feedback Session
 
