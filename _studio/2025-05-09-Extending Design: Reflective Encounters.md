@@ -87,7 +87,140 @@ I do need to select a space as a priority as I cannot start the rest of the proj
 
 ### V&A Dundee
 
-<div class="row gy-4">
-<img class="col-6" src="https://a.storyblok.com/f/181458/960x560/ada06d36b3/event_bsl-tour-ocean-liners_header-image.jpg">
+I ended up selecting the V&A in Dundee. I travelled over to Dundee to get a feel for the space and to take photos. There are plenty of possible spaces in the V&A, with many different galleries inside.
+
+Here are the 40 photos I took of the interior. I took a few photos of the ceiling too to get an idea of how the space operates in mounting projectors and other equipment. It seems quite a mallable space.
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-01.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-02.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-03.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-04.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-05.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-06.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-07.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-08.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-09.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-10.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-11.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-12.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-13.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-14.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-15.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-16.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-17.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-18.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-19.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-20.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-21.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-22.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-23.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-24.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-25.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-26.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-27.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-28.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-29.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-30.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-31.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-32.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-33.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-34.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-35.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-36.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-37.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-38.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-39.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ page.assetdir}}/dundee/VAPhoto-40.jpg" class="d-block w-100">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 
