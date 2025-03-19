@@ -1,5 +1,5 @@
 ---
-title: "Extending Design: Reflective Encounters"
+title: "Extending Design"
 description: "20 credit course"
 cover: /assets/studio/extendingdesign/cover.jpg
 assetdir: /assets/studio/extendingdesign
