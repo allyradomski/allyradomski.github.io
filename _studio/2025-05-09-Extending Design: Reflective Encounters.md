@@ -224,3 +224,39 @@ Here are the 40 photos I took of the interior. I took a few photos of the ceilin
   </button>
 </div>
 
+# Starting
+
+
+I began creating the media for the proposal. I used a photo I took at Dundee and used numerous programs to begin creating what it may look like installed.
+
+I used a program called fSpy to mimic the camera position in the photo. I then exported this to Blender using fSpy's blender addon.
+
+In Blender I used a couple of free models online to create a table and monitor set up with keyboard input. I am not entirely sure if this is what I'd want but I don't know how to 3d model really. I tried to mimic the lighting.
+
+* https://www.turbosquid.com/3d-models/woodbang-touchey-parametric-side-table-3d-model-2298397
+* https://www.turbosquid.com/3d-models/3d-led-tv-2140506
+* https://www.turbosquid.com/3d-models/basic-mechanical-keyboard-3d-1811827
+
+Within AE, I created masks and put the objects on top of the photo.
+
+For the Processing part, I used a library called jBox2d to let words collide with each other. 
+
+<div class="row justify-content-center">
+<img src="{{page.assetdir}}/fspy.png" class="col-12">
+</div>
+
+<div class="row justify-content-center">
+<img src="{{page.assetdir}}/blender.png" class="col-12">
+</div>
+
+<div class="row" style="padding: 10px;">
+<video class="col-12" style="filter: drop-shadow(0px 0px 7px black);" width="100%" height="auto" title="Processing sketch" controls>
+    <source src="{{ page.assetdir }}/processing1.mp4" type="video/mp4">
+</video>
+</div>
+
+(Thumbnail may be black)
+
+<div class="row justify-content-center">
+<img src="{{page.assetdir}}/ae.png" class="col-12">
+</div>
