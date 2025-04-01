@@ -260,3 +260,44 @@ For the Processing part, I used a library called jBox2d to let words collide wit
 <div class="row justify-content-center">
 <img src="{{page.assetdir}}/ae.png" class="col-12">
 </div>
+
+# Creating the staff interface
+
+I needed to create an interface mockup of what it'd look like for the people working at the V&A Dundee to add events and be able to remove entries they deem unsuitable (if it makes it past the proposed filter system!).
+
+I used Figma to make the interfaces, it seemed quite intuitive and I am happy with how they came out. I also redid the interface that visitors will interact with when they can submit writings.
+
+<div class="row justify-content-center">
+<img src="{{page.assetdir}}/figma.png" class="col-12">
+</div>
+
+<div class="row justify-content-center">
+<img src="{{page.assetdir}}/main.png" class="col-12">
+</div>
+
+<div class="row justify-content-center">
+<img src="{{page.assetdir}}/scheduling.png" class="col-12">
+</div>
+
+<div class="row justify-content-center">
+<img src="{{page.assetdir}}/editing.png" class="col-12">
+</div>
+
+<div class="row justify-content-center">
+<img src="{{page.assetdir}}/settings.png" class="col-12">
+</div>
+
+# Renders
+
+
+<div class="row justify-content-center">
+<img src="{{page.assetdir}}/installationinterface.png" class="col-6">
+</div>
+
+<div class="row justify-content-center">
+<img src="{{page.assetdir}}/interface2low.png" class="col-12">
+</div>
+
+<div class="row justify-content-center">
+<img src="{{page.assetdir}}/render.jpg" class="col-12">
+</div>
