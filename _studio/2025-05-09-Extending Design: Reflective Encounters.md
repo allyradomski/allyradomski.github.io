@@ -301,3 +301,13 @@ I used Figma to make the interfaces, it seemed quite intuitive and I am happy wi
 <div class="row justify-content-center">
 <img src="{{page.assetdir}}/render.jpg" class="col-12">
 </div>
+
+<br>
+
+# PDF Progress 
+<div class="row justify-content-center col-12">
+<embed class="pdf" 
+               src=
+"{{page.assetdir}}/Checkpoint.pdf"
+            width="100%" height="600px">
+</div>
