@@ -305,9 +305,27 @@ I used Figma to make the interfaces, it seemed quite intuitive and I am happy wi
 <br>
 
 # PDF Progress 
+
+## Checkpoint 1
 <div class="row justify-content-center col-12">
 <embed class="pdf" 
                src=
 "{{page.assetdir}}/Checkpoint.pdf"
+            width="100%" height="600px">
+</div>
+<br>
+## Checkpoint 2
+<div class="row justify-content-center col-12">
+<embed class="pdf" 
+               src=
+"{{page.assetdir}}/checkpoint2.pdf"
+            width="100%" height="600px">
+</div>
+<br>
+## Checkpoint 3
+<div class="row justify-content-center col-12">
+<embed class="pdf" 
+               src=
+"{{page.assetdir}}/checkpoint3.pdf"
             width="100%" height="600px">
 </div>
