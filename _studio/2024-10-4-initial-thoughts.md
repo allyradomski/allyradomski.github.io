@@ -2,7 +2,7 @@
 title: Initial Thoughts
 description: Semester 1 / Week 2
 assetdir: /assets/studio/initial-thoughts/
-# cover: /assets/studio/initial-thoughts/cover.jpg
+cover: /assets/studio/initial-thoughts/cover.jpg
 ---
 
 In my [Studio Project Proposal]({{ page.assetdir }}/Y4_ProjectProposal_AllyRadomski.pdf), I explained my initial thoughts about what I wanted to achieve and do this year in my studio project. Obviously this is just my initial proposal and will change as I explore ideas.
