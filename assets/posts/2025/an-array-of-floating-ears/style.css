@@ -38,7 +38,6 @@ body {
 
 #videoContainer {
     position:relative;
-    background-color: orange;
     padding:56.25% 0 0 0;
     width: 100%;
     z-index: 1;
