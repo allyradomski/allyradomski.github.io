@@ -4,15 +4,25 @@ html {
 :root {
     --padding: 5.55556%;
 }
-
-html {
-    font: inherit;
-}
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Courier New', monospace;
+    
 }
 
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: gray;
+}
+
+p {
+    color: white;
+    vertical-align: middle;
+}
 #defaultCanvas0 {
     
     z-index: 0;
@@ -27,7 +37,6 @@ body {
     position: absolute;
     width: calc(100vw - var(--padding) * 2);
     height: calc(100vw - var(--padding) * 2);
-    
 }
 
 #container {
@@ -42,5 +51,26 @@ body {
     /* padding:56.25% 0 0 0; */
     padding:56.25% 0 0 0;
     width: 100%;
+    z-index: 1;
+}
+
+#textContainer {
+    position: absolute;
+    /* margin:37.5% 0 0 0; */
+    /* margin: 0 auto; */
+    /* width: 100%; */
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    border-style: groove;
+    z-index: 1;
+    text-align: left;
+    /* transform: translate(0, -100%); */
+    
+
+}
+#divider {
+    padding:6.25% 0 0 0;
+    width: 100%;
+    /* background-color: pink; */
     z-index: 1;
 }
