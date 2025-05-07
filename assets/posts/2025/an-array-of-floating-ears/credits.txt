@@ -1,0 +1,261 @@
+Credits -
+
+Research -
+  https://allyradomski.art/studio/
+
+Software -
+  * Processing
+    * The MidiBus 
+      * url: https://github.com/sparks/themidibus
+    * Uniform Noise
+      * url: https://github.com/micycle1/UniformNoise/tree/main
+
+Sounds -
+Licenses: Creative Commons 0
+Source: freesound.org
+  * 795951__soundslikeyukon__portable-generator-at-silver-city-yukon.wav
+    * url: https://freesound.org/s/795951/
+     
+  * 795947__soundslikeyukon__alaskan-husky-sled-dogs-in-yard.wav
+    * url: https://freesound.org/s/795947/
+     
+  * 757868__xkeril__morning-in-swiss-mountain.wav
+    * url: https://freesound.org/s/757868/
+     
+  * 745090__garuda1982__city-atmosphere-with-tram-people-and-cars.wav
+    * url: https://freesound.org/s/745090/
+     
+  * 734709__cribbler__wind-in-the-trees.wav
+    * url: https://freesound.org/s/734709/
+     
+  * 726352__sachajulien__contact-microphone-cable-car.wav
+    * url: https://freesound.org/s/726352/
+     
+  * 726334__tsp-talk__construction-machinery-in-landscape-gardening_98khz_24bit_stereo180wide_20240305.wav
+    * url: https://freesound.org/s/726334/
+     
+  * 702956__brunoauzet__ludotheque.wav
+    * url: https://freesound.org/s/702956/
+     
+  * 698187__jakobgille__anmlinsc_bees-bumblebees-close-01_gille_stankovice_zylia_binaural3o.wav
+    * url: https://freesound.org/s/698187/
+     
+  * 660213__ahmadaiuby__port-said-ferry.mp3
+    * url: https://freesound.org/s/660213/
+     
+  * 654053__overmedium__motorbike-driveby.wav
+    * url: https://freesound.org/s/654053/
+     
+  * 653938__noisymichael__creepy_garage.wav
+    * url: https://freesound.org/s/653938/
+     
+  * 647698__jbruce__8_22_2022_sheepbridge-road-6am-24bit.wav
+    * url: https://freesound.org/s/647698/
+     
+  * 640059__samsterbirdies__coyotes-howling.flac
+    * url: https://freesound.org/s/640059/
+     
+  * 636697__sevarandeep__040620220900.wav
+    * url: https://freesound.org/s/636697/
+     
+  * 630024__bertlewis__skateboarders-at-fdr-skate-park.wav
+    * url: https://freesound.org/s/630024/
+     
+  * 611277__xkeril__footsteps-on-snow-clean.wav
+    * url: https://freesound.org/s/611277/
+     
+  * 567100__trp__200206-wet-traffic-honks-doppler-voices-teachers-strike-toronto.wav
+    * url: https://freesound.org/s/567100/
+     
+  * 512110__4billboards__ambience-at-anchor-boca-ciega-st-pete-beach-airplanes-birds-etc.wav
+    * url: https://freesound.org/s/512110/
+     
+  * 487496__jefftbyrd__air-conditioner-window-unit.wav
+    * url: https://freesound.org/s/487496/
+     
+  * 463353__sdotlyre__field-recording_chimes-tarp-wind.m4a.m4a
+    * url: https://freesound.org/s/463353/
+     
+  * 463206__samuelgremaud__chainsaw-2.wav
+    * url: https://freesound.org/s/463206/
+     
+  * 462737__rucisko__the-divine-chaos-of-an-indian-city.wav
+    * url: https://freesound.org/s/462737/
+     
+  * 462161__sandermotions__street-cleaning-machine.wav
+    * url: https://freesound.org/s/462161/
+     
+  * 441008__girlwithsoundrecorder__rough-baltic-sea.wav
+    * url: https://freesound.org/s/441008/
+     
+  * 431731__garuda1982__thunder-field-recording.wav
+    * url: https://freesound.org/s/431731/
+     
+  * 412129__elinso__oslo-sound-walk-2.wav
+    * url: https://freesound.org/s/412129/
+     
+  * 410430__felixblume__favela-vidigal-end-of-the-afternoon-in-rio-de-janeiro.wav
+    * url: https://freesound.org/s/410430/
+     
+  * 410382__zoneblanche__zone_b_140707_01.wav
+    * url: https://freesound.org/s/410382/
+     
+  * 396191__felixblume__gunshot-during-the-night-in-port-au-prince-haiti.wav
+    * url: https://freesound.org/s/396191/
+     
+  * 385977__emanuelecaro__pinerolo-via-madonna-delle-grazie_merlo.wav
+    * url: https://freesound.org/s/385977/
+     
+  * 384985__dorukokuyucu__sounds-inside-manhole-cover.wav
+    * url: https://freesound.org/s/384985/
+     
+  * 376710__plantmonkey__cornish-seacave.wav
+    * url: https://freesound.org/s/376710/
+     
+  * 369817__felixblume__walking-while-hitting-wood.wav
+    * url: https://freesound.org/s/369817/
+     
+  * 347588__simongray__creek.aiff
+    * url: https://freesound.org/s/347588/
+     
+  * 347018__rasfrecci_w_donna__mah_jong_parlor_outside.wav
+    * url: https://freesound.org/s/347018/
+     
+  * 342236__gladkiy__sheremetyevo-international-airport-moscow-bus-stop-omni-230216.flac
+    * url: https://freesound.org/s/342236/
+     
+  * 339249__albarbosa__usj-architecture-field-recording-group-1-2016.wav
+    * url: https://freesound.org/s/339249/
+     
+  * 329951__johnnysweeney__2015-obx-surf.wav
+    * url: https://freesound.org/s/329951/
+     
+  * 328299__felixblume__aquatic-sound-of-the-laguna-from-the-dock-of-playon-in-the-sian-kaan-biosphere-reserve.wav
+    * url: https://freesound.org/s/328299/
+     
+  * 277444__mhtaylor67__casino-floor-phoenix-az-audio-field-recording-mono.wav
+    * url: https://freesound.org/s/277444/
+     
+  * 276076__andreasherzog__streetpreacher.wav
+    * url: https://freesound.org/s/276076/
+     
+  * 273214__kvgarlic__beesbuzzing2may2nd2015bitrate48.wav
+    * url: https://freesound.org/s/273214/
+     
+  * 262641__heifara__drops-in-a-underground-parking.wav
+    * url: https://freesound.org/s/262641/
+     
+  * 259228__decembered__outdoors-cabin-substation.wav
+    * url: https://freesound.org/s/259228/
+     
+  * 258213__john2095__circadas-near-casino.flac
+    * url: https://freesound.org/s/258213/
+     
+  * 219436__apenino__parque-urbano-2.wav
+    * url: https://freesound.org/s/219436/
+     
+  * 216042__babagau__iaswnallismerias-2ohm.ogg
+    * url: https://freesound.org/s/216042/
+     
+  * 201066__miastodzwiekow__hi-fi-szczepin_01092013_creativesound_basketball-on-lubinska-street.wav
+    * url: https://freesound.org/s/201066/
+     
+  * 182397__schafferdavid__demolition1.wav
+    * url: https://freesound.org/s/182397/
+     
+  * 174860__felixblume__cows-herd-walking-in-the-bush-in-africa-mali.wav
+    * url: https://freesound.org/s/174860/
+     
+  * 158727__markedit__fireworks.wav
+    * url: https://freesound.org/s/158727/
+     
+  * 150003__spoonboysf__me-froggies.mp3
+    * url: https://freesound.org/s/150003/
+     
+  * 149968__vollkornbrot__railways-flamsbahna-norway.aiff
+    * url: https://freesound.org/s/149968/
+     
+  * 147794__felixblume__wind-blowing-in-a-plastic-bag-on-the-ground-in-the-desert-chile.wav
+    * url: https://freesound.org/s/147794/
+     
+  * 139957__nikitralala__echos_in_a_dome.aiff
+    * url: https://freesound.org/s/139957/
+     
+  * 139665__oscar-de-avila__romanian-musicians-playing-in-the-center-of-madrid.aiff
+    * url: https://freesound.org/s/139665/
+     
+  * 138355__nivea221__coffee-at-the-cottage.mp3
+    * url: https://freesound.org/s/138355/
+     
+  * 109703__blaukreuz__100801-gcsr-agumrkev-1.mp3
+    * url: https://freesound.org/s/109703/
+     
+  * 104205__polymorpheva__fruit_bats3.wav
+    * url: https://freesound.org/s/104205/
+     
+  * 42193__markystar__gotanda2shibuyayamanotesen_120.wav
+    * url: https://freesound.org/s/42193/
+     
+
+  * 698673__ellipsenpark__the-sound-of-a-person-walking-through-the-meadows-in-mild-rain-according-to-an-umbrella.flac
+    * url: https://freesound.org/s/698673/
+     
+  * 531439__kevzim__lions_in_gonarezhou.wav
+    * url: https://freesound.org/s/531439/
+     
+  * 519339__itsnotfair__schneeschmelze.wav
+    * url: https://freesound.org/s/519339/
+     
+  * 496229__johan_g__electrical-outlet-timer-1.wav
+    * url: https://freesound.org/s/496229/
+     
+  * 470771__felixblume__a-fisherman-sharpening-2-knifes-together-in-caleta-portales-valparaiso-chile.wav
+    * url: https://freesound.org/s/470771/
+     
+  * 435532__jtol__haymaking_at_flaret.wav
+    * url: https://freesound.org/s/435532/
+     
+  * 328289__janbockelson__vessel_rhine_bockelson_20151101.wav
+    * url: https://freesound.org/s/328289/
+     
+  * 319503__urbanson4__urban4-light-rain-mosque-calls.wav
+    * url: https://freesound.org/s/319503/
+     
+  * 278872__sandermotions__nature-sounds-frog-2.wav
+    * url: https://freesound.org/s/278872/
+     
+  * 275993__granconill__mybackyard.wav
+    * url: https://freesound.org/s/275993/
+     
+  * 249755__blaukreuz__140816_brela_harborsub2.wav
+    * url: https://freesound.org/s/249755/
+     
+  * 241015__blaukreuz__140618_a38underpass_m_f.wav
+    * url: https://freesound.org/s/241015/
+     
+  * 239922__nikitralala__postoffice.flac
+    * url: https://freesound.org/s/239922/
+     
+  * 216043__babagau__iaswnallismerias-1.ogg
+    * url: https://freesound.org/s/216043/
+     
+  * 210863__schafferdavid__mechanical.wav
+    * url: https://freesound.org/s/210863/
+     
+  * 199538__wjoojoo__toy_bubbling_underwater.flac
+    * url: https://freesound.org/s/199538/
+     
+  * 125424__andy_gardner__110719_glasgowdemolish.wav
+    * url: https://freesound.org/s/125424/
+     
+  * 117260__felixblume__cans-in-the-wind-in-a-garden-in-ukraine-to-move-away-the-moles.wav
+    * url: https://freesound.org/s/117260/
+     
+  * 58335__itsnotfair__cow_nostrils.aiff
+    * url: https://freesound.org/s/58335/
+     
+  * 58295__itsnotfair__lonesomcricket.mp3
+    * url: https://freesound.org/s/58295/
+     
+
+

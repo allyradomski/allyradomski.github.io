@@ -2,7 +2,7 @@
     overflow: hidden;
 } */
 :root {
-    --padding: 80px;
+    --padding: 40px;
 }
 
 html {
@@ -32,7 +32,8 @@ body {
 
 #container {
     z-index: 1;
-    background-color: green;
+    /* background-color: green; */
+    background-color: none;
     margin: var(--padding);
 }
 
