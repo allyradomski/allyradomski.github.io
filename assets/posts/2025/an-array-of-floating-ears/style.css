@@ -1,8 +1,45 @@
+/* html {
+    overflow: hidden;
+} */
+:root {
+    --padding: 80px;
+}
+
+html {
+    font: inherit;
+}
 body {
     padding: 0;
     margin: 0;
 }
 
 #defaultCanvas0 {
-    display: block;
+    
+    z-index: 0;
+}
+
+#processing {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+}
+#container {
+    position: absolute;
+    width: calc(100vw - var(--padding) * 2);
+    height: calc(100vw - var(--padding) * 2);
+    
+}
+
+#container {
+    z-index: 1;
+    background-color: green;
+    margin: var(--padding);
+}
+
+#videoContainer {
+    position:relative;
+    background-color: orange;
+    padding:56.25% 0 0 0;
+    width: 100%;
+    z-index: 1;
 }
