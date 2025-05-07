@@ -1,4 +1,4 @@
-const numCols = 50;
+const numCols = 36;
 let numRows;
 
 let container = document.getElementById("processing");
@@ -23,14 +23,17 @@ function draw() {
     fill(255);
     noStroke();
     rectMode(CENTER);
-    let maxWidth = width / numCols;
+    let maxWidth = (width / numCols);
     for (let i = 0; i < numCols; i++) {
         for (let j = 0; j < numRows; j++) {
+            let val1 = noise(map(i, 0, numCols, 0, 1) * 3, map(j, 0, numRows, 0, 1) * 3);
+
             let val = noise(
                 map(i, 0, numCols, 0, 1) * 3,
                 map(j, 0, numRows, 0, 1) * 3,
                 millis() * 0.0005,
             )
+
 
             
             square(map(i + 0.5, 0, numCols, 0, width), map(j + 0.5, 0, numRows, 0, height), maxWidth * val);

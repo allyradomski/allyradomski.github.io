@@ -2,7 +2,7 @@
     overflow: hidden;
 } */
 :root {
-    --padding: 40px;
+    --padding: 5.55556%;
 }
 
 html {
@@ -39,6 +39,7 @@ body {
 
 #videoContainer {
     position:relative;
+    /* padding:56.25% 0 0 0; */
     padding:56.25% 0 0 0;
     width: 100%;
     z-index: 1;
