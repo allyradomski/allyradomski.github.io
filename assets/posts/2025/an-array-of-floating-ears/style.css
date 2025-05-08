@@ -2,7 +2,6 @@ html {
     overflow: hidden;
 }
 :root {
-    --padding: 5.55556%;
     --columns: 36;
     --col: calc(1 / var(--columns));
 }
@@ -16,8 +15,7 @@ body {
 #master {
     position: relative;
     width: 100vw;
-    height: calc(22 * var(--col) * 100vw);
-
+    height: calc(46 * var(--col) * 100vw);
 }
 
 #defaultCanvas0 {
@@ -25,7 +23,7 @@ body {
     z-index: 0;
 }
 
-iframe {
+iframe, img {
     opacity: 0.95;
 }
 #processing {
@@ -35,7 +33,7 @@ iframe {
 }
 
 .container {
-    position:relative;
+    position: absolute;
     z-index: 1;
 }
 #videoContainer {
@@ -44,12 +42,32 @@ iframe {
 }
 
 #image1 {
+    margin-top: calc(22 * var(--col) * 100%);
     margin-left: calc(2 * var(--col) * 100%);
-    width: calc(16 * var(--col) * 100vw); 
+    width: calc(13 * var(--col) * 100vw); 
 }
+
+#image2 {
+    margin-top: calc(22 * var(--col) * 100%);
+    margin-left: calc(17 * var(--col) * 100%);
+    width: calc(17 * var(--col) * 100vw); 
+}
+
+#image3 {
+    margin-top: calc(34 * var(--col) * 100%);
+    margin-left: calc(2 * var(--col) * 100%);
+    width: calc(17 * var(--col) * 100vw); 
+}
+
+#image4 {
+    margin-top: calc(34 * var(--col) * 100%);
+    margin-left: calc(21 * var(--col) * 100%);
+    width: calc(13 * var(--col) * 100vw); 
+}
+
 #textContainer1{
     /* margin-left: calc(2 * var(--col) * 100%); */
-    width: calc( * var(--col) * 100vw);
+    width: calc(1 * var(--col) * 100vw);
     height: calc(1 * var(--col) * 100vw);
     background-color: cadetblue;
     font-size: calc(var(--col) * 100vw);
