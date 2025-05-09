@@ -176,3 +176,7 @@ void draw() {
     <source src="{{ page.assetdir }}/processingkinecttest.mp4" type="video/mp4">
 </video>
 </div>
+
+<br>
+
+These explorations seem promising and I think can lead to quite interesting results if pursued.

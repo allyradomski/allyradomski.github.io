@@ -255,6 +255,8 @@ For the Processing part, I used a library called jBox2d to let words collide wit
 </video>
 </div>
 
+I created this in Processing, filling a CSV with random responses from a prompt about the sea. These responses were generated in a list from ChatGPT. It felt obvious, the contents weren't important, just that it conveyed the idea of people entering responses.
+
 (Thumbnail may be black)
 
 <div class="row justify-content-center">
@@ -307,6 +309,8 @@ I used Figma to make the interfaces, it seemed quite intuitive and I am happy wi
 # PDF Progress 
 
 ## Checkpoint 1
+
+I added all the images in that I created in an order that I felt it would make sense. I added small captions to explain the images. The first image (a thumbnail of the video) prompts people to scan the QR code to view the video. The video is stored on Google Drive but can be viewed by anyone with the link.
 <div class="row justify-content-center col-12">
 <embed class="pdf" 
                src=
@@ -315,6 +319,14 @@ I used Figma to make the interfaces, it seemed quite intuitive and I am happy wi
 </div>
 <br>
 ## Checkpoint 2
+
+The feedback was good! Paul even said he was starting to get convinced!
+
+After a feedback session, I went away with the physical keyboard. Even though personally I prefer physical, it makes total sense to have a virtual. Easier to clean, way cheaper, more accessible for all ages, can easily be interated in if needed. It also just takes up less room.
+
+Some more feedback was about cutouts of people. This demonstrates the accessibility of the exhibition by putting people in differing circumstances into scale and context. I added someone in a wheelchair using the touchscreen and a mother and child. Even the child can reach up and type. I am imagining a parent helping read out the prompt and asking them their answers and helping type. 
+
+I started more experiments with formatting the pages and adding descriptions to go with each image.
 <div class="row justify-content-center col-12">
 <embed class="pdf" 
                src=
@@ -323,9 +335,26 @@ I used Figma to make the interfaces, it seemed quite intuitive and I am happy wi
 </div>
 <br>
 ## Checkpoint 3
+
+This checkpoint has more proper formatting of the images and text. The text being larger and easier to read with consistent layout of headers. 
 <div class="row justify-content-center col-12">
 <embed class="pdf" 
                src=
 "{{page.assetdir}}/checkpoint3.pdf"
             width="100%" height="600px">
 </div>
+
+# Final
+I added figures into captions and at the end, I wasn't exactly sure the preferred format but all the needed information got across.
+
+<div class="row justify-content-center col-12">
+<embed class="pdf" 
+               src=
+"{{page.assetdir}}/Final.pdf"
+            width="100%" height="600px">
+</div>
+
+<br>
+# Conclusion
+
+I am quite happy with it and feel it professional and a convincing proposal. I feel very positive about my attempt here.
