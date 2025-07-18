@@ -1,0 +1,60 @@
+---
+layout: default
+title: Sketches
+---
+
+<i>More to come, in progress.</i><br><br>
+
+<div class="container-fluid bg-transparent g-0 p-0 py-2">
+    <div class="row gx-4 gy-4 p-0">
+        {% for post in paginator.posts %}
+        <div class="col-md-12">
+            <div class="card card-hover">
+                <div class="row gx-0">
+                    <div class="col-sm-12 col-md-12 col-lg-12 card-info">
+                        <div class="card-body h-100 d-flex flex-column align-items-start">
+                            <p class="card-title lead" style="margin-bottom: 0;">{{ post.title }}</p>
+                            <!-- <p class="card-text align-self-stretch">{{ post.description }}</p> -->
+                            <p class="card-text text-end text-secondary align-self-end" style="color: rgb(127, 127, 127) !important; position: absolute; top: 50%; transform: translateY(-50%)">
+                                {% for tag in post.tags %}
+                                    <span class="badge rounded-pill text-bg-secondary">{{ tag }}</span>
+                                {% endfor %}
+
+                                <small>
+                                {{ post.date | date: "%B" }}
+                                {{ post.date | date: "%Y" }}
+                                </small>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <a href="{{ post.url }}" class="hyperspan"></a>
+            </div>
+            
+        </div>
+        {% endfor %}
+        <div class="pagination justify-content-center col-12">
+            <div class="btn-group btn-group-md" role="group">
+                {% if paginator.previous_page %}
+                    <button type="button" class="btn btn-light" onclick="window.location.href='{{ paginator.previous_page_path }}'">&#8249;</button>
+                {% else %}
+                    <!-- <button type="button" class="btn btn-light disabled">&#8249;</button> -->
+                {% endif %}
+                <div class="btn btn-light disabled">{{ paginator.page }} / {{ paginator.total_pages }}</div>
+                {% if paginator.next_page %}
+                <button type="button" class="btn btn-light" onclick="window.location.href='{{ paginator.next_page_path }}'">&#8250;</button>
+                {% else %}
+                <!-- <button type="button" class="btn btn-light disabled">&#8250;</button> -->
+                {% endif %}
+            </div>
+        </div>
+    </div>
+   
+</div>
+
+<!-- <p class="text-center">{{ paginator.total_posts }} total posts</p> -->
+
+
+
+

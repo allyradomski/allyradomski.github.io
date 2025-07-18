@@ -8,23 +8,33 @@ plugins:
   - jekyll-sitemap
 
 paginate: 12
-paginate_path: "/work/:num/"
+paginate_path: "/sketches/:num/"
 
 future: true
 
 collections:
   journal:
     output: true
-  likes:
-    output: true
   studio:
+    output: true
+  work:
     output: true
 
 defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: "post"
+    values:
+      layout: "post"
+      title: "Missing title"
+      description: "Missing description"
+      cover: "/assets/missing.png"
+      permalink: /sketch/:title
+  -
+    scope:
+      path: ""
+      type: "work"
     values:
       layout: "post"
       title: "Missing title"
@@ -38,14 +48,6 @@ defaults:
     values:
       layout: "post"
       permalink: /journal/:title
-      sitemap: false
-  -
-    scope:
-      path: ""
-      type: "likes"
-    values:
-      layout: "post"
-      permalink: /me/:title
       sitemap: false
   -
     scope:

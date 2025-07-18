@@ -5,7 +5,43 @@ layout: default
 <div class="post-content m-0">
     <h1>{{ page.title }}</h1>
     <p>{{ page.description }}</p>
+
+    {% if page.eventtitle %}
+        <span class="fa fa-tag"></span>{{ page.eventtitle }}<br>
+    {% endif %}
+
+    {% if page.award %}
+        <span class="fa fa-medal"></span>{{ page.award }}<br>
+    {% endif %}
+
+    {% if page.location %}
+        <span class="fa fa-location-dot"></span>{{ page.location }}<br>
+    {% endif %}
+
+    {% if page.startdate %}
+        {% if page.enddate %}
+            <span class="fa fa-calendar-days"></span>{{ page.startdate }} – {{ page.enddate }}<br>
+        {% else %}
+            <span class="fa fa-calendar-days"></span>{{ page.startdate }}<br>
+        {% endif %}
+    {% endif %}
+
+    {% if page.link %}
+        <span class="fa fa-link"></span><a href="{{ page.link }}">{{ page.link }}</a><br>
+    {% endif %}
+    <hr>
+<p>
+    
+    
+    
+
+    
+</p>
+<!-- <hr> -->
+
+    
     {{ content }}
+
     <p class="text-end my-4">
         {% for tag in page.tags %}
         <span class="badge rounded-pill text-bg-secondary">{{ tag }}</span>
