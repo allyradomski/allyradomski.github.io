@@ -12,20 +12,21 @@ title: Sketches
             <div class="card card-hover">
                 <div class="row gx-0">
                     <div class="col-sm-12 col-md-12 col-lg-12 card-info">
-                        <div class="card-body h-100 d-flex flex-column align-items-start">
+                        <div class="card-body h-100 d-flex flex-column flex-md-row justify-content-md-between justify-content-start">
                             <p class="card-title lead" style="margin-bottom: 0;">{{ post.title }}</p>
                             <!-- <p class="card-text align-self-stretch">{{ post.description }}</p> -->
-                            <p class="card-text text-end text-secondary align-self-end" style="color: rgb(127, 127, 127) !important; position: absolute; top: 50%; transform: translateY(-50%)">
-                                {% for tag in post.tags %}
-                                    <span class="badge rounded-pill text-bg-secondary">{{ tag }}</span>
-                                {% endfor %}
+                            <div class="">
+                                <p class="card-text text-secondary" style="color: rgb(127, 127, 127) !important;">
+                                    {% for tag in post.tags %}
+                                        <span class="badge rounded-pill text-bg-secondary">{{ tag }}</span>
+                                    {% endfor %}
 
-                                <small>
-                                {{ post.date | date: "%B" }}
-                                {{ post.date | date: "%Y" }}
-                                </small>
-                            </p>
-                            
+                                    <small>
+                                    {{ post.date | date: "%B" }}
+                                    {{ post.date | date: "%Y" }}
+                                    </small>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
